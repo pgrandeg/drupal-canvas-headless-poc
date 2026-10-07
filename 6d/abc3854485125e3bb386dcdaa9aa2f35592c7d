@@ -1,0 +1,21 @@
+drupal/composer.lock
+  s_120e5b56fe631b::t_3be1337b847ebd 7,810-857
+drupal/patches/canvas-headless-preview-handshake.patch
+  s_120e5b56fe631b::t_e84c66d12c27de 1-615
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6dabc3854485125e3bb386dcdaa9aa2f35592c7d",
+  "prompts": {},
+  "sessions": {
+    "s_120e5b56fe631b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11704-484a-7d51-ac43-1edddf5fd50d",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Pablo Alberto Grande García <pabloaggar@ext.inditex.com>"
+    }
+  }
+}
