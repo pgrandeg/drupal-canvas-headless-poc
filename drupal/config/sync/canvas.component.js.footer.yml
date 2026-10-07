@@ -1,0 +1,30 @@
+uuid: 54799856-0c4f-4ee6-95d6-1a17ac8d3d81
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.footer
+active_version: a9d389fa9057d81f
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        text:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '© 2025 Company Name. All rights reserved.'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: Footer
+id: js.footer
+provider: null
+source: js
+source_local_id: footer

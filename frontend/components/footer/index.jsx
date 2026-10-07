@@ -3,7 +3,7 @@ const Footer = ({ text }) => {
     <footer className="border-t-4 border-[#00A9E0] bg-[#003B73] text-white">
       <div className="mx-auto max-w-screen-xl px-4 pt-4 pb-8 sm:px-6 lg:px-8">
         <div className="mt-8 border-t border-white/20 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-12">
-          <div className="flex flex-wrap justify-center gap-4 text-xs text-white/80 lg:justify-end">
+          <div className="flex flex-wrap justify-center gap-4 text-xs text-white lg:justify-end">
             {text}
           </div>
 

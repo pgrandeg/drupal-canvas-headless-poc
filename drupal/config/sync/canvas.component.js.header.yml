@@ -1,0 +1,22 @@
+uuid: 4fe1e87d-e5a9-4343-a5a7-553848f78271
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.header
+active_version: a0bd0a042fadc8b2
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        logo:
+          title: Logo
+        menu:
+          title: Menu
+label: Header
+id: js.header
+provider: null
+source: js
+source_local_id: header

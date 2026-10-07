@@ -1,0 +1,15 @@
+uuid: d10b808e-059f-4c09-803d-9732919f6c26
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.marker.page_content
+id: test_template
+label: 'Test template'
+description: ''
+component_tree:
+  81127397-8516-4f02-a114-90a776b7e89d:
+    uuid: 81127397-8516-4f02-a114-90a776b7e89d
+    component_id: marker.page_content
+    component_version: 3b12c0b99a6caecc
+    inputs: {  }

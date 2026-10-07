@@ -48,8 +48,8 @@ export default async function CatchAllPage({ params }: CatchAllPageProps) {
     return (
       <section className="py-8">
         <header className="mb-8 max-w-2xl">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-700">
-            Drupal Canvas Headless
+          <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#0050A4]">
+            NTT DATA Spain · Drupal Canvas Headless
           </p>
           <h1 className="text-4xl font-bold tracking-tight text-slate-950">
             Canvas pages
@@ -73,7 +73,7 @@ export default async function CatchAllPage({ params }: CatchAllPageProps) {
                 <li key={page.id}>
                   <Link
                     href={pagePath}
-                    className="block rounded-lg border border-slate-200 bg-white p-5 shadow-sm transition hover:border-blue-400 hover:shadow-md"
+                    className="block rounded-xl border border-[#D7E6F3] bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-[#00A9E0] hover:shadow-md"
                   >
                     <span className="text-lg font-semibold text-slate-950">
                       {page.title}

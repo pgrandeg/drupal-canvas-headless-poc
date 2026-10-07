@@ -1,90 +1,80 @@
-# Drupal Canvas Headless
+# Drupal Canvas Headless · NTT DATA Spain
 
-A decoupled Drupal Canvas starter with two independent projects:
+## Arranque
 
-- `drupal/`: Drupal 11.4 with Drupal Canvas 1.12 and the `canvas_headless` submodule.
-- `frontend/`: the official Next.js Canvas Headless adapter scaffold.
-
-## Requirements
-
-- DDEV with Docker/Rancher Desktop.
-- Node.js 22.19+ or 24.5+ (Node 23 is not supported).
-- A Chromium-based browser for local Canvas preview.
-- MariaDB 11.8 is provided by the DDEV configuration.
-
-## Start both projects
-
-From this directory:
+Desde la raíz del repositorio:
 
 ```bash
 ddev start
 ddev composer install
 ddev install
+ddev exec drush en jsonapi -y
+ddev exec drush cr
+```
+
+En otra terminal:
+
+```bash
 cd frontend
 npm ci
+cp .env.example .env
+mkdir -p certificates
+openssl req -x509 -newkey rsa:2048 -nodes -keyout certificates/localhost-key.pem -out certificates/localhost.pem -days 365 -subj '/CN=localhost' -addext 'subjectAltName=DNS:localhost,IP:127.0.0.1,IP:::1'
 npm run dev
 ```
 
-The Drupal site is available at `http://drupalcanvasheadless.ddev.site` and the
-frontend at `http://localhost:3000`.
+Acepta el certificado local entrando una vez en `https://localhost:3000`.
 
-The frontend's `/` route renders Drupal Canvas content. On a fresh standard
-installation it can show `Not found` until a Canvas page is created and
-published; that is different from a transport or certificate error.
+## Configuración de Canvas
 
-The first `ddev install` installs Drupal, enables Canvas and `canvas_headless`,
-generates the local Simple OAuth RSA keys under `drupal/private/keys`, and
-creates the local administrator `admin` / `admin` (development only).
+En Drupal, abre `http://drupalcanvasheadless.ddev.site/canvas`.
 
-The generated keys are ignored by Git and are intentionally outside Drupal's
-public document root. Replace the local password and keys before any shared or
-non-development deployment.
+Registra este frontend, sin `/` final:
 
-## Connect the frontend to Canvas
-
-1. Sign in to Drupal and open Canvas.
-2. Grant the administrator `Administer Canvas Headless frontends` and
-   `Access Canvas Headless preview` permissions if needed.
-3. Open **Headless frontends** in Canvas and register
-   `http://localhost:3000` without a trailing slash.
-4. Confirm that the frontend status becomes **Ready**.
-
-The adapter returns `401 Unauthorized` from
-`http://localhost:3000/api/canvas/components` without a preview assertion;
-that is the expected Canvas contract response.
-
-## Canvas CLI
-
-The generated frontend is intentionally a standalone npm project. From
-`frontend/`, use the Canvas CLI through the local dependency:
-
-```bash
-npm exec canvas -- --help
-npm exec canvas login
-npm exec canvas scaffold --name my-hero
-npm exec canvas pull
-npm exec canvas push
+```text
+https://localhost:3000
 ```
 
-Run `login` once per local environment before `pull` or `push`; the generated
-`.env` contains placeholders for the OAuth client credentials.
+Después sincroniza los componentes desde **Headless frontends**.
 
-Components belong in the generated `components/` directory. Set a unique
-`machineName` and `status: true` in each component's `component.yml` before
-placing it from the Canvas component library.
+Si Canvas conserva la URL antigua del frontend, ejecuta en la consola del navegador estando en Drupal:
 
-## Drupal commands
-
-```bash
-ddev drush status
-ddev drush pm:list --status=enabled | rg 'canvas|simple_oauth|consumers|custom_elements'
-ddev drush cr
+```js
+localStorage.removeItem('canvas-headless-active-frontend'); location.reload();
 ```
 
-The root DDEV project uses `drupal/web` as its document root and `drupal` as
-its Composer root, so the frontend remains completely decoupled from Drupal.
+## URLs de prueba
 
-The local frontend uses HTTP so Node.js does not reject DDEV's locally signed
-certificate. Use HTTPS and a trusted certificate when deploying outside DDEV.
+- Drupal: http://drupalcanvasheadless.ddev.site
+- Login Drupal: http://drupalcanvasheadless.ddev.site/user/login
+- Editor Canvas: http://drupalcanvasheadless.ddev.site/canvas
+- Frontend: https://localhost:3000
+- Listado dinámico: https://localhost:3000/
+- Página Canvas de prueba: https://localhost:3000/test
 
-The setup follows the [official Drupal Canvas Headless setup](https://project.pages.drupalcode.org/canvas/headless/setup/).
+Usa las credenciales locales definidas durante `ddev install`.
+
+## Configuración Drupal
+
+La configuración exportable está en `drupal/config/sync`.
+
+```bash
+ddev exec drush cex -y
+ddev exec drush cr
+```
+
+Para importar configuración:
+
+```bash
+ddev exec drush cim -y
+ddev exec drush cr
+```
+
+## Comandos habituales
+
+```bash
+ddev exec drush cr
+ddev exec drush status
+cd frontend && npm run lint
+cd frontend && npx tsc --noEmit --incremental false
+```

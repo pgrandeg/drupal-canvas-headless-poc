@@ -1,0 +1,16 @@
+uuid: e599489f-cb9d-45e2-b338-d660d4890e99
+langcode: en
+status: true
+dependencies: {  }
+machineName: footer
+name: Footer
+type: external
+required: {  }
+props:
+  text:
+    type: string
+    title: Text
+    examples:
+      - '© 2025 Company Name. All rights reserved.'
+slots: {  }
+dataDependencies: {  }

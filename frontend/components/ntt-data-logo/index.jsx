@@ -1,8 +1,11 @@
 const NttDataLogo = () => (
-  <span className="inline-flex items-center gap-3" aria-label="NTT DATA Spain">
+  <span
+    className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap sm:gap-3"
+    aria-label="NTT DATA Spain"
+  >
     <svg
       aria-hidden="true"
-      className="h-10 w-10 shrink-0"
+      className="h-8 w-8 shrink-0 sm:h-10 sm:w-10"
       viewBox="0 0 40 40"
       fill="none"
     >
@@ -12,7 +15,7 @@ const NttDataLogo = () => (
         fill="white"
       />
     </svg>
-    <span className="text-xl font-bold tracking-[0.12em] text-white sm:text-2xl">
+    <span className="text-lg font-bold tracking-[0.08em] text-white sm:text-2xl sm:tracking-[0.12em]">
       NTT DATA
     </span>
   </span>

@@ -1,0 +1,25 @@
+uuid: 3eef73bb-4c1b-469d-bf8b-d6e79bc9a221
+langcode: en
+status: true
+dependencies: {  }
+machineName: section
+name: Section
+type: external
+required:
+  - width
+props:
+  width:
+    type: string
+    enum:
+      - normal
+      - wide
+    'meta:enum':
+      normal: Normal
+      wide: Wide
+    title: Width
+    examples:
+      - normal
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

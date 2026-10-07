@@ -14,7 +14,12 @@
   --color-primary-900: var(--color-blue-900);
   --color-primary-dark: var(--color-primary-700);
   --color-primary-light: var(--color-slate-400);
+  --color-ntt-blue: #003b73;
+  --color-ntt-cyan: #00a9e0;
 }
 
 html { color: var(--color-slate-950); }
-body { margin: 0; }
+body {
+  margin: 0;
+  background: #eef5fb;
+}

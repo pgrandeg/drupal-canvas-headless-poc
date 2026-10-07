@@ -1,0 +1,11 @@
+uuid: fa479c52-e9f6-4b37-b0ce-caa71073773c
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.block.views_block.who_s_new-block_1
+name: User
+configEntityTypeId: component
+weight: 0
+items:
+  - block.views_block.who_s_new-block_1
