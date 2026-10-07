@@ -1,0 +1,30 @@
+.DS_Store
+.graphify/
+.graphifyignore
+.env
+.env.*
+!.env.example
+
+# Drupal runtime files and local settings.
+drupal/web/sites/*/files/
+drupal/web/sites/*/settings.php
+drupal/web/sites/*/settings.ddev.php
+drupal/web/sites/*/settings.local.php
+drupal/web/sites/*/services.local.yml
+drupal/private/
+
+# Composer and Drupal generated state.
+drupal/vendor/
+drupal/web/core/
+drupal/web/modules/contrib/
+drupal/web/profiles/contrib/
+drupal/web/themes/contrib/
+drupal/web/libraries/
+drupal/drush/contrib/
+
+# Frontend dependencies and build output.
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/coverage/

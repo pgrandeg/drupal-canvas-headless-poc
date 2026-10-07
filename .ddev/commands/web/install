@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -euo pipefail
+
+DRUSH=/var/www/html/drupal/vendor/bin/drush
+KEY_DIR=/var/www/html/drupal/private/keys
+
+mkdir -p "$KEY_DIR"
+if [ ! -f "$KEY_DIR/private.key" ] || [ ! -f "$KEY_DIR/public.key" ]; then
+  openssl genrsa -out "$KEY_DIR/private.key" 4096 >/dev/null 2>&1
+  openssl rsa -in "$KEY_DIR/private.key" -pubout -out "$KEY_DIR/public.key" >/dev/null 2>&1
+  chmod 600 "$KEY_DIR/private.key" "$KEY_DIR/public.key"
+fi
+
+if ! "$DRUSH" status --field=bootstrap 2>/dev/null | grep -q '^Successful'; then
+  "$DRUSH" site:install standard \
+    --db-url="mysql://db:db@db/db" \
+    --site-name="Drupal Canvas Headless" \
+    --account-name=admin \
+    --account-pass=admin \
+    --account-mail=admin@example.com \
+    --yes
+fi
+
+"$DRUSH" en canvas_headless -y
+"$DRUSH" config:set simple_oauth.settings public_key private://keys/public.key -y
+"$DRUSH" config:set simple_oauth.settings private_key private://keys/private.key -y
+"$DRUSH" cr
+
+echo "Drupal Canvas Headless is ready."
+echo "Admin user: admin / admin (local development only)"
