@@ -1,0 +1,573 @@
+drupal/config/sync/announcements_feed.settings.yml
+  s_120e5b56fe631b::t_9d423a1a29f91c 1-5
+drupal/config/sync/automated_cron.settings.yml
+  s_120e5b56fe631b::t_6b7c848a4966f4 1-3
+drupal/config/sync/block.block.claro_breadcrumbs.yml
+  s_120e5b56fe631b::t_b716f9e6eb0e2c 1-22
+drupal/config/sync/block.block.claro_content.yml
+  s_120e5b56fe631b::t_4a61151e291533 1-22
+drupal/config/sync/block.block.claro_help.yml
+  s_120e5b56fe631b::t_0b5a45d2cf845c 1-22
+drupal/config/sync/block.block.claro_local_actions.yml
+  s_120e5b56fe631b::t_fc47526dcd6ea7 1-20
+drupal/config/sync/block.block.claro_messages.yml
+  s_120e5b56fe631b::t_3bac0ab601f242 1-22
+drupal/config/sync/block.block.claro_page_title.yml
+  s_120e5b56fe631b::t_d7e051ec6c2ea0 1-20
+drupal/config/sync/block.block.claro_primary_local_tasks.yml
+  s_120e5b56fe631b::t_9bf0c69951065c 1-22
+drupal/config/sync/block.block.claro_secondary_local_tasks.yml
+  s_120e5b56fe631b::t_85bf8281cb3e86 1-22
+drupal/config/sync/block.block.olivero_account_menu.yml
+  s_120e5b56fe631b::t_e6b5149a6a9511 1-27
+drupal/config/sync/block.block.olivero_breadcrumbs.yml
+  s_120e5b56fe631b::t_1271ef49bd9daa 1-22
+drupal/config/sync/block.block.olivero_content.yml
+  s_120e5b56fe631b::t_69f5d4459f3c23 1-22
+drupal/config/sync/block.block.olivero_help.yml
+  s_120e5b56fe631b::t_9a22653205ceab 1-22
+drupal/config/sync/block.block.olivero_main_menu.yml
+  s_120e5b56fe631b::t_48a99d0b5437d7 1-27
+drupal/config/sync/block.block.olivero_messages.yml
+  s_120e5b56fe631b::t_3ff8d5c205a482 1-22
+drupal/config/sync/block.block.olivero_page_title.yml
+  s_120e5b56fe631b::t_c15c6fd87fbd3c 1-20
+drupal/config/sync/block.block.olivero_powered.yml
+  s_120e5b56fe631b::t_91fcf721dcee50 1-22
+drupal/config/sync/block.block.olivero_primary_admin_actions.yml
+  s_120e5b56fe631b::t_a89f2ae5e7fadc 1-20
+drupal/config/sync/block.block.olivero_primary_local_tasks.yml
+  s_120e5b56fe631b::t_dcfbcc05d214dd 1-22
+drupal/config/sync/block.block.olivero_secondary_local_tasks.yml
+  s_120e5b56fe631b::t_b754986ae39b41 1-22
+drupal/config/sync/block.block.olivero_site_branding.yml
+  s_120e5b56fe631b::t_3c8d91b1739616 1-25
+drupal/config/sync/block_content.type.basic.yml
+  s_120e5b56fe631b::t_609e0654492c64 1-10
+drupal/config/sync/canvas.asset_library.global.yml
+  s_120e5b56fe631b::t_49492d56565770 1-17
+drupal/config/sync/canvas.brand_kit.global.yml
+  s_120e5b56fe631b::t_e7b60a014803e6 1-11
+drupal/config/sync/canvas.component.block.announce_block.yml
+  s_120e5b56fe631b::t_6d247a9806a771 1-22
+drupal/config/sync/canvas.component.block.help_block.yml
+  s_120e5b56fe631b::t_2385386f2d70d9 1-22
+drupal/config/sync/canvas.component.block.local_actions_block.yml
+  s_120e5b56fe631b::t_583b7eed5cc080 1-20
+drupal/config/sync/canvas.component.block.local_tasks_block.yml
+  s_120e5b56fe631b::t_c826ac063f96ce 1-22
+drupal/config/sync/canvas.component.block.navigation_link.yml
+  s_120e5b56fe631b::t_46763c9028ec37 1-25
+drupal/config/sync/canvas.component.block.navigation_shortcuts.yml
+  s_120e5b56fe631b::t_0b7b7b06f3fad9 1-22
+drupal/config/sync/canvas.component.block.navigation_user.yml
+  s_120e5b56fe631b::t_f20052c196697c 1-22
+drupal/config/sync/canvas.component.block.page_title_block.yml
+  s_120e5b56fe631b::t_05dda1acfc48f7 1-20
+drupal/config/sync/canvas.component.block.system_branding_block.yml
+  s_120e5b56fe631b::t_934a7172960198 1-25
+drupal/config/sync/canvas.component.block.system_breadcrumb_block.yml
+  s_120e5b56fe631b::t_13ff0ca2ec4ae0 1-22
+drupal/config/sync/canvas.component.block.system_clear_cache_block.yml
+  s_120e5b56fe631b::t_d9aec57cfec12d 1-22
+drupal/config/sync/canvas.component.block.system_menu_block.account.yml
+  s_120e5b56fe631b::t_6c5e26218db080 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.admin.yml
+  s_120e5b56fe631b::t_7e9d2660b17e94 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.content.yml
+  s_120e5b56fe631b::t_f9d3e2081ea63c 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.footer.yml
+  s_120e5b56fe631b::t_123fc1f1f2ed7f 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.main.yml
+  s_120e5b56fe631b::t_668af7f1a35deb 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.navigation-user-links.yml
+  s_120e5b56fe631b::t_f20a21f7d231c9 1-27
+drupal/config/sync/canvas.component.block.system_menu_block.tools.yml
+  s_120e5b56fe631b::t_94b154b18f92ac 1-27
+drupal/config/sync/canvas.component.block.system_messages_block.yml
+  s_120e5b56fe631b::t_eaf5045387cc81 1-22
+drupal/config/sync/canvas.component.block.system_powered_by_block.yml
+  s_120e5b56fe631b::t_ccb8e33db53528 1-22
+drupal/config/sync/canvas.component.block.user_login_block.yml
+  s_120e5b56fe631b::t_2a636ff9c5d5d1 1-22
+drupal/config/sync/canvas.component.block.views_block.content_recent-block_1.yml
+  s_120e5b56fe631b::t_430f6b7a9e4377 1-26
+drupal/config/sync/canvas.component.block.views_block.who_s_new-block_1.yml
+  s_120e5b56fe631b::t_14d9b1bb5bd653 1-26
+drupal/config/sync/canvas.component.block.views_block.who_s_online-who_s_online_block.yml
+  s_120e5b56fe631b::t_8d91eb62f8d317 1-26
+drupal/config/sync/canvas.component.js.accordion-item.yml
+  s_120e5b56fe631b::t_e4634d82c8fbf9 1-67
+drupal/config/sync/canvas.component.js.accordion.yml
+  s_120e5b56fe631b::t_9cd5a0080eeb83 1-46
+drupal/config/sync/canvas.component.js.blockquote.yml
+  s_120e5b56fe631b::t_aa91adc6489121 1-71
+drupal/config/sync/canvas.component.js.button.yml
+  s_120e5b56fe631b::t_67a1f79b860b2e 1-58
+drupal/config/sync/canvas.component.js.card.yml
+  s_120e5b56fe631b::t_b0a73138284528 1-158
+drupal/config/sync/canvas.component.js.card_container.yml
+  s_120e5b56fe631b::t_ef8d01530b15e2 1-106
+drupal/config/sync/canvas.component.js.footer.yml
+  s_120e5b56fe631b::t_10975315309069 1-30
+drupal/config/sync/canvas.component.js.grid_container.yml
+  s_120e5b56fe631b::t_e6e179411af4e3 1-46
+drupal/config/sync/canvas.component.js.header.yml
+  s_120e5b56fe631b::t_32b1154ee9ff6c 1-22
+drupal/config/sync/canvas.component.js.heading.yml
+  s_120e5b56fe631b::t_50209f7e4b71ae 1-90
+drupal/config/sync/canvas.component.js.hero.yml
+  s_120e5b56fe631b::t_0bbbf90262817f 1-133
+drupal/config/sync/canvas.component.js.image.yml
+  s_120e5b56fe631b::t_9923c91c4352dc 1-39
+drupal/config/sync/canvas.component.js.logo_card.yml
+  s_120e5b56fe631b::t_fb9f6b0a48d165 1-39
+drupal/config/sync/canvas.component.js.section.yml
+  s_120e5b56fe631b::t_28b147db970a7f 1-34
+drupal/config/sync/canvas.component.js.spacer.yml
+  s_120e5b56fe631b::t_c6f586aa414cb5 1-32
+drupal/config/sync/canvas.component.js.text.yml
+  s_120e5b56fe631b::t_44cea7a83ba67b 1-63
+drupal/config/sync/canvas.component.js.two_column_text.yml
+  s_120e5b56fe631b::t_8dca132b2c2d3d 1-145
+drupal/config/sync/canvas.component.js.video.yml
+  s_120e5b56fe631b::t_02ae8817c56849 1-38
+drupal/config/sync/canvas.component.marker.page_content.yml
+  s_120e5b56fe631b::t_230f691038b2ab 1-17
+drupal/config/sync/canvas.component.sdc.navigation.message.yml
+  s_120e5b56fe631b::t_a793072c2397b1 1-53
+drupal/config/sync/canvas.component.sdc.navigation.title.yml
+  s_120e5b56fe631b::t_6d0a708dca6e4e 1-64
+drupal/config/sync/canvas.component.sdc.olivero.teaser.yml
+  s_120e5b56fe631b::t_46abd808e4c5f4 1-33
+drupal/config/sync/canvas.folder.1f511fb7-a76e-4799-bcd5-665b1fb45371.yml
+  s_120e5b56fe631b::t_5aed9be8b22ee6 1-15
+drupal/config/sync/canvas.folder.2efcac7c-e585-4b20-9e43-688fb0fedac8.yml
+  s_120e5b56fe631b::t_f9dffdc177daf5 1-11
+drupal/config/sync/canvas.folder.3c25ddd4-334e-418a-aa78-9637ec673410.yml
+  s_120e5b56fe631b::t_644716352cf17e 1-11
+drupal/config/sync/canvas.folder.6d758344-1825-414c-98bc-8f33a19948bb.yml
+  s_120e5b56fe631b::t_fdb06ef2f66365 1-19
+drupal/config/sync/canvas.folder.7cabf4c7-056f-47bb-92ce-838058102a67.yml
+  s_120e5b56fe631b::t_d3dffdff340d11 1-53
+drupal/config/sync/canvas.folder.96774280-225f-45fa-b762-a0f8b0b38929.yml
+  s_120e5b56fe631b::t_a58c4a02238e99 1-13
+drupal/config/sync/canvas.folder.abef2b9f-5ac6-4d6e-82b3-318aee8ee26d.yml
+  s_120e5b56fe631b::t_5938af69387af0 1-15
+drupal/config/sync/canvas.folder.c360b70f-5ac1-45e1-9e5b-d5068dde708c.yml
+  s_120e5b56fe631b::t_d1c85ba7a29b8f 1-23
+drupal/config/sync/canvas.folder.dc1452bd-00a5-4dbf-9c24-a6ec10998d69.yml
+  s_120e5b56fe631b::t_da6838c1132e16 1-11
+drupal/config/sync/canvas.folder.fa479c52-e9f6-4b37-b0ce-caa71073773c.yml
+  s_120e5b56fe631b::t_e76d8284d30b35 1-11
+drupal/config/sync/canvas.js_component.accordion-item.yml
+  s_120e5b56fe631b::t_3dd48a5b79ee1a 1-44
+drupal/config/sync/canvas.js_component.accordion.yml
+  s_120e5b56fe631b::t_aba2609adafee7 1-43
+drupal/config/sync/canvas.js_component.blockquote.yml
+  s_120e5b56fe631b::t_91e95eb75af9d9 1-36
+drupal/config/sync/canvas.js_component.button.yml
+  s_120e5b56fe631b::t_f3fa591e43d0e9 1-48
+drupal/config/sync/canvas.js_component.card.yml
+  s_120e5b56fe631b::t_f1b42e27743a10 1-107
+drupal/config/sync/canvas.js_component.card_container.yml
+  s_120e5b56fe631b::t_100c01dde6207c 1-100
+drupal/config/sync/canvas.js_component.footer.yml
+  s_120e5b56fe631b::t_30757931668da8 1-16
+drupal/config/sync/canvas.js_component.grid_container.yml
+  s_120e5b56fe631b::t_cd7cd9f1c16f90 1-56
+drupal/config/sync/canvas.js_component.header.yml
+  s_120e5b56fe631b::t_9f1ac86b4b7acd 1-15
+drupal/config/sync/canvas.js_component.heading.yml
+  s_120e5b56fe631b::t_7c8c9743baa128 1-81
+drupal/config/sync/canvas.js_component.hero.yml
+  s_120e5b56fe631b::t_bdac06b390bfea 1-100
+drupal/config/sync/canvas.js_component.image.yml
+  s_120e5b56fe631b::t_c671ec5c9590b6 1-22
+drupal/config/sync/canvas.js_component.logo_card.yml
+  s_120e5b56fe631b::t_01ce6241648a22 1-22
+drupal/config/sync/canvas.js_component.section.yml
+  s_120e5b56fe631b::t_e2068021b3fef9 1-25
+drupal/config/sync/canvas.js_component.spacer.yml
+  s_120e5b56fe631b::t_14e340854a5585 1-27
+drupal/config/sync/canvas.js_component.text.yml
+  s_120e5b56fe631b::t_e7d956a7916c78 1-48
+drupal/config/sync/canvas.js_component.two_column_text.yml
+  s_120e5b56fe631b::t_3acc2891612a0c 1-114
+drupal/config/sync/canvas.js_component.video.yml
+  s_120e5b56fe631b::t_8bfe82f271b68b 1-20
+drupal/config/sync/canvas.page_variant.test_template.yml
+  s_120e5b56fe631b::t_0e17d8726ab10b 1-15
+drupal/config/sync/canvas.settings.yml
+  s_120e5b56fe631b::t_8f84374e3e0ec6 1-3
+drupal/config/sync/canvas_headless.settings.yml
+  s_120e5b56fe631b::t_5109158f6f54ee 1-25
+drupal/config/sync/core.date_format.fallback.yml
+  s_120e5b56fe631b::t_4ece767d9d4c6d 1-10
+drupal/config/sync/core.date_format.html_date.yml
+  s_120e5b56fe631b::t_df523f609667dc 1-10
+drupal/config/sync/core.date_format.html_datetime.yml
+  s_120e5b56fe631b::t_495c42255fa4f0 1-10
+drupal/config/sync/core.date_format.html_month.yml
+  s_120e5b56fe631b::t_1143f1c2a586bc 1-10
+drupal/config/sync/core.date_format.html_time.yml
+  s_120e5b56fe631b::t_ac5be12c5ac1d1 1-10
+drupal/config/sync/core.date_format.html_week.yml
+  s_120e5b56fe631b::t_cb9a2e15580732 1-10
+drupal/config/sync/core.date_format.html_year.yml
+  s_120e5b56fe631b::t_f74fd5b6cbb32a 1-10
+drupal/config/sync/core.date_format.html_yearless_date.yml
+  s_120e5b56fe631b::t_9fb2b6a626e55e 1-10
+drupal/config/sync/core.date_format.long.yml
+  s_120e5b56fe631b::t_10fa1e9979685b 1-10
+drupal/config/sync/core.date_format.medium.yml
+  s_120e5b56fe631b::t_9f9469796e8291 1-10
+drupal/config/sync/core.date_format.olivero_medium.yml
+  s_120e5b56fe631b::t_8394dc448e1c85 1-13
+drupal/config/sync/core.date_format.short.yml
+  s_120e5b56fe631b::t_75941a9443c84c 1-10
+drupal/config/sync/core.entity_form_display.block_content.basic.default.yml
+  s_120e5b56fe631b::t_1f3d0b58a1e166 1-33
+drupal/config/sync/core.entity_form_display.media.audio.default.yml
+  s_120e5b56fe631b::t_1c9ce41c1e3d01 1-55
+drupal/config/sync/core.entity_form_display.media.audio.media_library.yml
+  s_120e5b56fe631b::t_4be32d84f1e4a4 1-22
+drupal/config/sync/core.entity_form_display.media.document.default.yml
+  s_120e5b56fe631b::t_c8f69a84a35662 1-55
+drupal/config/sync/core.entity_form_display.media.document.media_library.yml
+  s_120e5b56fe631b::t_589d5b22bcd94d 1-22
+drupal/config/sync/core.entity_form_display.media.image.default.yml
+  s_120e5b56fe631b::t_60c34d86214529 1-57
+drupal/config/sync/core.entity_form_display.media.image.media_library.yml
+  s_120e5b56fe631b::t_d329650ca44067 1-32
+drupal/config/sync/core.entity_form_display.media.remote_video.default.yml
+  s_120e5b56fe631b::t_7372aee3efccfd 1-56
+drupal/config/sync/core.entity_form_display.media.remote_video.media_library.yml
+  s_120e5b56fe631b::t_8e2d2634bc0155 1-22
+drupal/config/sync/core.entity_form_display.media.video.default.yml
+  s_120e5b56fe631b::t_7939ad1dc0f2e6 1-55
+drupal/config/sync/core.entity_form_display.media.video.media_library.yml
+  s_120e5b56fe631b::t_c7574c0d1b5373 1-22
+drupal/config/sync/core.entity_form_display.user.user.default.yml
+  s_120e5b56fe631b::t_36717641c30d3c 1-35
+drupal/config/sync/core.entity_form_mode.media.media_library.yml
+  s_120e5b56fe631b::t_142f55058be655 1-16
+drupal/config/sync/core.entity_form_mode.user.register.yml
+  s_120e5b56fe631b::t_ed92a2e196a069 1-13
+drupal/config/sync/core.entity_view_display.block_content.basic.default.yml
+  s_120e5b56fe631b::t_d2efa1feddeee9 1-24
+drupal/config/sync/core.entity_view_display.media.audio.default.yml
+  s_120e5b56fe631b::t_b7baa455f83967 1-32
+drupal/config/sync/core.entity_view_display.media.audio.media_library.yml
+  s_120e5b56fe631b::t_ebff18e7389f20 1-34
+drupal/config/sync/core.entity_view_display.media.document.default.yml
+  s_120e5b56fe631b::t_683ad24b89f0a1 1-28
+drupal/config/sync/core.entity_view_display.media.document.media_library.yml
+  s_120e5b56fe631b::t_73178405e14e94 1-34
+drupal/config/sync/core.entity_view_display.media.image.default.yml
+  s_120e5b56fe631b::t_c5e46e136194aa 1-33
+drupal/config/sync/core.entity_view_display.media.image.media_library.yml
+  s_120e5b56fe631b::t_7515f831358c58 1-34
+drupal/config/sync/core.entity_view_display.media.remote_video.default.yml
+  s_120e5b56fe631b::t_e660d5bb301b5c 1-32
+drupal/config/sync/core.entity_view_display.media.remote_video.media_library.yml
+  s_120e5b56fe631b::t_3c88a7d1359b2d 1-34
+drupal/config/sync/core.entity_view_display.media.video.default.yml
+  s_120e5b56fe631b::t_8782a14f1a149d 1-36
+drupal/config/sync/core.entity_view_display.media.video.media_library.yml
+  s_120e5b56fe631b::t_bf645c4fa20029 1-34
+drupal/config/sync/core.entity_view_display.user.user.compact.yml
+  s_120e5b56fe631b::t_472e676d157b38 1-31
+drupal/config/sync/core.entity_view_display.user.user.default.yml
+  s_120e5b56fe631b::t_fa5e00acb19b2c 1-32
+drupal/config/sync/core.entity_view_mode.block_content.full.yml
+  s_120e5b56fe631b::t_85abff80caf6a0 1-13
+drupal/config/sync/core.entity_view_mode.media.full.yml
+  s_120e5b56fe631b::t_b4cdfe0d803f4d 1-13
+drupal/config/sync/core.entity_view_mode.media.media_library.yml
+  s_120e5b56fe631b::t_cd5b909aaa5204 1-16
+drupal/config/sync/core.entity_view_mode.node.full.yml
+  s_120e5b56fe631b::t_c619943cc8c374 1-13
+drupal/config/sync/core.entity_view_mode.node.rss.yml
+  s_120e5b56fe631b::t_523ab367377774 1-13
+drupal/config/sync/core.entity_view_mode.node.teaser.yml
+  s_120e5b56fe631b::t_764caef3f9a6eb 1-13
+drupal/config/sync/core.entity_view_mode.taxonomy_term.full.yml
+  s_120e5b56fe631b::t_6a1d216c67da56 1-13
+drupal/config/sync/core.entity_view_mode.user.compact.yml
+  s_120e5b56fe631b::t_33c0c3ec4e457c 1-13
+drupal/config/sync/core.entity_view_mode.user.full.yml
+  s_120e5b56fe631b::t_06879ea0173a64 1-13
+drupal/config/sync/core.extension.yml
+  s_120e5b56fe631b::t_20689cdcb97f21 1-56
+drupal/config/sync/core.menu.static_menu_link_overrides.yml
+  s_120e5b56fe631b::t_7c0b1f9630904c 1-3
+drupal/config/sync/custom_elements.settings.yml
+  s_120e5b56fe631b::t_cd575bc2ba9766 1-4
+drupal/config/sync/dblog.settings.yml
+  s_120e5b56fe631b::t_4e5e7780a8f874 1-3
+drupal/config/sync/editor.editor.basic_html.yml
+  s_120e5b56fe631b::t_a8426b2ce04fc1 1-67
+drupal/config/sync/editor.editor.canvas_html_block.yml
+  s_120e5b56fe631b::t_8ce6aa6da02643 1-34
+drupal/config/sync/editor.editor.canvas_html_inline.yml
+  s_120e5b56fe631b::t_ee2218a1803dea 1-25
+drupal/config/sync/editor.editor.full_html.yml
+  s_120e5b56fe631b::t_0883e190d815fb 1-106
+drupal/config/sync/field.field.block_content.basic.body.yml
+  s_120e5b56fe631b::t_6c6e050e70eda0 1-24
+drupal/config/sync/field.field.media.audio.field_media_audio_file.yml
+  s_120e5b56fe631b::t_8e679ddc409339 1-29
+drupal/config/sync/field.field.media.document.field_media_document.yml
+  s_120e5b56fe631b::t_f723b2329f8dff 1-32
+drupal/config/sync/field.field.media.image.field_media_image.yml
+  s_120e5b56fe631b::t_c430f69ce6d856 1-43
+drupal/config/sync/field.field.media.remote_video.field_media_oembed_video.yml
+  s_120e5b56fe631b::t_c08e471ecb8572 1-21
+drupal/config/sync/field.field.media.video.field_media_video_file.yml
+  s_120e5b56fe631b::t_080106daa1919d 1-29
+drupal/config/sync/field.field.user.user.user_picture.yml
+  s_120e5b56fe631b::t_18488dd11130b3 1-40
+drupal/config/sync/field.storage.block_content.body.yml
+  s_120e5b56fe631b::t_4418477435d891 1-21
+drupal/config/sync/field.storage.media.field_media_audio_file.yml
+  s_120e5b56fe631b::t_6c1615aa09c79b 1-25
+drupal/config/sync/field.storage.media.field_media_document.yml
+  s_120e5b56fe631b::t_ce8f2d261a2ec7 1-28
+drupal/config/sync/field.storage.media.field_media_image.yml
+  s_120e5b56fe631b::t_795e0e601ac751 1-35
+drupal/config/sync/field.storage.media.field_media_oembed_video.yml
+  s_120e5b56fe631b::t_f9260b47659bbb 1-23
+drupal/config/sync/field.storage.media.field_media_video_file.yml
+  s_120e5b56fe631b::t_cc2416b106b3f7 1-25
+drupal/config/sync/field.storage.user.user_picture.yml
+  s_120e5b56fe631b::t_04c6927c849a0d 1-34
+drupal/config/sync/field_ui.settings.yml
+  s_120e5b56fe631b::t_8c5a16c52ba756 1-3
+drupal/config/sync/file.settings.yml
+  s_120e5b56fe631b::t_fb63a1e4cf7754 1-15
+drupal/config/sync/filter.format.basic_html.yml
+  s_120e5b56fe631b::t_798eef01c16e40 1-51
+drupal/config/sync/filter.format.canvas_html_block.yml
+  s_120e5b56fe631b::t_c3015b729b38fe 1-22
+drupal/config/sync/filter.format.canvas_html_inline.yml
+  s_120e5b56fe631b::t_b22e3436410c7b 1-22
+drupal/config/sync/filter.format.full_html.yml
+  s_120e5b56fe631b::t_96837ae58cd23c 1-42
+drupal/config/sync/filter.format.plain_text.yml
+  s_120e5b56fe631b::t_3794dd75587180 1-29
+drupal/config/sync/filter.format.restricted_html.yml
+  s_120e5b56fe631b::t_c57b4c78113a4f 1-32
+drupal/config/sync/filter.settings.yml
+  s_120e5b56fe631b::t_c14f0f03354635 1-4
+drupal/config/sync/image.settings.yml
+  s_120e5b56fe631b::t_1a5fccb019201d 1-5
+drupal/config/sync/image.style.canvas_avatar.yml
+  s_120e5b56fe631b::t_ac85dd2c7da544 1-26
+drupal/config/sync/image.style.canvas_parametrized_width.yml
+  s_120e5b56fe631b::t_58ff0db5c3a6bf 1-18
+drupal/config/sync/image.style.large.yml
+  s_120e5b56fe631b::t_2e25b0a90ca6b6 1-23
+drupal/config/sync/image.style.media_library.yml
+  s_120e5b56fe631b::t_95b87633d17aba 1-26
+drupal/config/sync/image.style.medium.yml
+  s_120e5b56fe631b::t_f860fba758b5cc 1-23
+drupal/config/sync/image.style.thumbnail.yml
+  s_120e5b56fe631b::t_77059a96090191 1-23
+drupal/config/sync/image.style.wide.yml
+  s_120e5b56fe631b::t_f9060097f077c4 1-23
+drupal/config/sync/jsonapi.settings.yml
+  s_120e5b56fe631b::t_5043bfd5b671dd 1-6
+drupal/config/sync/media.settings.yml
+  s_120e5b56fe631b::t_b1da479d023c81 1-6
+drupal/config/sync/media.type.audio.yml
+  s_120e5b56fe631b::t_530c4a745a77c6 1-16
+drupal/config/sync/media.type.document.yml
+  s_120e5b56fe631b::t_1bfcc0d795481b 1-16
+drupal/config/sync/media.type.image.yml
+  s_120e5b56fe631b::t_bb68935946a9d1 1-16
+drupal/config/sync/media.type.remote_video.yml
+  s_120e5b56fe631b::t_2419919a9a2563 1-20
+drupal/config/sync/media.type.video.yml
+  s_120e5b56fe631b::t_be3c10805fa11e 1-16
+drupal/config/sync/media_library.settings.yml
+  s_120e5b56fe631b::t_0914520e01b669 1-3
+drupal/config/sync/menu_ui.settings.yml
+  s_120e5b56fe631b::t_ba3510494fb311 1-3
+drupal/config/sync/navigation.block_layout.yml
+  s_120e5b56fe631b::t_84d42b3c220547 1-68
+drupal/config/sync/navigation.settings.yml
+  s_120e5b56fe631b::t_07dd00b6266947 1-9
+drupal/config/sync/node.settings.yml
+  s_120e5b56fe631b::t_3730929be70a22 1-3
+drupal/config/sync/olivero.settings.yml
+  s_120e5b56fe631b::t_eb1213833338fa 1-14
+drupal/config/sync/simple_oauth.oauth2_scope.canvas_headless.yml
+  s_120e5b56fe631b::t_275c367164a024 1-22
+drupal/config/sync/simple_oauth.oauth2_token.bundle.access_token.yml
+  s_120e5b56fe631b::t_de27574b160334 1-10
+drupal/config/sync/simple_oauth.oauth2_token.bundle.auth_code.yml
+  s_120e5b56fe631b::t_9212e9fbe2df4b 1-10
+drupal/config/sync/simple_oauth.oauth2_token.bundle.refresh_token.yml
+  s_120e5b56fe631b::t_2cd98276bcb9f0 1-10
+drupal/config/sync/simple_oauth.settings.yml
+  s_120e5b56fe631b::t_f08915448a1d1c 1-7
+drupal/config/sync/system.action.media_delete_action.yml
+  s_120e5b56fe631b::t_c82c42d55feff6 1-13
+drupal/config/sync/system.action.media_publish_action.yml
+  s_120e5b56fe631b::t_f2ca547dc23f1b 1-13
+drupal/config/sync/system.action.media_save_action.yml
+  s_120e5b56fe631b::t_f3196d025f6a50 1-13
+drupal/config/sync/system.action.media_unpublish_action.yml
+  s_120e5b56fe631b::t_a7b0556de7bf16 1-13
+drupal/config/sync/system.action.node_delete_action.yml
+  s_120e5b56fe631b::t_fa3e3cec0a7d7a 1-13
+drupal/config/sync/system.action.node_make_sticky_action.yml
+  s_120e5b56fe631b::t_eabe3a21fe61a3 1-13
+drupal/config/sync/system.action.node_make_unsticky_action.yml
+  s_120e5b56fe631b::t_80240d4e8dfcaa 1-13
+drupal/config/sync/system.action.node_promote_action.yml
+  s_120e5b56fe631b::t_9e9f56792f897c 1-13
+drupal/config/sync/system.action.node_publish_action.yml
+  s_120e5b56fe631b::t_02e5da700c4d57 1-13
+drupal/config/sync/system.action.node_save_action.yml
+  s_120e5b56fe631b::t_ee80e8591ba6ee 1-13
+drupal/config/sync/system.action.node_unpromote_action.yml
+  s_120e5b56fe631b::t_1987d808d304b6 1-13
+drupal/config/sync/system.action.node_unpublish_action.yml
+  s_120e5b56fe631b::t_683649b0e91b0e 1-13
+drupal/config/sync/system.action.taxonomy_term_publish_action.yml
+  s_120e5b56fe631b::t_2d5184b441e64c 1-13
+drupal/config/sync/system.action.taxonomy_term_unpublish_action.yml
+  s_120e5b56fe631b::t_0432615b2d7b56 1-13
+drupal/config/sync/system.action.user_add_role_action.administrator.yml
+  s_120e5b56fe631b::t_42283547cc882c 1-14
+drupal/config/sync/system.action.user_add_role_action.content_editor.yml
+  s_120e5b56fe631b::t_dfe748c36128d5 1-14
+drupal/config/sync/system.action.user_block_user_action.yml
+  s_120e5b56fe631b::t_0b5a545aff1606 1-13
+drupal/config/sync/system.action.user_cancel_user_action.yml
+  s_120e5b56fe631b::t_6019fa32b367ba 1-13
+drupal/config/sync/system.action.user_remove_role_action.administrator.yml
+  s_120e5b56fe631b::t_2ed3c524f8f005 1-14
+drupal/config/sync/system.action.user_remove_role_action.content_editor.yml
+  s_120e5b56fe631b::t_23c25eba93c1e5 1-14
+drupal/config/sync/system.action.user_unblock_user_action.yml
+  s_120e5b56fe631b::t_ca8920135bca7b 1-13
+drupal/config/sync/system.advisories.yml
+  s_120e5b56fe631b::t_aaace2af2f552b 1-4
+drupal/config/sync/system.cron.yml
+  s_120e5b56fe631b::t_afce52d633c0e9 1-6
+drupal/config/sync/system.date.yml
+  s_120e5b56fe631b::t_ed7b69680b3279 1-11
+drupal/config/sync/system.diff.yml
+  s_120e5b56fe631b::t_61482ab8aeb21b 1-5
+drupal/config/sync/system.feature_flags.yml
+  s_120e5b56fe631b::t_b2384d672127eb 1-3
+drupal/config/sync/system.file.yml
+  s_120e5b56fe631b::t_fe3542d571cb30 1-5
+drupal/config/sync/system.image.gd.yml
+  s_120e5b56fe631b::t_ab922e414ef20d 1-3
+drupal/config/sync/system.image.yml
+  s_120e5b56fe631b::t_4cef46a5e84ad0 1-3
+drupal/config/sync/system.logging.yml
+  s_120e5b56fe631b::t_db7a77328a84c2 1-3
+drupal/config/sync/system.mail.yml
+  s_120e5b56fe631b::t_dbb579b81ac902 1-11
+drupal/config/sync/system.maintenance.yml
+  s_120e5b56fe631b::t_ac4d7d327a7e55 1-4
+drupal/config/sync/system.menu.account.yml
+  s_120e5b56fe631b::t_9e3315143b0614 1-10
+drupal/config/sync/system.menu.admin.yml
+  s_120e5b56fe631b::t_1d2a6c37c01a78 1-10
+drupal/config/sync/system.menu.content.yml
+  s_120e5b56fe631b::t_5af73094606f2c 1-13
+drupal/config/sync/system.menu.footer.yml
+  s_120e5b56fe631b::t_f8367fb3b39faf 1-10
+drupal/config/sync/system.menu.main.yml
+  s_120e5b56fe631b::t_44eb93cae817b3 1-10
+drupal/config/sync/system.menu.navigation-user-links.yml
+  s_120e5b56fe631b::t_6a4689e47be57b 1-13
+drupal/config/sync/system.menu.tools.yml
+  s_120e5b56fe631b::t_21a4fd66cf9359 1-10
+drupal/config/sync/system.performance.yml
+  s_120e5b56fe631b::t_2c7bf6230591da 1-16
+drupal/config/sync/system.site.yml
+  s_120e5b56fe631b::t_49c4a414ddcbf4 1-15
+drupal/config/sync/system.theme.global.yml
+  s_120e5b56fe631b::t_850b0708abf214 1-16
+drupal/config/sync/system.theme.yml
+  s_120e5b56fe631b::t_bced0c5580b422 1-4
+drupal/config/sync/taxonomy.settings.yml
+  s_120e5b56fe631b::t_95fcd6ea977307 1-5
+drupal/config/sync/taxonomy.vocabulary.tags.yml
+  s_120e5b56fe631b::t_d915250a914ed3 1-11
+drupal/config/sync/text.settings.yml
+  s_120e5b56fe631b::t_7ab0ab97da73ac 1-3
+drupal/config/sync/update.settings.yml
+  s_120e5b56fe631b::t_4bbe37757f503c 1-13
+drupal/config/sync/user.flood.yml
+  s_120e5b56fe631b::t_94253c8f66a82a 1-7
+drupal/config/sync/user.mail.yml
+  s_120e5b56fe631b::t_61efac46a5a638 1-116
+drupal/config/sync/user.role.administrator.yml
+  s_120e5b56fe631b::t_fb2ff4d64a1a03 1-11
+drupal/config/sync/user.role.anonymous.yml
+  s_120e5b56fe631b::t_65309a03ddbb6d 1-20
+drupal/config/sync/user.role.authenticated.yml
+  s_120e5b56fe631b::t_3b80015eb2e0b9 1-22
+drupal/config/sync/user.role.content_editor.yml
+  s_120e5b56fe631b::t_771914c8bee8fa 1-35
+drupal/config/sync/user.settings.yml
+  s_120e5b56fe631b::t_df705beb2bd2d5 1-18
+drupal/config/sync/views.settings.yml
+  s_120e5b56fe631b::t_441139251154b9 1-46
+drupal/config/sync/views.view.archive.yml
+  s_120e5b56fe631b::t_0b3c2078dacf60 1-248
+drupal/config/sync/views.view.block_content.yml
+  s_120e5b56fe631b::t_2d10383a18f33c 1-539
+drupal/config/sync/views.view.canvas_pages.yml
+  s_120e5b56fe631b::t_c942c44fcb57d4 1-941
+drupal/config/sync/views.view.content.yml
+  s_120e5b56fe631b::t_93745d20c475e6 1-688
+drupal/config/sync/views.view.content_recent.yml
+  s_120e5b56fe631b::t_54d3094fe46a6d 1-323
+drupal/config/sync/views.view.files.yml
+  s_120e5b56fe631b::t_e606f262d9a540 1-1195
+drupal/config/sync/views.view.frontpage.yml
+  s_120e5b56fe631b::t_8ca83a213bb5ee 1-313
+drupal/config/sync/views.view.glossary.yml
+  s_120e5b56fe631b::t_71458f6779fd6d 1-482
+drupal/config/sync/views.view.media.yml
+  s_120e5b56fe631b::t_dbb5977b419f0a 1-915
+drupal/config/sync/views.view.media_library.yml
+  s_120e5b56fe631b::t_24e11f5747d250 1-1393
+drupal/config/sync/views.view.taxonomy_term.yml
+  s_120e5b56fe631b::t_1fa4ab07491aef 1-320
+drupal/config/sync/views.view.user_admin_people.yml
+  s_120e5b56fe631b::t_368c69b0259e2a 1-921
+drupal/config/sync/views.view.watchdog.yml
+  s_120e5b56fe631b::t_5cbc8e24d5507d 1-710
+drupal/config/sync/views.view.who_s_new.yml
+  s_120e5b56fe631b::t_919f8cbb72e957 1-197
+drupal/config/sync/views.view.who_s_online.yml
+  s_120e5b56fe631b::t_50809834f004fc 1-224
+frontend/app/[[...slug]]/page.tsx
+  s_120e5b56fe631b::t_8d26639e38646f 51-52,76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1f90ae9fb436355291425c2b932ca26077913d6a",
+  "prompts": {},
+  "sessions": {
+    "s_120e5b56fe631b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11704-484a-7d51-ac43-1edddf5fd50d",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Pablo Alberto Grande García <pabloaggar@ext.inditex.com>"
+    }
+  }
+}
