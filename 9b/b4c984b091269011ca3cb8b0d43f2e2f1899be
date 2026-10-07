@@ -1,0 +1,277 @@
+.ddev/commands/web/install
+  s_27538a230f660b::t_83b4cded1f1a31 1-31
+.ddev/config.yaml
+  s_27538a230f660b::t_2d45148a35533b 1-298
+.env.example
+  s_27538a230f660b::t_972e1b9d59da95 1-2
+.gitignore
+  s_27538a230f660b::t_4ddf5ddebeb21f 1-30
+drupal/.editorconfig
+  s_27538a230f660b::t_1e6a15c3e74021 1-17
+drupal/.gitattributes
+  s_27538a230f660b::t_f43b382d329fba 1-65
+drupal/LICENSE.txt
+  s_27538a230f660b::t_ff56a3d1813f68 1-339
+drupal/composer.json
+  s_27538a230f660b::t_501eb78f0d8757 1-108
+drupal/composer.lock
+  s_27538a230f660b::t_1a49d5cfda4d39 1-7908
+drupal/recipes/README.txt
+  s_27538a230f660b::t_1f133ecd33c0df 1-9
+drupal/web/.csslintrc
+  s_27538a230f660b::t_aa93f232c375d9 1-40
+drupal/web/.eslintignore
+  s_27538a230f660b::t_16beafa677d26f 1-8
+drupal/web/.eslintrc.json
+  s_27538a230f660b::t_b238ffa2b9f2fc 1-3
+drupal/web/.ht.router.php
+  s_27538a230f660b::t_dffa49657ca7a0 1-71
+drupal/web/.htaccess
+  s_27538a230f660b::t_7ad08edd137a34 1-205
+drupal/web/INSTALL.txt
+  s_27538a230f660b::t_57b816dc0bc5b9 1-3
+drupal/web/README.md
+  s_27538a230f660b::t_3d95b6b52ab531 1-75
+drupal/web/autoload.php
+  s_27538a230f660b::t_52e1131217d8b0 1-15
+drupal/web/autoload_runtime.php
+  s_27538a230f660b::t_ecfaea36111276 1-22
+drupal/web/example.gitignore
+  s_27538a230f660b::t_f1fbac54519a70 1-47
+drupal/web/index.php
+  s_27538a230f660b::t_5e559f6b880975 1-17
+drupal/web/modules/README.txt
+  s_27538a230f660b::t_54128ab2bb7719 1-42
+drupal/web/profiles/README.txt
+  s_27538a230f660b::t_40a69c3690c0d2 1-28
+drupal/web/robots.txt
+  s_27538a230f660b::t_c75ce7c26c576e 1-78
+drupal/web/sites/README.txt
+  s_27538a230f660b::t_21bc0e0e3951e0 1-10
+drupal/web/sites/default/default.services.yml
+  s_27538a230f660b::t_8fd6b0c4d93934 1-256
+drupal/web/sites/default/default.settings.php
+  s_27538a230f660b::t_e7b049673035cd 1-905
+drupal/web/sites/development.services.yml
+  s_27538a230f660b::t_e37e585a6710a6 1-30
+drupal/web/sites/example.settings.local.php
+  s_27538a230f660b::t_a9271787da838e 1-151
+drupal/web/sites/example.sites.php
+  s_27538a230f660b::t_42032337a4baac 1-57
+drupal/web/themes/README.txt
+  s_27538a230f660b::t_5b04036c0511a6 1-31
+drupal/web/update.php
+  s_27538a230f660b::t_6eecf84d364efd 1-25
+frontend/.agents/skills/canvas-component-composability/SKILL.md
+  s_27538a230f660b::t_827bee376937b8 1-292
+frontend/.agents/skills/canvas-component-composability/references/repeatable-content.md
+  s_27538a230f660b::t_eccf657dfe8936 1-106
+frontend/.agents/skills/canvas-component-definition/SKILL.md
+  s_27538a230f660b::t_68937b2bea849d 1-152
+frontend/.agents/skills/canvas-component-definition/references/component-mocks.md
+  s_27538a230f660b::t_b76afb94aa69ad 1-142
+frontend/.agents/skills/canvas-component-definition/references/naming.md
+  s_27538a230f660b::t_c98f96bdd2cb53 1-70
+frontend/.agents/skills/canvas-component-metadata/SKILL.md
+  s_27538a230f660b::t_edcef5dd5f5d5e 1-437
+frontend/.agents/skills/canvas-component-push/SKILL.md
+  s_27538a230f660b::t_0d971db4c56136 1-199
+frontend/.agents/skills/canvas-component-utils/SKILL.md
+  s_27538a230f660b::t_b61c2824cf5c1c 1-112
+frontend/.agents/skills/canvas-content-templates/SKILL.md
+  s_27538a230f660b::t_8463687f502d63 1-315
+frontend/.agents/skills/canvas-data-fetching/SKILL.md
+  s_27538a230f660b::t_56b21bf601a8e3 1-507
+frontend/.agents/skills/canvas-design-decomposition/SKILL.md
+  s_27538a230f660b::t_b71d52230e8565 1-301
+frontend/.agents/skills/canvas-design-decomposition/references/granularity.md
+  s_27538a230f660b::t_00944d273a1799 1-25
+frontend/.agents/skills/canvas-design-decomposition/references/props-vs-slots-rubric.md
+  s_27538a230f660b::t_deb8c41f4570d6 1-46
+frontend/.agents/skills/canvas-design-decomposition/references/worked-example.md
+  s_27538a230f660b::t_64e6df3c6b9e1a 1-101
+frontend/.agents/skills/canvas-headless/SKILL.md
+  s_27538a230f660b::t_2d0836991465b6 1-212
+frontend/.agents/skills/canvas-navigation-components/SKILL.md
+  s_27538a230f660b::t_14c0a901177735 1-173
+frontend/.agents/skills/canvas-navigation-components/references/data-sources.md
+  s_27538a230f660b::t_de364b3604a2bb 1-57
+frontend/.agents/skills/canvas-page-definition/SKILL.md
+  s_27538a230f660b::t_62ddd3b5caffa6 1-238
+frontend/.agents/skills/canvas-regions/SKILL.md
+  s_27538a230f660b::t_c0e76df79f7fc3 1-266
+frontend/.agents/skills/canvas-styling-conventions/SKILL.md
+  s_27538a230f660b::t_01488d0a294e92 1-277
+frontend/.agents/skills/canvas-workbench/SKILL.md
+  s_27538a230f660b::t_764c03670b5655 1-153
+frontend/.agents/skills/canvas-workbench/references/components.md
+  s_27538a230f660b::t_eca6edea031dfe 1-27
+frontend/.agents/skills/canvas-workbench/references/pages.md
+  s_27538a230f660b::t_12b2365c68a704 1-30
+frontend/.env.example
+  s_27538a230f660b::t_9673d26216a534 1-6
+frontend/.gitignore
+  s_27538a230f660b::t_46f2e0390eb535 1-45
+frontend/.npmrc
+  s_27538a230f660b::t_3987d994c73eed 1-2
+frontend/README.md
+  s_27538a230f660b::t_ba172c6f9d0064 1-138
+frontend/app/api/canvas/component-preview/page.tsx
+  s_27538a230f660b::t_033c2598a1d14c 1
+frontend/app/api/canvas/components/route.ts
+  s_27538a230f660b::t_30289742839c1b 1-15
+frontend/app/api/canvas/jsonapi/[[...path]]/route.ts
+  s_27538a230f660b::t_e7f89dfbcc9c7f 1-7
+frontend/app/api/disable-draft/route.ts
+  s_27538a230f660b::t_f5c6f850f33c65 1-10
+frontend/app/api/draft/renew/route.ts
+  s_27538a230f660b::t_cbc1e0d0ee2ad8 1-7
+frontend/app/api/draft/route.ts
+  s_27538a230f660b::t_343785fabf2b14 1-8
+frontend/app/globals.css
+  s_27538a230f660b::t_6b8e7646840936 1-20
+frontend/app/not-found.tsx
+  s_27538a230f660b::t_fc9140da93d5d3 1-22
+frontend/canvas.config.json
+  s_27538a230f660b::t_2ff6b70ff9585b 1-10
+frontend/components/accordion-item/component.yml
+  s_27538a230f660b::t_f129068219bcbd 1-40
+frontend/components/accordion-item/index.jsx
+  s_27538a230f660b::t_fe454b253fdc00 1-252
+frontend/components/accordion-item/mocks.json
+  s_27538a230f660b::t_11f31b70b08284 1-25
+frontend/components/accordion/component.yml
+  s_27538a230f660b::t_c8d9f54b05584e 1-39
+frontend/components/accordion/index.jsx
+  s_27538a230f660b::t_5e1c9356f19a53 1-61
+frontend/components/accordion/mocks.json
+  s_27538a230f660b::t_8ce5641177133f 1-142
+frontend/components/blockquote/component.yml
+  s_27538a230f660b::t_39ff0f26d141c7 1-32
+frontend/components/blockquote/index.jsx
+  s_27538a230f660b::t_3fadbb390a2754 1-51
+frontend/components/blockquote/mocks.json
+  s_27538a230f660b::t_c2b3523f697f7d 1-38
+frontend/components/button/component.yml
+  s_27538a230f660b::t_bbfe1961e320cd 1-44
+frontend/components/button/index.jsx
+  s_27538a230f660b::t_75974961838b8a 1-70
+frontend/components/button/mocks.json
+  s_27538a230f660b::t_2544a6917c7df9 1-60
+frontend/components/card/component.yml
+  s_27538a230f660b::t_3a5d6ae4e7d765 1-105
+frontend/components/card/index.jsx
+  s_27538a230f660b::t_48756185eda5e6 1-185
+frontend/components/card/mocks.json
+  s_27538a230f660b::t_da6f0077898f85 1-124
+frontend/components/card_container/component.yml
+  s_27538a230f660b::t_d5bd8fcf1a27c0 1-96
+frontend/components/card_container/index.jsx
+  s_27538a230f660b::t_b5107a16a58e42 1-33
+frontend/components/card_container/mocks.json
+  s_27538a230f660b::t_b9f61bf43ee59b 1-493
+frontend/components/draft-banner.tsx
+  s_27538a230f660b::t_06736eebe2d070 1-87
+frontend/components/draft-indicator.tsx
+  s_27538a230f660b::t_938b3ede8490f3 1-33
+frontend/components/footer/component.yml
+  s_27538a230f660b::t_9748f797b4afe0 1-12
+frontend/components/grid_container/component.yml
+  s_27538a230f660b::t_007de1ad421625 1-52
+frontend/components/grid_container/index.jsx
+  s_27538a230f660b::t_2ae973c38f9672 1-43
+frontend/components/grid_container/mocks.json
+  s_27538a230f660b::t_b9fabb5a6d6aac 1-297
+frontend/components/header/component.yml
+  s_27538a230f660b::t_8eab7325cde3f2 1-11
+frontend/components/header/mocks.json
+  s_27538a230f660b::t_c1dae25fb869ef 1-30
+frontend/components/heading/component.yml
+  s_27538a230f660b::t_ef2447098cc200 1-77
+frontend/components/heading/index.jsx
+  s_27538a230f660b::t_d46e5ba276e580 1-85
+frontend/components/heading/mocks.json
+  s_27538a230f660b::t_3b5466fc98f669 1-75
+frontend/components/hero/component.yml
+  s_27538a230f660b::t_2c776b5413db43 1-97
+frontend/components/hero/index.jsx
+  s_27538a230f660b::t_868203ccae4d3b 1-53
+frontend/components/hero/mocks.json
+  s_27538a230f660b::t_153f7533abf735 1-199
+frontend/components/image/component.yml
+  s_27538a230f660b::t_cfac3df76319f2 1-18
+frontend/components/image/index.jsx
+  s_27538a230f660b::t_b639276cbb3bb3 1-18
+frontend/components/image/mocks.json
+  s_27538a230f660b::t_c3c86e46d0d559 1-37
+frontend/components/logo_card/component.yml
+  s_27538a230f660b::t_7b1abdd489ac84 1-18
+frontend/components/logo_card/index.jsx
+  s_27538a230f660b::t_b34d6362ceb650 1-23
+frontend/components/logo_card/mocks.json
+  s_27538a230f660b::t_f04bb92a97dd3d 1-28
+frontend/components/section/component.yml
+  s_27538a230f660b::t_1dd1862da5833b 1-21
+frontend/components/section/index.jsx
+  s_27538a230f660b::t_7bf7d5eca2167b 1-16
+frontend/components/section/mocks.json
+  s_27538a230f660b::t_ae572cade78710 1-48
+frontend/components/spacer/component.yml
+  s_27538a230f660b::t_e45e00343265b5 1-23
+frontend/components/spacer/index.jsx
+  s_27538a230f660b::t_e6bd6f2db605f0 1-18
+frontend/components/spacer/mocks.json
+  s_27538a230f660b::t_01ea0eb3c100c9 1-133
+frontend/components/text/component.yml
+  s_27538a230f660b::t_19abf9dc54e03b 1-44
+frontend/components/text/index.jsx
+  s_27538a230f660b::t_7fdc3e684cc0bb 1-38
+frontend/components/text/mocks.json
+  s_27538a230f660b::t_71fb1cf9b7deed 1-52
+frontend/components/two_column_text/component.yml
+  s_27538a230f660b::t_a85159c73714c5 1-112
+frontend/components/two_column_text/index.jsx
+  s_27538a230f660b::t_6ae8b6c2e95063 1-110
+frontend/components/two_column_text/mocks.json
+  s_27538a230f660b::t_b65fe8ceb2b964 1-238
+frontend/components/video/component.yml
+  s_27538a230f660b::t_3daea70ecba032 1-15
+frontend/components/video/index.jsx
+  s_27538a230f660b::t_66286c7bb7cc5e 1-10
+frontend/components/video/mocks.json
+  s_27538a230f660b::t_1386a09362ebf3 1-13
+frontend/eslint.config.mjs
+  s_27538a230f660b::t_04874fd15c445f 1-24
+frontend/instrumentation.ts
+  s_27538a230f660b::t_2e4ef31705418c 1-9
+frontend/next.config.ts
+  s_27538a230f660b::t_a8206a558a6a29 1-3
+frontend/package-lock.json
+  s_27538a230f660b::t_7d1054559a442b 1-10668
+frontend/pnpm-workspace.yaml
+  s_27538a230f660b::t_85948b4290edbe 1-2
+frontend/postcss.config.mjs
+  s_27538a230f660b::t_2b62f965dae4ac 1-7
+frontend/proxy.ts
+  s_27538a230f660b::t_f5d6776f2ea534 1-3
+frontend/skills-lock.json
+  s_27538a230f660b::t_3e7ca2b6cc7675 1-89
+frontend/tsconfig.json
+  s_27538a230f660b::t_5914535b1771ff 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9bb4c984b091269011ca3cb8b0d43f2e2f1899be",
+  "prompts": {},
+  "sessions": {
+    "s_27538a230f660b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11140-fd1d-7411-a9bf-fed881ccb0a2",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Pablo Alberto Grande García <pabloaggar@ext.inditex.com>"
+    }
+  }
+}
