@@ -1,0 +1,1263 @@
+.gitmodules
+  s_ed2c1f82db201a::t_0bc9e589d4412d 1-3
+drupal/composer.json
+  s_ed2c1f82db201a::t_e55f5b96b3583b 21
+drupal/composer.lock
+  s_ed2c1f82db201a::t_2b6a4c1bb39261 7,1344-1391,7998-8000
+drupal/config/sync/canvas.component.block.announce_block.yml
+  s_ed2c1f82db201a::t_28bbb696e53d01 7,18-26
+drupal/config/sync/canvas.component.block.help_block.yml
+  s_ed2c1f82db201a::t_c731aed650b57a 7,18-26
+drupal/config/sync/canvas.component.block.language_block.language_interface.yml
+  s_ed2c1f82db201a::t_ef46a2fe9ebbcf 1-22
+drupal/config/sync/canvas.component.block.local_actions_block.yml
+  s_ed2c1f82db201a::t_93f8ac6be3167f 5,16-24
+drupal/config/sync/canvas.component.block.local_tasks_block.yml
+  s_ed2c1f82db201a::t_4317b2450d2b30 5,18-28
+drupal/config/sync/canvas.component.block.navigation_link.yml
+  s_ed2c1f82db201a::t_9b526a8b62005b 7,21-32
+drupal/config/sync/canvas.component.block.navigation_shortcuts.yml
+  s_ed2c1f82db201a::t_8cd0726e191cca 7,18-26
+drupal/config/sync/canvas.component.block.navigation_user.yml
+  s_ed2c1f82db201a::t_6a2c4c683cf659 7,18-26
+drupal/config/sync/canvas.component.block.page_title_block.yml
+  s_ed2c1f82db201a::t_4dfb200f27fdec 5,16-24
+drupal/config/sync/canvas.component.block.system_branding_block.yml
+  s_ed2c1f82db201a::t_69822b93fa2fa9 7,21-32
+drupal/config/sync/canvas.component.block.system_breadcrumb_block.yml
+  s_ed2c1f82db201a::t_3d1a21f1490269 7,18-26
+drupal/config/sync/canvas.component.block.system_clear_cache_block.yml
+  s_ed2c1f82db201a::t_1cbd86c4ded354 7,18-26
+drupal/config/sync/canvas.component.block.system_menu_block.account.yml
+  s_ed2c1f82db201a::t_d09e160adb1e2d 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.admin.yml
+  s_ed2c1f82db201a::t_a55eb6eb1c1ebf 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.content.yml
+  s_ed2c1f82db201a::t_656d82e3eb6d08 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.footer.yml
+  s_ed2c1f82db201a::t_ecba73e120fa04 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.main.yml
+  s_ed2c1f82db201a::t_0b849b4017453b 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.navigation-user-links.yml
+  s_ed2c1f82db201a::t_bb9af6481bb505 9,23-34
+drupal/config/sync/canvas.component.block.system_menu_block.tools.yml
+  s_ed2c1f82db201a::t_772f459029053f 9,23-34
+drupal/config/sync/canvas.component.block.system_messages_block.yml
+  s_ed2c1f82db201a::t_b2db0a039cc70f 7,18-26
+drupal/config/sync/canvas.component.block.system_powered_by_block.yml
+  s_ed2c1f82db201a::t_642f5acb212fa9 7,18-26
+drupal/config/sync/canvas.component.block.user_login_block.yml
+  s_ed2c1f82db201a::t_c21697a214cb52 7,18-26
+drupal/config/sync/canvas.component.block.views_block.content_recent-block_1.yml
+  s_ed2c1f82db201a::t_fd4f32c72b4572 9,22-32
+drupal/config/sync/canvas.component.block.views_block.who_s_new-block_1.yml
+  s_ed2c1f82db201a::t_a123c29306ab98 9,22-32
+drupal/config/sync/canvas.component.block.views_block.who_s_online-who_s_online_block.yml
+  s_ed2c1f82db201a::t_8a784d71a1d2c7 9,22-32
+drupal/config/sync/canvas.component.js.aletheia-accordion-item.yml
+  s_ed2c1f82db201a::t_900c44886cc197 1-191
+drupal/config/sync/canvas.component.js.aletheia-accordion.yml
+  s_ed2c1f82db201a::t_8c69e43a3a85a8 1-57
+drupal/config/sync/canvas.component.js.aletheia-action-bar.yml
+  s_ed2c1f82db201a::t_5e4650f2e1ef6e 1-46
+drupal/config/sync/canvas.component.js.aletheia-agenda-item.yml
+  s_ed2c1f82db201a::t_ec7f60b5a69ed5 1-32
+drupal/config/sync/canvas.component.js.aletheia-agenda.yml
+  s_ed2c1f82db201a::t_694f6684250670 1-451
+drupal/config/sync/canvas.component.js.aletheia-alert.yml
+  s_ed2c1f82db201a::t_b0a82ac7ea33f7 1-117
+drupal/config/sync/canvas.component.js.aletheia-app-card-select.yml
+  s_ed2c1f82db201a::t_9b1e0427c1f0bb 1-115
+drupal/config/sync/canvas.component.js.aletheia-app-list-action.yml
+  s_ed2c1f82db201a::t_3e6866b450d963 1-92
+drupal/config/sync/canvas.component.js.aletheia-app-list-single-select.yml
+  s_ed2c1f82db201a::t_4de8dd4f64b4b5 1-57
+drupal/config/sync/canvas.component.js.aletheia-app-navbar.yml
+  s_ed2c1f82db201a::t_3be6759ee91b12 1-283
+drupal/config/sync/canvas.component.js.aletheia-avatar.yml
+  s_ed2c1f82db201a::t_0f7de81bd02154 1-82
+drupal/config/sync/canvas.component.js.aletheia-badge.yml
+  s_ed2c1f82db201a::t_5c5486c3d1d0d0 1-213
+drupal/config/sync/canvas.component.js.aletheia-button-copy.yml
+  s_ed2c1f82db201a::t_78d6324e5b7f94 1-78
+drupal/config/sync/canvas.component.js.aletheia-button-expandable.yml
+  s_ed2c1f82db201a::t_15198dd8d5a72b 1-199
+drupal/config/sync/canvas.component.js.aletheia-button-float.yml
+  s_ed2c1f82db201a::t_da68047861130c 1-200
+drupal/config/sync/canvas.component.js.aletheia-button-group.yml
+  s_ed2c1f82db201a::t_b4d19a3756f6e9 1-44
+drupal/config/sync/canvas.component.js.aletheia-button-link.yml
+  s_ed2c1f82db201a::t_15e3990513084a 1-235
+drupal/config/sync/canvas.component.js.aletheia-button.yml
+  s_ed2c1f82db201a::t_d7906db1a7f242 1-337
+drupal/config/sync/canvas.component.js.aletheia-calendar.yml
+  s_ed2c1f82db201a::t_42f7bbc144bc3a 1-115
+drupal/config/sync/canvas.component.js.aletheia-card-header.yml
+  s_ed2c1f82db201a::t_c88223b9b5a58a 1-66
+drupal/config/sync/canvas.component.js.aletheia-card-selectable-group.yml
+  s_ed2c1f82db201a::t_c59d56e28e2ef2 1-399
+drupal/config/sync/canvas.component.js.aletheia-card-selectable.yml
+  s_ed2c1f82db201a::t_2b62eaddac7f62 1-120
+drupal/config/sync/canvas.component.js.aletheia-card-thumbnail.yml
+  s_ed2c1f82db201a::t_884ab3802f55a5 1-72
+drupal/config/sync/canvas.component.js.aletheia-card.yml
+  s_ed2c1f82db201a::t_5a58680f7519ab 1-209
+drupal/config/sync/canvas.component.js.aletheia-carousel-item.yml
+  s_ed2c1f82db201a::t_d4004d0e95a417 1-32
+drupal/config/sync/canvas.component.js.aletheia-carousel.yml
+  s_ed2c1f82db201a::t_5e0c0178637334 1-212
+drupal/config/sync/canvas.component.js.aletheia-checkbox-group.yml
+  s_ed2c1f82db201a::t_01b2b55e0821b6 1-285
+drupal/config/sync/canvas.component.js.aletheia-checkbox.yml
+  s_ed2c1f82db201a::t_f8b7888930ff18 1-181
+drupal/config/sync/canvas.component.js.aletheia-chip-choice-group.yml
+  s_ed2c1f82db201a::t_4a45c32cf561d9 1-169
+drupal/config/sync/canvas.component.js.aletheia-chip-choice.yml
+  s_ed2c1f82db201a::t_0f17ac70c15c7f 1-211
+drupal/config/sync/canvas.component.js.aletheia-chip-dismiss-group.yml
+  s_ed2c1f82db201a::t_619bf468403991 1-99
+drupal/config/sync/canvas.component.js.aletheia-chip-dismiss.yml
+  s_ed2c1f82db201a::t_859abb2edb7dc3 1-141
+drupal/config/sync/canvas.component.js.aletheia-collapse-icon.yml
+  s_ed2c1f82db201a::t_b0a20e2bb8ef02 1-53
+drupal/config/sync/canvas.component.js.aletheia-collapse.yml
+  s_ed2c1f82db201a::t_8486bc7aaa0dcf 1-31
+drupal/config/sync/canvas.component.js.aletheia-content-header-description.yml
+  s_ed2c1f82db201a::t_278a7f278614c4 1-137
+drupal/config/sync/canvas.component.js.aletheia-content-header-indicator-group.yml
+  s_ed2c1f82db201a::t_a93fd1aadab068 1-32
+drupal/config/sync/canvas.component.js.aletheia-content-header-indicator-list.yml
+  s_ed2c1f82db201a::t_6681ad6d9191b7 1-56
+drupal/config/sync/canvas.component.js.aletheia-content-header-indicator.yml
+  s_ed2c1f82db201a::t_19ba730744e250 1-386
+drupal/config/sync/canvas.component.js.aletheia-content-header-status.yml
+  s_ed2c1f82db201a::t_0298ee77cdd00c 1-54
+drupal/config/sync/canvas.component.js.aletheia-datepicker-range.yml
+  s_ed2c1f82db201a::t_f27cf0fe805c4c 1-382
+drupal/config/sync/canvas.component.js.aletheia-datepicker.yml
+  s_ed2c1f82db201a::t_af1682752feb5d 1-301
+drupal/config/sync/canvas.component.js.aletheia-divider.yml
+  s_ed2c1f82db201a::t_c9f8f4998d42ba 1-56
+drupal/config/sync/canvas.component.js.aletheia-dropdown-option.yml
+  s_ed2c1f82db201a::t_8d9ac324823b43 1-219
+drupal/config/sync/canvas.component.js.aletheia-dropdown.yml
+  s_ed2c1f82db201a::t_145eda6c4cd885 1-635
+drupal/config/sync/canvas.component.js.aletheia-empty-state.yml
+  s_ed2c1f82db201a::t_cb7804b366ab47 1-106
+drupal/config/sync/canvas.component.js.aletheia-file-list-item.yml
+  s_ed2c1f82db201a::t_13b5b7b6f143bf 1-158
+drupal/config/sync/canvas.component.js.aletheia-file-list.yml
+  s_ed2c1f82db201a::t_2e6dc337381884 1-20
+drupal/config/sync/canvas.component.js.aletheia-file-uploader.yml
+  s_ed2c1f82db201a::t_d62c02468fed6d 1-511
+drupal/config/sync/canvas.component.js.aletheia-footer-link-group.yml
+  s_ed2c1f82db201a::t_d579b6e17f1b61 1-56
+drupal/config/sync/canvas.component.js.aletheia-footer-link.yml
+  s_ed2c1f82db201a::t_ed50343cc681c4 1-297
+drupal/config/sync/canvas.component.js.aletheia-footer-social-link.yml
+  s_ed2c1f82db201a::t_ae281b7f69bed0 1-245
+drupal/config/sync/canvas.component.js.aletheia-footer.yml
+  s_ed2c1f82db201a::t_cbe662c9a2eec2 1-63
+drupal/config/sync/canvas.component.js.aletheia-global-header-desktop-nav-item.yml
+  s_ed2c1f82db201a::t_d6c88c691995eb 1-42
+drupal/config/sync/canvas.component.js.aletheia-global-header-desktop.yml
+  s_ed2c1f82db201a::t_9d2690f6e46247 1-97
+drupal/config/sync/canvas.component.js.aletheia-global-header-mobile-modal.yml
+  s_ed2c1f82db201a::t_6e58d3acda5c83 1-44
+drupal/config/sync/canvas.component.js.aletheia-global-header-mobile-sidebar-item.yml
+  s_ed2c1f82db201a::t_05a7fc885cedda 1-54
+drupal/config/sync/canvas.component.js.aletheia-global-header-mobile-sidebar.yml
+  s_ed2c1f82db201a::t_18a60319c25453 1-20
+drupal/config/sync/canvas.component.js.aletheia-global-header-mobile.yml
+  s_ed2c1f82db201a::t_125100027d7e71 1-70
+drupal/config/sync/canvas.component.js.aletheia-global-header.yml
+  s_ed2c1f82db201a::t_6f1230e16fe9ea 1-44
+drupal/config/sync/canvas.component.js.aletheia-global-search.yml
+  s_ed2c1f82db201a::t_161d79390d53f1 1-46
+drupal/config/sync/canvas.component.js.aletheia-heading-editable.yml
+  s_ed2c1f82db201a::t_22a452d3362763 1-148
+drupal/config/sync/canvas.component.js.aletheia-icon.yml
+  s_ed2c1f82db201a::t_592850c043a5d6 1-143
+drupal/config/sync/canvas.component.js.aletheia-illustration.yml
+  s_ed2c1f82db201a::t_57c7678d2e76d6 1-66
+drupal/config/sync/canvas.component.js.aletheia-input-counter.yml
+  s_ed2c1f82db201a::t_890e0f6d09d947 1-511
+drupal/config/sync/canvas.component.js.aletheia-input-exchange.yml
+  s_ed2c1f82db201a::t_1af4833a5a345d 1-208
+drupal/config/sync/canvas.component.js.aletheia-input-password.yml
+  s_ed2c1f82db201a::t_53cd68731555a2 1-312
+drupal/config/sync/canvas.component.js.aletheia-input-range.yml
+  s_ed2c1f82db201a::t_ea1f33ea401b4f 1-629
+drupal/config/sync/canvas.component.js.aletheia-input-text.yml
+  s_ed2c1f82db201a::t_97484f927fd64b 1-677
+drupal/config/sync/canvas.component.js.aletheia-input-textarea.yml
+  s_ed2c1f82db201a::t_772532698801eb 1-559
+drupal/config/sync/canvas.component.js.aletheia-link-button.yml
+  s_ed2c1f82db201a::t_7ce619b085078e 1-321
+drupal/config/sync/canvas.component.js.aletheia-link.yml
+  s_ed2c1f82db201a::t_bf8b786371cd30 1-296
+drupal/config/sync/canvas.component.js.aletheia-list-item.yml
+  s_ed2c1f82db201a::t_eeea44eefd5bc3 1-218
+drupal/config/sync/canvas.component.js.aletheia-list.yml
+  s_ed2c1f82db201a::t_2f039a5b77156b 1-79
+drupal/config/sync/canvas.component.js.aletheia-loader-shuffle.yml
+  s_ed2c1f82db201a::t_3f24be042b8cee 1-93
+drupal/config/sync/canvas.component.js.aletheia-loader-spinner.yml
+  s_ed2c1f82db201a::t_8e4a4558e4ba3d 1-117
+drupal/config/sync/canvas.component.js.aletheia-logo.yml
+  s_ed2c1f82db201a::t_c49754ced6b8d4 1-66
+drupal/config/sync/canvas.component.js.aletheia-menu-box-group.yml
+  s_ed2c1f82db201a::t_284a39682d5124 1-68
+drupal/config/sync/canvas.component.js.aletheia-menu-box-option.yml
+  s_ed2c1f82db201a::t_1b5b8f03ddaf67 1-245
+drupal/config/sync/canvas.component.js.aletheia-menu-box.yml
+  s_ed2c1f82db201a::t_ccf3d317e71052 1-568
+drupal/config/sync/canvas.component.js.aletheia-menu-button-item.yml
+  s_ed2c1f82db201a::t_0e74a18721ae28 1-161
+drupal/config/sync/canvas.component.js.aletheia-menu-button.yml
+  s_ed2c1f82db201a::t_10c909291379b3 1-259
+drupal/config/sync/canvas.component.js.aletheia-menu-horizontal-item.yml
+  s_ed2c1f82db201a::t_50fe7350825f14 1-153
+drupal/config/sync/canvas.component.js.aletheia-menu-lateral-item-action.yml
+  s_ed2c1f82db201a::t_f66c8ab7f7ea2f 1-229
+drupal/config/sync/canvas.component.js.aletheia-menu-lateral-item-link.yml
+  s_ed2c1f82db201a::t_6328cf189e0ea7 1-335
+drupal/config/sync/canvas.component.js.aletheia-menu-vertical-item-action.yml
+  s_ed2c1f82db201a::t_6a1335d0ed663d 1-159
+drupal/config/sync/canvas.component.js.aletheia-menu-vertical-item-link.yml
+  s_ed2c1f82db201a::t_05770d593631c4 1-244
+drupal/config/sync/canvas.component.js.aletheia-menu-vertical.yml
+  s_ed2c1f82db201a::t_99d5d215586312 1-32
+drupal/config/sync/canvas.component.js.aletheia-metric.yml
+  s_ed2c1f82db201a::t_f4023547079890 1-126
+drupal/config/sync/canvas.component.js.aletheia-modal.yml
+  s_ed2c1f82db201a::t_f0eebb37e3a2fc 1-381
+drupal/config/sync/canvas.component.js.aletheia-option-list-item.yml
+  s_ed2c1f82db201a::t_a9b662b211d4f2 1-285
+drupal/config/sync/canvas.component.js.aletheia-option-list.yml
+  s_ed2c1f82db201a::t_90d855cec30b11 1-91
+drupal/config/sync/canvas.component.js.aletheia-overlay.yml
+  s_ed2c1f82db201a::t_d5e6397a70c015 1-283
+drupal/config/sync/canvas.component.js.aletheia-pagination.yml
+  s_ed2c1f82db201a::t_fbd75998bf14f1 1-130
+drupal/config/sync/canvas.component.js.aletheia-panel.yml
+  s_ed2c1f82db201a::t_b92cd08a307761 1-45
+drupal/config/sync/canvas.component.js.aletheia-pictogram.yml
+  s_ed2c1f82db201a::t_13655c3ff50110 1-68
+drupal/config/sync/canvas.component.js.aletheia-progress-bar.yml
+  s_ed2c1f82db201a::t_84f54b9bed753f 1-124
+drupal/config/sync/canvas.component.js.aletheia-radio-button-group.yml
+  s_ed2c1f82db201a::t_a45b3297ebe6b3 1-357
+drupal/config/sync/canvas.component.js.aletheia-radio-button.yml
+  s_ed2c1f82db201a::t_db2f03589d996d 1-99
+drupal/config/sync/canvas.component.js.aletheia-search-suggested-item.yml
+  s_ed2c1f82db201a::t_31ebb31ba5a838 1-42
+drupal/config/sync/canvas.component.js.aletheia-search.yml
+  s_ed2c1f82db201a::t_12213590b0c92d 1-146
+drupal/config/sync/canvas.component.js.aletheia-section-title.yml
+  s_ed2c1f82db201a::t_dece62e4835382 1-333
+drupal/config/sync/canvas.component.js.aletheia-segmented-control-item.yml
+  s_ed2c1f82db201a::t_4c94602dd629c9 1-215
+drupal/config/sync/canvas.component.js.aletheia-segmented-control.yml
+  s_ed2c1f82db201a::t_365d0e39c62748 1-405
+drupal/config/sync/canvas.component.js.aletheia-slider.yml
+  s_ed2c1f82db201a::t_650b634033d4a4 1-633
+drupal/config/sync/canvas.component.js.aletheia-step.yml
+  s_ed2c1f82db201a::t_d7446cdf8e1e4a 1-280
+drupal/config/sync/canvas.component.js.aletheia-stepper.yml
+  s_ed2c1f82db201a::t_0d72448f4931c6 1-187
+drupal/config/sync/canvas.component.js.aletheia-switch.yml
+  s_ed2c1f82db201a::t_60f98da355a390 1-63
+drupal/config/sync/canvas.component.js.aletheia-tab.yml
+  s_ed2c1f82db201a::t_84c4c2a0e3cc77 1-161
+drupal/config/sync/canvas.component.js.aletheia-table-body.yml
+  s_ed2c1f82db201a::t_a7666d11e69a8b 1-20
+drupal/config/sync/canvas.component.js.aletheia-table-header-item.yml
+  s_ed2c1f82db201a::t_9926b3d2c6c82b 1-93
+drupal/config/sync/canvas.component.js.aletheia-table-header.yml
+  s_ed2c1f82db201a::t_6ae0ff1c4e61a2 1-126
+drupal/config/sync/canvas.component.js.aletheia-table-row-item.yml
+  s_ed2c1f82db201a::t_130f3f7c392413 1-173
+drupal/config/sync/canvas.component.js.aletheia-table-row.yml
+  s_ed2c1f82db201a::t_b5cb9d1a57b364 1-227
+drupal/config/sync/canvas.component.js.aletheia-table.yml
+  s_ed2c1f82db201a::t_54440ee6d69a62 1-108
+drupal/config/sync/canvas.component.js.aletheia-tag.yml
+  s_ed2c1f82db201a::t_9c0f432dea83a6 1-123
+drupal/config/sync/canvas.component.js.aletheia-tooltip-trigger.yml
+  s_ed2c1f82db201a::t_2150a1fd31c0c9 1-93
+drupal/config/sync/canvas.component.js.aletheia-tooltip.yml
+  s_ed2c1f82db201a::t_4df4a5491eecb9 1-92
+drupal/config/sync/canvas.component.js.aletheia-user-detail.yml
+  s_ed2c1f82db201a::t_2151d692e90b62 1-105
+drupal/config/sync/canvas.component.js.aletheia-user-menu-item.yml
+  s_ed2c1f82db201a::t_e0b9fa57dce259 1-115
+drupal/config/sync/canvas.component.js.aletheia-user-menu.yml
+  s_ed2c1f82db201a::t_c007e173b179e6 1-81
+drupal/config/sync/canvas.component.js.drupal-contact-form.yml
+  s_ed2c1f82db201a::t_b553c6d2372866 1-54
+drupal/config/sync/canvas.component.js.drupal-view.yml
+  s_ed2c1f82db201a::t_a44eaf723a8927 1-241
+drupal/config/sync/canvas.component.js.language-switcher.yml
+  s_ed2c1f82db201a::t_ba71d2e66b8039 1,6-18
+drupal/config/sync/canvas.folder.6d758344-1825-414c-98bc-8f33a19948bb.yml
+  s_ed2c1f82db201a::t_ccaf82bf363631 6,16
+drupal/config/sync/canvas.folder.7cabf4c7-056f-47bb-92ce-838058102a67.yml
+  s_ed2c1f82db201a::t_2df079ebc077f7 6-128,137-259
+drupal/config/sync/canvas.folder.abef2b9f-5ac6-4d6e-82b3-318aee8ee26d.yml
+  s_ed2c1f82db201a::t_e94dc2a10012ef 9-26,34-51
+drupal/config/sync/canvas.js_component.aletheia-accordion-item.yml
+  s_ed2c1f82db201a::t_bc5d693b165766 1-48
+drupal/config/sync/canvas.js_component.aletheia-accordion.yml
+  s_ed2c1f82db201a::t_ea78899edda543 1-34
+drupal/config/sync/canvas.js_component.aletheia-action-bar.yml
+  s_ed2c1f82db201a::t_85ddf845d48137 1-41
+drupal/config/sync/canvas.js_component.aletheia-agenda-item.yml
+  s_ed2c1f82db201a::t_d5e1ac962b6efb 1-18
+drupal/config/sync/canvas.js_component.aletheia-agenda.yml
+  s_ed2c1f82db201a::t_ec8fe5ba312eb6 1-103
+drupal/config/sync/canvas.js_component.aletheia-alert.yml
+  s_ed2c1f82db201a::t_9d89e7a54a93a2 1-71
+drupal/config/sync/canvas.js_component.aletheia-app-card-select.yml
+  s_ed2c1f82db201a::t_0c1cf6f0d3c3eb 1-63
+drupal/config/sync/canvas.js_component.aletheia-app-list-action.yml
+  s_ed2c1f82db201a::t_0e28d26a6e758d 1-51
+drupal/config/sync/canvas.js_component.aletheia-app-list-single-select.yml
+  s_ed2c1f82db201a::t_7afaa973128764 1-36
+drupal/config/sync/canvas.js_component.aletheia-app-navbar.yml
+  s_ed2c1f82db201a::t_6e2e5053186daf 1-78
+drupal/config/sync/canvas.js_component.aletheia-avatar.yml
+  s_ed2c1f82db201a::t_8e61541bcfbbae 1-56
+drupal/config/sync/canvas.js_component.aletheia-badge.yml
+  s_ed2c1f82db201a::t_6b60411684c049 1-79
+drupal/config/sync/canvas.js_component.aletheia-button-copy.yml
+  s_ed2c1f82db201a::t_3694abdbea2d82 1-36
+drupal/config/sync/canvas.js_component.aletheia-button-expandable.yml
+  s_ed2c1f82db201a::t_6b66884ca2d6c1 1-44
+drupal/config/sync/canvas.js_component.aletheia-button-float.yml
+  s_ed2c1f82db201a::t_0ed3d2572b05b0 1-36
+drupal/config/sync/canvas.js_component.aletheia-button-group.yml
+  s_ed2c1f82db201a::t_762ecb23868d63 1-23
+drupal/config/sync/canvas.js_component.aletheia-button-link.yml
+  s_ed2c1f82db201a::t_738e31c7d3a8ab 1-63
+drupal/config/sync/canvas.js_component.aletheia-button.yml
+  s_ed2c1f82db201a::t_3a8a3bc39d8713 1-90
+drupal/config/sync/canvas.js_component.aletheia-calendar.yml
+  s_ed2c1f82db201a::t_dbc3d7a540fb7a 1-65
+drupal/config/sync/canvas.js_component.aletheia-card-header.yml
+  s_ed2c1f82db201a::t_5876365cee1c69 1-31
+drupal/config/sync/canvas.js_component.aletheia-card-selectable-group.yml
+  s_ed2c1f82db201a::t_7a7bde9708a278 1-93
+drupal/config/sync/canvas.js_component.aletheia-card-selectable.yml
+  s_ed2c1f82db201a::t_c16a9f23c621bc 1-69
+drupal/config/sync/canvas.js_component.aletheia-card-thumbnail.yml
+  s_ed2c1f82db201a::t_005750cbf35866 1-43
+drupal/config/sync/canvas.js_component.aletheia-card.yml
+  s_ed2c1f82db201a::t_6d0f08f63a74a0 1-68
+drupal/config/sync/canvas.js_component.aletheia-carousel-item.yml
+  s_ed2c1f82db201a::t_a94a935b50cb29 1-18
+drupal/config/sync/canvas.js_component.aletheia-carousel.yml
+  s_ed2c1f82db201a::t_a468ace5b196f7 1-99
+drupal/config/sync/canvas.js_component.aletheia-checkbox-group.yml
+  s_ed2c1f82db201a::t_116a7952505e49 1-76
+drupal/config/sync/canvas.js_component.aletheia-checkbox.yml
+  s_ed2c1f82db201a::t_b445a488a135cc 1-97
+drupal/config/sync/canvas.js_component.aletheia-chip-choice-group.yml
+  s_ed2c1f82db201a::t_7f2fff37f1ef1f 1-49
+drupal/config/sync/canvas.js_component.aletheia-chip-choice.yml
+  s_ed2c1f82db201a::t_1cce62e3212b5d 1-55
+drupal/config/sync/canvas.js_component.aletheia-chip-dismiss-group.yml
+  s_ed2c1f82db201a::t_394e8294d132d9 1-34
+drupal/config/sync/canvas.js_component.aletheia-chip-dismiss.yml
+  s_ed2c1f82db201a::t_9476648496334c 1-40
+drupal/config/sync/canvas.js_component.aletheia-collapse-icon.yml
+  s_ed2c1f82db201a::t_21112da757847d 1-26
+drupal/config/sync/canvas.js_component.aletheia-collapse.yml
+  s_ed2c1f82db201a::t_24c8bd78a74ec4 1-18
+drupal/config/sync/canvas.js_component.aletheia-content-header-description.yml
+  s_ed2c1f82db201a::t_fc71c6f4875506 1-34
+drupal/config/sync/canvas.js_component.aletheia-content-header-indicator-group.yml
+  s_ed2c1f82db201a::t_c5762d137fc6e7 1-18
+drupal/config/sync/canvas.js_component.aletheia-content-header-indicator-list.yml
+  s_ed2c1f82db201a::t_21883e4239ec0d 1-28
+drupal/config/sync/canvas.js_component.aletheia-content-header-indicator.yml
+  s_ed2c1f82db201a::t_2af9d134bf197d 1-61
+drupal/config/sync/canvas.js_component.aletheia-content-header-status.yml
+  s_ed2c1f82db201a::t_6fde8bdcc450cb 1-26
+drupal/config/sync/canvas.js_component.aletheia-datepicker-range.yml
+  s_ed2c1f82db201a::t_649d1305d97c48 1-194
+drupal/config/sync/canvas.js_component.aletheia-datepicker.yml
+  s_ed2c1f82db201a::t_328d9b99629d38 1-159
+drupal/config/sync/canvas.js_component.aletheia-divider.yml
+  s_ed2c1f82db201a::t_23311559adf853 1-46
+drupal/config/sync/canvas.js_component.aletheia-dropdown-option.yml
+  s_ed2c1f82db201a::t_bf44ed7fa509dc 1-55
+drupal/config/sync/canvas.js_component.aletheia-dropdown.yml
+  s_ed2c1f82db201a::t_1c77ac330fc224 1-157
+drupal/config/sync/canvas.js_component.aletheia-empty-state.yml
+  s_ed2c1f82db201a::t_c528295b43bc37 1-68
+drupal/config/sync/canvas.js_component.aletheia-file-list-item.yml
+  s_ed2c1f82db201a::t_72ce21d96a1a5d 1-73
+drupal/config/sync/canvas.js_component.aletheia-file-list.yml
+  s_ed2c1f82db201a::t_245d3332660c2f 1-13
+drupal/config/sync/canvas.js_component.aletheia-file-uploader.yml
+  s_ed2c1f82db201a::t_1ebbd78997aafc 1-116
+drupal/config/sync/canvas.js_component.aletheia-footer-link-group.yml
+  s_ed2c1f82db201a::t_858ea8b09bb72c 1-28
+drupal/config/sync/canvas.js_component.aletheia-footer-link.yml
+  s_ed2c1f82db201a::t_1b5add3b22f42a 1-67
+drupal/config/sync/canvas.js_component.aletheia-footer-social-link.yml
+  s_ed2c1f82db201a::t_4797e0a35cc906 1-55
+drupal/config/sync/canvas.js_component.aletheia-footer.yml
+  s_ed2c1f82db201a::t_641992e6d725e8 1-36
+drupal/config/sync/canvas.js_component.aletheia-global-header-desktop-nav-item.yml
+  s_ed2c1f82db201a::t_582752409a4943 1-23
+drupal/config/sync/canvas.js_component.aletheia-global-header-desktop.yml
+  s_ed2c1f82db201a::t_f7bad7411da04e 1-51
+drupal/config/sync/canvas.js_component.aletheia-global-header-mobile-modal.yml
+  s_ed2c1f82db201a::t_4765d196014544 1-23
+drupal/config/sync/canvas.js_component.aletheia-global-header-mobile-sidebar-item.yml
+  s_ed2c1f82db201a::t_551be025e62d12 1-28
+drupal/config/sync/canvas.js_component.aletheia-global-header-mobile-sidebar.yml
+  s_ed2c1f82db201a::t_d3fec3fd6b3064 1-13
+drupal/config/sync/canvas.js_component.aletheia-global-header-mobile.yml
+  s_ed2c1f82db201a::t_b53d871f6979ac 1-35
+drupal/config/sync/canvas.js_component.aletheia-global-header.yml
+  s_ed2c1f82db201a::t_6bb0fec8698e10 1-23
+drupal/config/sync/canvas.js_component.aletheia-global-search.yml
+  s_ed2c1f82db201a::t_f7b81d004897bc 1-25
+drupal/config/sync/canvas.js_component.aletheia-heading-editable.yml
+  s_ed2c1f82db201a::t_1bf1a0671844d8 1-66
+drupal/config/sync/canvas.js_component.aletheia-icon.yml
+  s_ed2c1f82db201a::t_2829757e2f2ffd 1-66
+drupal/config/sync/canvas.js_component.aletheia-illustration.yml
+  s_ed2c1f82db201a::t_244a8c1ffcfeb0 1-31
+drupal/config/sync/canvas.js_component.aletheia-input-counter.yml
+  s_ed2c1f82db201a::t_53fcd69ffeca78 1-130
+drupal/config/sync/canvas.js_component.aletheia-input-exchange.yml
+  s_ed2c1f82db201a::t_79c930fc597b0c 1-115
+drupal/config/sync/canvas.js_component.aletheia-input-password.yml
+  s_ed2c1f82db201a::t_72e9c4a2fa1543 1-170
+drupal/config/sync/canvas.js_component.aletheia-input-range.yml
+  s_ed2c1f82db201a::t_13ea908f37360a 1-141
+drupal/config/sync/canvas.js_component.aletheia-input-text.yml
+  s_ed2c1f82db201a::t_d06c006bb0c40b 1-181
+drupal/config/sync/canvas.js_component.aletheia-input-textarea.yml
+  s_ed2c1f82db201a::t_ac9a2ea3f1ed3e 1-140
+drupal/config/sync/canvas.js_component.aletheia-link-button.yml
+  s_ed2c1f82db201a::t_299f254c1deb76 1-71
+drupal/config/sync/canvas.js_component.aletheia-link.yml
+  s_ed2c1f82db201a::t_b410ecb9a2bdb7 1-85
+drupal/config/sync/canvas.js_component.aletheia-list-item.yml
+  s_ed2c1f82db201a::t_f13b90185e09e7 1-124
+drupal/config/sync/canvas.js_component.aletheia-list.yml
+  s_ed2c1f82db201a::t_226cb7f2db25d7 1-54
+drupal/config/sync/canvas.js_component.aletheia-loader-shuffle.yml
+  s_ed2c1f82db201a::t_1288520a03e63f 1-26
+drupal/config/sync/canvas.js_component.aletheia-loader-spinner.yml
+  s_ed2c1f82db201a::t_26e49d282e7a87 1-31
+drupal/config/sync/canvas.js_component.aletheia-logo.yml
+  s_ed2c1f82db201a::t_c0b808e0bf75a6 1-31
+drupal/config/sync/canvas.js_component.aletheia-menu-box-group.yml
+  s_ed2c1f82db201a::t_406379d1adb27e 1-33
+drupal/config/sync/canvas.js_component.aletheia-menu-box-option.yml
+  s_ed2c1f82db201a::t_5179a8a23b8eb2 1-55
+drupal/config/sync/canvas.js_component.aletheia-menu-box.yml
+  s_ed2c1f82db201a::t_db097bdc6817b0 1-85
+drupal/config/sync/canvas.js_component.aletheia-menu-button-item.yml
+  s_ed2c1f82db201a::t_2b6b414048e6e9 1-39
+drupal/config/sync/canvas.js_component.aletheia-menu-button.yml
+  s_ed2c1f82db201a::t_6a43e84fe65f2b 1-83
+drupal/config/sync/canvas.js_component.aletheia-menu-horizontal-item.yml
+  s_ed2c1f82db201a::t_cf677f8541fc3d 1-77
+drupal/config/sync/canvas.js_component.aletheia-menu-lateral-item-action.yml
+  s_ed2c1f82db201a::t_40f33e8c3a34c9 1-54
+drupal/config/sync/canvas.js_component.aletheia-menu-lateral-item-link.yml
+  s_ed2c1f82db201a::t_9bef31762c5eac 1-75
+drupal/config/sync/canvas.js_component.aletheia-menu-vertical-item-action.yml
+  s_ed2c1f82db201a::t_0428358adf60b7 1-39
+drupal/config/sync/canvas.js_component.aletheia-menu-vertical-item-link.yml
+  s_ed2c1f82db201a::t_64a6e671f1eb58 1-65
+drupal/config/sync/canvas.js_component.aletheia-menu-vertical.yml
+  s_ed2c1f82db201a::t_b7f4f8d92c946b 1-22
+drupal/config/sync/canvas.js_component.aletheia-metric.yml
+  s_ed2c1f82db201a::t_c357e3736819db 1-56
+drupal/config/sync/canvas.js_component.aletheia-modal.yml
+  s_ed2c1f82db201a::t_f6d33f0c42a470 1-108
+drupal/config/sync/canvas.js_component.aletheia-option-list-item.yml
+  s_ed2c1f82db201a::t_cb97a61cd6e236 1-67
+drupal/config/sync/canvas.js_component.aletheia-option-list.yml
+  s_ed2c1f82db201a::t_456d1dc5bb82fd 1-43
+drupal/config/sync/canvas.js_component.aletheia-overlay.yml
+  s_ed2c1f82db201a::t_c65820351e0349 1-70
+drupal/config/sync/canvas.js_component.aletheia-pagination.yml
+  s_ed2c1f82db201a::t_883a77ed41a628 1-61
+drupal/config/sync/canvas.js_component.aletheia-panel.yml
+  s_ed2c1f82db201a::t_3541877e8fe061 1-25
+drupal/config/sync/canvas.js_component.aletheia-pictogram.yml
+  s_ed2c1f82db201a::t_ede45d740860f8 1-45
+drupal/config/sync/canvas.js_component.aletheia-progress-bar.yml
+  s_ed2c1f82db201a::t_e2357415d549f4 1-62
+drupal/config/sync/canvas.js_component.aletheia-radio-button-group.yml
+  s_ed2c1f82db201a::t_0dc707c6fd18a6 1-97
+drupal/config/sync/canvas.js_component.aletheia-radio-button.yml
+  s_ed2c1f82db201a::t_afb5d01f5b979e 1-46
+drupal/config/sync/canvas.js_component.aletheia-search-suggested-item.yml
+  s_ed2c1f82db201a::t_bb514ae1aac116 1-21
+drupal/config/sync/canvas.js_component.aletheia-search.yml
+  s_ed2c1f82db201a::t_fc8c6c7760bd33 1-66
+drupal/config/sync/canvas.js_component.aletheia-section-title.yml
+  s_ed2c1f82db201a::t_6a9e78b10e9318 1-98
+drupal/config/sync/canvas.js_component.aletheia-segmented-control-item.yml
+  s_ed2c1f82db201a::t_679bf9a9e11b7e 1-83
+drupal/config/sync/canvas.js_component.aletheia-segmented-control.yml
+  s_ed2c1f82db201a::t_bd21a054092af9 1-121
+drupal/config/sync/canvas.js_component.aletheia-slider.yml
+  s_ed2c1f82db201a::t_fc84159600dd0a 1-163
+drupal/config/sync/canvas.js_component.aletheia-step.yml
+  s_ed2c1f82db201a::t_07881de00481dc 1-151
+drupal/config/sync/canvas.js_component.aletheia-stepper.yml
+  s_ed2c1f82db201a::t_cfbc1a02a82812 1-101
+drupal/config/sync/canvas.js_component.aletheia-switch.yml
+  s_ed2c1f82db201a::t_95d0dec3cf58e0 1-31
+drupal/config/sync/canvas.js_component.aletheia-tab.yml
+  s_ed2c1f82db201a::t_8610fec69286e1 1-39
+drupal/config/sync/canvas.js_component.aletheia-table-body.yml
+  s_ed2c1f82db201a::t_226e1fa6d5d9dc 1-13
+drupal/config/sync/canvas.js_component.aletheia-table-header-item.yml
+  s_ed2c1f82db201a::t_6d0f8ac6fd281d 1-73
+drupal/config/sync/canvas.js_component.aletheia-table-header.yml
+  s_ed2c1f82db201a::t_75829eccaee131 1-96
+drupal/config/sync/canvas.js_component.aletheia-table-row-item.yml
+  s_ed2c1f82db201a::t_03b80df88fd0d7 1-110
+drupal/config/sync/canvas.js_component.aletheia-table-row.yml
+  s_ed2c1f82db201a::t_61fd017ec41993 1-144
+drupal/config/sync/canvas.js_component.aletheia-table.yml
+  s_ed2c1f82db201a::t_5c5e5efd389956 1-90
+drupal/config/sync/canvas.js_component.aletheia-tag.yml
+  s_ed2c1f82db201a::t_8b6c9e11f9dc39 1-55
+drupal/config/sync/canvas.js_component.aletheia-tooltip-trigger.yml
+  s_ed2c1f82db201a::t_741afae4bcb83d 1-24
+drupal/config/sync/canvas.js_component.aletheia-tooltip.yml
+  s_ed2c1f82db201a::t_60c7c94f267f7d 1-73
+drupal/config/sync/canvas.js_component.aletheia-user-detail.yml
+  s_ed2c1f82db201a::t_d244fdb038033a 1-58
+drupal/config/sync/canvas.js_component.aletheia-user-menu-item.yml
+  s_ed2c1f82db201a::t_46a5b89a824624 1-53
+drupal/config/sync/canvas.js_component.aletheia-user-menu.yml
+  s_ed2c1f82db201a::t_1cefddae8d7542 1-48
+drupal/config/sync/canvas.js_component.drupal-contact-form.yml
+  s_ed2c1f82db201a::t_ef39a35433343b 1-27
+drupal/config/sync/canvas.js_component.drupal-view.yml
+  s_ed2c1f82db201a::t_29fb159f2bf2bb 1-47
+drupal/config/sync/canvas.js_component.language-switcher.yml
+  s_ed2c1f82db201a::t_a80734894de7e8 1-11
+drupal/config/sync/canvas_headless.settings.yml
+  s_ed2c1f82db201a::t_56eea2b69b3930 9-128,133-134,141
+drupal/config/sync/contact.form.feedback.yml
+  s_ed2c1f82db201a::t_81f0872a95e78c 1-12
+drupal/config/sync/contact.form.personal.yml
+  s_ed2c1f82db201a::t_6d631c1a9b9dc2 1-13
+drupal/config/sync/contact.settings.yml
+  s_ed2c1f82db201a::t_d0bcf669504596 1-7
+drupal/config/sync/core.base_field_override.canvas_page.canvas_page.components.yml
+  s_ed2c1f82db201a::t_a71276fcad6c42 1-24
+drupal/config/sync/core.entity_form_display.block_content.basic.default.yml
+  s_ed2c1f82db201a::t_f4fe108742d6f9 33-39
+drupal/config/sync/core.entity_form_display.media.audio.default.yml
+  s_ed2c1f82db201a::t_13f43dbed6d045 31-37
+drupal/config/sync/core.entity_form_display.media.audio.media_library.yml
+  s_ed2c1f82db201a::t_40e0c27de7060d 15-22
+drupal/config/sync/core.entity_form_display.media.document.default.yml
+  s_ed2c1f82db201a::t_6b8aea1f47e62f 31-37
+drupal/config/sync/core.entity_form_display.media.document.media_library.yml
+  s_ed2c1f82db201a::t_747f6053b3473c 15-22
+drupal/config/sync/core.entity_form_display.media.image.default.yml
+  s_ed2c1f82db201a::t_14b78512a83d73 33-39
+drupal/config/sync/core.entity_form_display.media.image.media_library.yml
+  s_ed2c1f82db201a::t_09d1317c5fcae3 27-33
+drupal/config/sync/core.entity_form_display.media.remote_video.default.yml
+  s_ed2c1f82db201a::t_a7f61a220a3cdb 32-38
+drupal/config/sync/core.entity_form_display.media.remote_video.media_library.yml
+  s_ed2c1f82db201a::t_efda55cfe89f2c 15-22
+drupal/config/sync/core.entity_form_display.media.video.default.yml
+  s_ed2c1f82db201a::t_8b66fc0c72898b 31-37
+drupal/config/sync/core.entity_form_display.media.video.media_library.yml
+  s_ed2c1f82db201a::t_9976dc26108c2d 15-22
+drupal/config/sync/core.entity_form_display.user.user.default.yml
+  s_ed2c1f82db201a::t_cc421e5df90728 35-36
+drupal/config/sync/core.entity_view_display.block_content.basic.default.yml
+  s_ed2c1f82db201a::t_0fea553d27ee2f 24-25
+drupal/config/sync/core.entity_view_display.media.audio.default.yml
+  s_ed2c1f82db201a::t_ee853dfc5b4405 30
+drupal/config/sync/core.entity_view_display.media.audio.media_library.yml
+  s_ed2c1f82db201a::t_fa76514386a55a 33
+drupal/config/sync/core.entity_view_display.media.document.default.yml
+  s_ed2c1f82db201a::t_fecf2d86fc9af4 26
+drupal/config/sync/core.entity_view_display.media.document.media_library.yml
+  s_ed2c1f82db201a::t_3f46955cd3c1e4 33
+drupal/config/sync/core.entity_view_display.media.image.default.yml
+  s_ed2c1f82db201a::t_d4b03c181e26cb 31
+drupal/config/sync/core.entity_view_display.media.image.media_library.yml
+  s_ed2c1f82db201a::t_6ca00dfe24057c 33
+drupal/config/sync/core.entity_view_display.media.remote_video.default.yml
+  s_ed2c1f82db201a::t_2d61009347807e 30
+drupal/config/sync/core.entity_view_display.media.remote_video.media_library.yml
+  s_ed2c1f82db201a::t_6da40aee5d86c3 33
+drupal/config/sync/core.entity_view_display.media.video.default.yml
+  s_ed2c1f82db201a::t_2e1e634d100125 34
+drupal/config/sync/core.entity_view_display.media.video.media_library.yml
+  s_ed2c1f82db201a::t_120b2b92305ea4 33
+drupal/config/sync/core.entity_view_display.user.user.compact.yml
+  s_ed2c1f82db201a::t_dfc9738353f5ab 31
+drupal/config/sync/core.entity_view_display.user.user.default.yml
+  s_ed2c1f82db201a::t_b2a39874b1974d 32-33
+drupal/config/sync/core.extension.yml
+  s_ed2c1f82db201a::t_5d90c4354b394e 12-13,16,18,31,35,55
+drupal/config/sync/language.content_settings.canvas_page.canvas_page.yml
+  s_ed2c1f82db201a::t_c698fadd098f6a 1-8
+drupal/config/sync/language.content_settings.path_alias.path_alias.yml
+  s_ed2c1f82db201a::t_e4fceb72247f82 1-13
+drupal/config/sync/language.entity.en.yml
+  s_ed2c1f82db201a::t_733654d9dde980 1-11
+drupal/config/sync/language.entity.es.yml
+  s_ed2c1f82db201a::t_2d4f9d7ead5343 1-9
+drupal/config/sync/language.entity.und.yml
+  s_ed2c1f82db201a::t_5b40a1c532047d 1-11
+drupal/config/sync/language.entity.zxx.yml
+  s_ed2c1f82db201a::t_b46c3460df02f7 1-11
+drupal/config/sync/language.mappings.yml
+  s_ed2c1f82db201a::t_91d91246b8fda6 1-13
+drupal/config/sync/language.negotiation.yml
+  s_ed2c1f82db201a::t_31e5d82c354b5c 1-13
+drupal/config/sync/language.types.yml
+  s_ed2c1f82db201a::t_f9b00c3cd239a7 1-19
+drupal/config/sync/language/es/views.view.archive.yml
+  s_ed2c1f82db201a::t_e1715c2af95bff 1-3
+drupal/config/sync/language/es/views.view.block_content.yml
+  s_ed2c1f82db201a::t_70261125bdf90d 1-3
+drupal/config/sync/language/es/views.view.canvas_pages.yml
+  s_ed2c1f82db201a::t_eca05fcff910f0 1-3
+drupal/config/sync/language/es/views.view.content.yml
+  s_ed2c1f82db201a::t_fdb0254b27100d 1-3
+drupal/config/sync/language/es/views.view.frontpage.yml
+  s_ed2c1f82db201a::t_6ce745f0953198 1-3
+drupal/config/sync/language/es/views.view.glossary.yml
+  s_ed2c1f82db201a::t_ece4a4a8bc3d91 1-3
+drupal/config/sync/language/es/views.view.media_library.yml
+  s_ed2c1f82db201a::t_85fde76545aaa5 1-3
+drupal/config/sync/language/es/views.view.taxonomy_term.yml
+  s_ed2c1f82db201a::t_0e347bac476bab 1-3
+drupal/config/sync/language/es/views.view.user_admin_people.yml
+  s_ed2c1f82db201a::t_ffad6b8c98635c 1-3
+drupal/config/sync/language/es/views.view.watchdog.yml
+  s_ed2c1f82db201a::t_2b4a44bbdef2c3 1-3
+drupal/config/sync/locale.settings.yml
+  s_ed2c1f82db201a::t_806c074b807746 1-14
+drupal/config/sync/user.role.anonymous.yml
+  s_ed2c1f82db201a::t_943ca16896a123 8,20
+drupal/config/sync/views.view.content_recent.yml
+  s_ed2c1f82db201a::t_00ca11e11e9fdf 324-339
+drupal/web/modules/custom/canvas_headless_api/src/Controller/HeadlessApiController.php
+  s_ed2c1f82db201a::t_92e437eaf56fd0 1-175
+frontend/app/api/canvas/translations/route.ts
+  s_ed2c1f82db201a::t_1214245b487dcd 1-30
+frontend/components/aletheia-accordion-item/component.yml
+  s_ed2c1f82db201a::t_0170e07a2e9ade 1-44
+frontend/components/aletheia-accordion-item/index.jsx
+  s_ed2c1f82db201a::t_1b810cd6728a16 1-24
+frontend/components/aletheia-accordion/component.yml
+  s_ed2c1f82db201a::t_692a22c6ce1a89 1-30
+frontend/components/aletheia-accordion/index.jsx
+  s_ed2c1f82db201a::t_3da51690995ccd 1-24
+frontend/components/aletheia-action-bar/component.yml
+  s_ed2c1f82db201a::t_145d28e90cbd5d 1-37
+frontend/components/aletheia-action-bar/index.jsx
+  s_ed2c1f82db201a::t_ab8fee7d0533ad 1-24
+frontend/components/aletheia-agenda-item/component.yml
+  s_ed2c1f82db201a::t_3faddf3fc69ae9 1-14
+frontend/components/aletheia-agenda-item/index.jsx
+  s_ed2c1f82db201a::t_a47ba005d7d94f 1-24
+frontend/components/aletheia-agenda/component.yml
+  s_ed2c1f82db201a::t_205f902e894ab0 1-99
+frontend/components/aletheia-agenda/index.jsx
+  s_ed2c1f82db201a::t_6fbdcc4af11dbf 1-24
+frontend/components/aletheia-alert/component.yml
+  s_ed2c1f82db201a::t_4af2a8747fcbb0 1-67
+frontend/components/aletheia-alert/index.jsx
+  s_ed2c1f82db201a::t_9d685d425319a5 1-24
+frontend/components/aletheia-app-card-select/component.yml
+  s_ed2c1f82db201a::t_9c6b1c8d7f0fc1 1-59
+frontend/components/aletheia-app-card-select/index.jsx
+  s_ed2c1f82db201a::t_469ea992f388b2 1-24
+frontend/components/aletheia-app-face-id/component.yml
+  s_ed2c1f82db201a::t_0573589e0a24f1 1-24
+frontend/components/aletheia-app-face-id/index.jsx
+  s_ed2c1f82db201a::t_0a62bf1fa6beee 1-24
+frontend/components/aletheia-app-float-sheet/component.yml
+  s_ed2c1f82db201a::t_ca5b0eeeb07a30 1-48
+frontend/components/aletheia-app-float-sheet/index.jsx
+  s_ed2c1f82db201a::t_b5b6b0f7243bc9 1-24
+frontend/components/aletheia-app-list-action/component.yml
+  s_ed2c1f82db201a::t_866d42c01f5585 1-47
+frontend/components/aletheia-app-list-action/index.jsx
+  s_ed2c1f82db201a::t_85f32bc5438b45 1-24
+frontend/components/aletheia-app-list-single-select/component.yml
+  s_ed2c1f82db201a::t_dd4642fb8b1392 1-32
+frontend/components/aletheia-app-list-single-select/index.jsx
+  s_ed2c1f82db201a::t_55264a04253da1 1-24
+frontend/components/aletheia-app-navbar/component.yml
+  s_ed2c1f82db201a::t_c9187a2da850c5 1-74
+frontend/components/aletheia-app-navbar/index.jsx
+  s_ed2c1f82db201a::t_8b94c8c9036a0f 1-24
+frontend/components/aletheia-avatar/component.yml
+  s_ed2c1f82db201a::t_09b48fe7761b40 1-52
+frontend/components/aletheia-avatar/index.jsx
+  s_ed2c1f82db201a::t_2a42258082ba27 1-24
+frontend/components/aletheia-badge/component.yml
+  s_ed2c1f82db201a::t_7c9b7c60b4d840 1-75
+frontend/components/aletheia-badge/index.jsx
+  s_ed2c1f82db201a::t_63b337d881c8b4 1-24
+frontend/components/aletheia-button-copy/component.yml
+  s_ed2c1f82db201a::t_8793b023cf3a80 1-33
+frontend/components/aletheia-button-copy/index.jsx
+  s_ed2c1f82db201a::t_191234d818c593 1-24
+frontend/components/aletheia-button-expandable/component.yml
+  s_ed2c1f82db201a::t_b713873629eec4 1-40
+frontend/components/aletheia-button-expandable/index.jsx
+  s_ed2c1f82db201a::t_3516831654fd9c 1-24
+frontend/components/aletheia-button-float/component.yml
+  s_ed2c1f82db201a::t_fb13c0f525c700 1-32
+frontend/components/aletheia-button-float/index.jsx
+  s_ed2c1f82db201a::t_0cebad78e050d6 1-24
+frontend/components/aletheia-button-group/component.yml
+  s_ed2c1f82db201a::t_66f6c3ec1c844a 1-19
+frontend/components/aletheia-button-group/index.jsx
+  s_ed2c1f82db201a::t_a392e088d1f31d 1-24
+frontend/components/aletheia-button-link/component.yml
+  s_ed2c1f82db201a::t_968338dabd4d39 1-59
+frontend/components/aletheia-button-link/index.jsx
+  s_ed2c1f82db201a::t_65a3ad8de50d28 1-24
+frontend/components/aletheia-button/component.yml
+  s_ed2c1f82db201a::t_ceaa7c676c2e0e 1-86
+frontend/components/aletheia-button/index.jsx
+  s_ed2c1f82db201a::t_fcb7deb138bba8 1-24
+frontend/components/aletheia-calendar/component.yml
+  s_ed2c1f82db201a::t_a798bc2a47caf5 1-62
+frontend/components/aletheia-calendar/index.jsx
+  s_ed2c1f82db201a::t_19fdc47f71167b 1-24
+frontend/components/aletheia-card-header/component.yml
+  s_ed2c1f82db201a::t_85784362150a66 1-28
+frontend/components/aletheia-card-header/index.jsx
+  s_ed2c1f82db201a::t_a4cd8b702facda 1-24
+frontend/components/aletheia-card-selectable-group/component.yml
+  s_ed2c1f82db201a::t_c329ec1d9f186b 1-89
+frontend/components/aletheia-card-selectable-group/index.jsx
+  s_ed2c1f82db201a::t_e88514cdce7465 1-24
+frontend/components/aletheia-card-selectable/component.yml
+  s_ed2c1f82db201a::t_b753a3e1723ee7 1-65
+frontend/components/aletheia-card-selectable/index.jsx
+  s_ed2c1f82db201a::t_fe993a8151e7e1 1-24
+frontend/components/aletheia-card-thumbnail/component.yml
+  s_ed2c1f82db201a::t_33bd9a53a2d60e 1-39
+frontend/components/aletheia-card-thumbnail/index.jsx
+  s_ed2c1f82db201a::t_1b76108307dbb2 1-24
+frontend/components/aletheia-card/component.yml
+  s_ed2c1f82db201a::t_887726b24aab56 1-64
+frontend/components/aletheia-card/index.jsx
+  s_ed2c1f82db201a::t_6f90e96dfe2e7b 1-24
+frontend/components/aletheia-carousel-item/component.yml
+  s_ed2c1f82db201a::t_258587bdb4d974 1-14
+frontend/components/aletheia-carousel-item/index.jsx
+  s_ed2c1f82db201a::t_fda971ad4ceda9 1-24
+frontend/components/aletheia-carousel/component.yml
+  s_ed2c1f82db201a::t_7e86a69748b785 1-95
+frontend/components/aletheia-carousel/index.jsx
+  s_ed2c1f82db201a::t_2dcb7610efe418 1-24
+frontend/components/aletheia-checkbox-group/component.yml
+  s_ed2c1f82db201a::t_a581b020236e91 1-72
+frontend/components/aletheia-checkbox-group/index.jsx
+  s_ed2c1f82db201a::t_143dbd58c66003 1-24
+frontend/components/aletheia-checkbox/component.yml
+  s_ed2c1f82db201a::t_3c8c36bb0be51b 1-94
+frontend/components/aletheia-checkbox/index.jsx
+  s_ed2c1f82db201a::t_b4760d17b317c4 1-24
+frontend/components/aletheia-chip-choice-group/component.yml
+  s_ed2c1f82db201a::t_1dac8b019c51ed 1-45
+frontend/components/aletheia-chip-choice-group/index.jsx
+  s_ed2c1f82db201a::t_fc82fea6f0fdf8 1-24
+frontend/components/aletheia-chip-choice/component.yml
+  s_ed2c1f82db201a::t_d2b9576eb8a0f1 1-52
+frontend/components/aletheia-chip-choice/index.jsx
+  s_ed2c1f82db201a::t_dd0ba2f5ef90cd 1-24
+frontend/components/aletheia-chip-dismiss-group/component.yml
+  s_ed2c1f82db201a::t_fe618e536d17fa 1-30
+frontend/components/aletheia-chip-dismiss-group/index.jsx
+  s_ed2c1f82db201a::t_4cc02765b491c0 1-24
+frontend/components/aletheia-chip-dismiss/component.yml
+  s_ed2c1f82db201a::t_fb41c21294ac51 1-37
+frontend/components/aletheia-chip-dismiss/index.jsx
+  s_ed2c1f82db201a::t_f921ee741c1b99 1-24
+frontend/components/aletheia-collapse-icon/component.yml
+  s_ed2c1f82db201a::t_12619e575b7195 1-23
+frontend/components/aletheia-collapse-icon/index.jsx
+  s_ed2c1f82db201a::t_1709faaceb9f9e 1-24
+frontend/components/aletheia-collapse/component.yml
+  s_ed2c1f82db201a::t_27fc02c31410a5 1-14
+frontend/components/aletheia-collapse/index.jsx
+  s_ed2c1f82db201a::t_c274e270b52058 1-24
+frontend/components/aletheia-content-header-description/component.yml
+  s_ed2c1f82db201a::t_9669e5c38bcbd2 1-31
+frontend/components/aletheia-content-header-description/index.jsx
+  s_ed2c1f82db201a::t_4f484b8bde12f2 1-24
+frontend/components/aletheia-content-header-indicator-group/component.yml
+  s_ed2c1f82db201a::t_e186a8c904e45f 1-14
+frontend/components/aletheia-content-header-indicator-group/index.jsx
+  s_ed2c1f82db201a::t_76230cb7d5489f 1-24
+frontend/components/aletheia-content-header-indicator-list/component.yml
+  s_ed2c1f82db201a::t_e5ebb371d8fe7c 1-24
+frontend/components/aletheia-content-header-indicator-list/index.jsx
+  s_ed2c1f82db201a::t_f41ad1de98fa70 1-24
+frontend/components/aletheia-content-header-indicator/component.yml
+  s_ed2c1f82db201a::t_3d2467633ad11a 1-57
+frontend/components/aletheia-content-header-indicator/index.jsx
+  s_ed2c1f82db201a::t_a88fc6579a019a 1-24
+frontend/components/aletheia-content-header-status/component.yml
+  s_ed2c1f82db201a::t_13a530f76d6e41 1-23
+frontend/components/aletheia-content-header-status/index.jsx
+  s_ed2c1f82db201a::t_4e14b1449e0fd4 1-24
+frontend/components/aletheia-content-header/component.yml
+  s_ed2c1f82db201a::t_ed3f47267fcf62 1-33
+frontend/components/aletheia-content-header/index.jsx
+  s_ed2c1f82db201a::t_4ba35cb85e28c3 1-24
+frontend/components/aletheia-datepicker-range/component.yml
+  s_ed2c1f82db201a::t_a15c690f5a4ffd 1-191
+frontend/components/aletheia-datepicker-range/index.jsx
+  s_ed2c1f82db201a::t_3bf18abbb5ee67 1-24
+frontend/components/aletheia-datepicker/component.yml
+  s_ed2c1f82db201a::t_cbe14388571007 1-156
+frontend/components/aletheia-datepicker/index.jsx
+  s_ed2c1f82db201a::t_37d52939c8fe4c 1-24
+frontend/components/aletheia-divider/component.yml
+  s_ed2c1f82db201a::t_4d1cde3525d889 1-43
+frontend/components/aletheia-divider/index.jsx
+  s_ed2c1f82db201a::t_dd55b50590e64f 1-24
+frontend/components/aletheia-dropdown-option/component.yml
+  s_ed2c1f82db201a::t_dfdfad1692f354 1-51
+frontend/components/aletheia-dropdown-option/index.jsx
+  s_ed2c1f82db201a::t_d5e1e78aaa9c3a 1-24
+frontend/components/aletheia-dropdown/component.yml
+  s_ed2c1f82db201a::t_13b84941c8d7d1 1-153
+frontend/components/aletheia-dropdown/index.jsx
+  s_ed2c1f82db201a::t_d460de98e8bf12 1-24
+frontend/components/aletheia-empty-state/component.yml
+  s_ed2c1f82db201a::t_1ab4624e85f025 1-64
+frontend/components/aletheia-empty-state/index.jsx
+  s_ed2c1f82db201a::t_359786cd9952a4 1-24
+frontend/components/aletheia-file-list-item/component.yml
+  s_ed2c1f82db201a::t_db395b5541d99a 1-69
+frontend/components/aletheia-file-list-item/index.jsx
+  s_ed2c1f82db201a::t_6ca91c00826d0d 1-24
+frontend/components/aletheia-file-list/component.yml
+  s_ed2c1f82db201a::t_0cf7eead052aaa 1-10
+frontend/components/aletheia-file-list/index.jsx
+  s_ed2c1f82db201a::t_f20da2426abfe3 1-24
+frontend/components/aletheia-file-uploader/component.yml
+  s_ed2c1f82db201a::t_c95756dbb89d24 1-113
+frontend/components/aletheia-file-uploader/index.jsx
+  s_ed2c1f82db201a::t_f1554115ab6bb9 1-24
+frontend/components/aletheia-footer-link-group/component.yml
+  s_ed2c1f82db201a::t_e7cf7a8f513078 1-24
+frontend/components/aletheia-footer-link-group/index.jsx
+  s_ed2c1f82db201a::t_c3def8cc054cd8 1-24
+frontend/components/aletheia-footer-link/component.yml
+  s_ed2c1f82db201a::t_a0a6d3591c431f 1-63
+frontend/components/aletheia-footer-link/index.jsx
+  s_ed2c1f82db201a::t_054eaca42c66bc 1-24
+frontend/components/aletheia-footer-social-link/component.yml
+  s_ed2c1f82db201a::t_1739e3b6659f11 1-52
+frontend/components/aletheia-footer-social-link/index.jsx
+  s_ed2c1f82db201a::t_50560a05411a68 1-24
+frontend/components/aletheia-footer/component.yml
+  s_ed2c1f82db201a::t_989050af4bbb9b 1-32
+frontend/components/aletheia-footer/index.jsx
+  s_ed2c1f82db201a::t_2d00ab636a5840 1-24
+frontend/components/aletheia-global-header-desktop-nav-item/component.yml
+  s_ed2c1f82db201a::t_ba1ab3952012e1 1-19
+frontend/components/aletheia-global-header-desktop-nav-item/index.jsx
+  s_ed2c1f82db201a::t_7939769c4744f6 1-24
+frontend/components/aletheia-global-header-desktop/component.yml
+  s_ed2c1f82db201a::t_8dd34a386ed306 1-47
+frontend/components/aletheia-global-header-desktop/index.jsx
+  s_ed2c1f82db201a::t_6c3563ac3e04a0 1-24
+frontend/components/aletheia-global-header-mobile-modal/component.yml
+  s_ed2c1f82db201a::t_e9ddf51dbfafe7 1-19
+frontend/components/aletheia-global-header-mobile-modal/index.jsx
+  s_ed2c1f82db201a::t_0f3c14046ad843 1-24
+frontend/components/aletheia-global-header-mobile-sidebar-item/component.yml
+  s_ed2c1f82db201a::t_a7ed5fa7f851f5 1-24
+frontend/components/aletheia-global-header-mobile-sidebar-item/index.jsx
+  s_ed2c1f82db201a::t_f3514918a30ad1 1-24
+frontend/components/aletheia-global-header-mobile-sidebar/component.yml
+  s_ed2c1f82db201a::t_38a13bbed0dddb 1-10
+frontend/components/aletheia-global-header-mobile-sidebar/index.jsx
+  s_ed2c1f82db201a::t_68d7980dda4f52 1-24
+frontend/components/aletheia-global-header-mobile/component.yml
+  s_ed2c1f82db201a::t_5c0c77b7cbc9c6 1-31
+frontend/components/aletheia-global-header-mobile/index.jsx
+  s_ed2c1f82db201a::t_40bd1fe625222d 1-24
+frontend/components/aletheia-global-header/component.yml
+  s_ed2c1f82db201a::t_43566437deaae0 1-19
+frontend/components/aletheia-global-header/index.jsx
+  s_ed2c1f82db201a::t_6942da210b01ae 1-24
+frontend/components/aletheia-global-search/component.yml
+  s_ed2c1f82db201a::t_13b4a1e59ea29c 1-21
+frontend/components/aletheia-global-search/index.jsx
+  s_ed2c1f82db201a::t_393db8e7f04af7 1-24
+frontend/components/aletheia-heading-editable/component.yml
+  s_ed2c1f82db201a::t_c1494daed477d9 1-63
+frontend/components/aletheia-heading-editable/index.jsx
+  s_ed2c1f82db201a::t_2ad61db7e7cec7 1-24
+frontend/components/aletheia-icon/component.yml
+  s_ed2c1f82db201a::t_cd15d2f1e15fe8 1-63
+frontend/components/aletheia-icon/index.jsx
+  s_ed2c1f82db201a::t_0095447ca63a91 1-24
+frontend/components/aletheia-illustration/component.yml
+  s_ed2c1f82db201a::t_37c1bd0683fb1b 1-28
+frontend/components/aletheia-illustration/index.jsx
+  s_ed2c1f82db201a::t_69489dd0516d81 1-24
+frontend/components/aletheia-input-counter/component.yml
+  s_ed2c1f82db201a::t_92315aaeef2737 1-127
+frontend/components/aletheia-input-counter/index.jsx
+  s_ed2c1f82db201a::t_f96c1b1c5feb8b 1-24
+frontend/components/aletheia-input-exchange/component.yml
+  s_ed2c1f82db201a::t_511581462eac31 1-111
+frontend/components/aletheia-input-exchange/index.jsx
+  s_ed2c1f82db201a::t_40c556b42293a0 1-24
+frontend/components/aletheia-input-password/component.yml
+  s_ed2c1f82db201a::t_b7177464a38aa7 1-167
+frontend/components/aletheia-input-password/index.jsx
+  s_ed2c1f82db201a::t_b03468ee20f041 1-24
+frontend/components/aletheia-input-range/component.yml
+  s_ed2c1f82db201a::t_8310c2745ae310 1-138
+frontend/components/aletheia-input-range/index.jsx
+  s_ed2c1f82db201a::t_66a3bee43ce0d2 1-24
+frontend/components/aletheia-input-text/component.yml
+  s_ed2c1f82db201a::t_3c29f540b56c7f 1-178
+frontend/components/aletheia-input-text/index.jsx
+  s_ed2c1f82db201a::t_debadb264f696a 1-24
+frontend/components/aletheia-input-textarea/component.yml
+  s_ed2c1f82db201a::t_833c8efe99ff62 1-137
+frontend/components/aletheia-input-textarea/index.jsx
+  s_ed2c1f82db201a::t_f221bb5cb92dde 1-24
+frontend/components/aletheia-link-button/component.yml
+  s_ed2c1f82db201a::t_94f773222ad21a 1-68
+frontend/components/aletheia-link-button/index.jsx
+  s_ed2c1f82db201a::t_666e1a3b4a585e 1-24
+frontend/components/aletheia-link/component.yml
+  s_ed2c1f82db201a::t_93be3befac5cfe 1-81
+frontend/components/aletheia-link/index.jsx
+  s_ed2c1f82db201a::t_0ae79f9db88618 1-24
+frontend/components/aletheia-list-item/component.yml
+  s_ed2c1f82db201a::t_27cf2de7f64b30 1-120
+frontend/components/aletheia-list-item/index.jsx
+  s_ed2c1f82db201a::t_b80514f6a893b4 1-24
+frontend/components/aletheia-list/component.yml
+  s_ed2c1f82db201a::t_91dbf1dc5e84b1 1-50
+frontend/components/aletheia-list/index.jsx
+  s_ed2c1f82db201a::t_12d9c1b812bd51 1-24
+frontend/components/aletheia-loader-shuffle/component.yml
+  s_ed2c1f82db201a::t_c769f6b74c80b8 1-23
+frontend/components/aletheia-loader-shuffle/index.jsx
+  s_ed2c1f82db201a::t_92f482058c727d 1-24
+frontend/components/aletheia-loader-spinner/component.yml
+  s_ed2c1f82db201a::t_f83f0a4db1b64c 1-28
+frontend/components/aletheia-loader-spinner/index.jsx
+  s_ed2c1f82db201a::t_18943b232aa04d 1-24
+frontend/components/aletheia-logo/component.yml
+  s_ed2c1f82db201a::t_4ac5a581503eda 1-28
+frontend/components/aletheia-logo/index.jsx
+  s_ed2c1f82db201a::t_ce2e475f6125b6 1-24
+frontend/components/aletheia-menu-box-group/component.yml
+  s_ed2c1f82db201a::t_fd9ccf6f43507e 1-29
+frontend/components/aletheia-menu-box-group/index.jsx
+  s_ed2c1f82db201a::t_a2febb3a9e6c91 1-24
+frontend/components/aletheia-menu-box-option/component.yml
+  s_ed2c1f82db201a::t_4ea66e9930cbbd 1-52
+frontend/components/aletheia-menu-box-option/index.jsx
+  s_ed2c1f82db201a::t_9d9ac3fa04bc10 1-24
+frontend/components/aletheia-menu-box/component.yml
+  s_ed2c1f82db201a::t_2ef0c637eccf5b 1-82
+frontend/components/aletheia-menu-box/index.jsx
+  s_ed2c1f82db201a::t_2e353853ffbe0b 1-24
+frontend/components/aletheia-menu-button-item/component.yml
+  s_ed2c1f82db201a::t_28549b5b9949c7 1-36
+frontend/components/aletheia-menu-button-item/index.jsx
+  s_ed2c1f82db201a::t_9c47b6940528f9 1-24
+frontend/components/aletheia-menu-button/component.yml
+  s_ed2c1f82db201a::t_6b2e95daab9e03 1-79
+frontend/components/aletheia-menu-button/index.jsx
+  s_ed2c1f82db201a::t_df0451ec427c44 1-24
+frontend/components/aletheia-menu-horizontal-item/component.yml
+  s_ed2c1f82db201a::t_3489af78447334 1-74
+frontend/components/aletheia-menu-horizontal-item/index.jsx
+  s_ed2c1f82db201a::t_8dfbc1695000bd 1-24
+frontend/components/aletheia-menu-horizontal/component.yml
+  s_ed2c1f82db201a::t_d4ebe2cb81f1d3 1-23
+frontend/components/aletheia-menu-horizontal/index.jsx
+  s_ed2c1f82db201a::t_643f6512c15761 1-24
+frontend/components/aletheia-menu-lateral-item-action/component.yml
+  s_ed2c1f82db201a::t_1b6fd37b63d352 1-51
+frontend/components/aletheia-menu-lateral-item-action/index.jsx
+  s_ed2c1f82db201a::t_839a62d0605f3e 1-24
+frontend/components/aletheia-menu-lateral-item-link/component.yml
+  s_ed2c1f82db201a::t_22ed61819314f2 1-72
+frontend/components/aletheia-menu-lateral-item-link/index.jsx
+  s_ed2c1f82db201a::t_7a02eecc25e541 1-24
+frontend/components/aletheia-menu-lateral/component.yml
+  s_ed2c1f82db201a::t_f29bbc4530fc3b 1-13
+frontend/components/aletheia-menu-lateral/index.jsx
+  s_ed2c1f82db201a::t_c3c65d1f2a150d 1-24
+frontend/components/aletheia-menu-vertical-item-action/component.yml
+  s_ed2c1f82db201a::t_23268717dffe67 1-36
+frontend/components/aletheia-menu-vertical-item-action/index.jsx
+  s_ed2c1f82db201a::t_c28c6e90598354 1-24
+frontend/components/aletheia-menu-vertical-item-link/component.yml
+  s_ed2c1f82db201a::t_929b3ad36c2fbc 1-62
+frontend/components/aletheia-menu-vertical-item-link/index.jsx
+  s_ed2c1f82db201a::t_859b3bbcc1aeb9 1-24
+frontend/components/aletheia-menu-vertical/component.yml
+  s_ed2c1f82db201a::t_4d2d159d0daf2b 1-19
+frontend/components/aletheia-menu-vertical/index.jsx
+  s_ed2c1f82db201a::t_47782d9e16acfe 1-24
+frontend/components/aletheia-metric/component.yml
+  s_ed2c1f82db201a::t_f70543c535ad5a 1-53
+frontend/components/aletheia-metric/index.jsx
+  s_ed2c1f82db201a::t_0bd6d9599e7711 1-24
+frontend/components/aletheia-modal/component.yml
+  s_ed2c1f82db201a::t_f305de3692ccb2 1-104
+frontend/components/aletheia-modal/index.jsx
+  s_ed2c1f82db201a::t_692132c2263e42 1-24
+frontend/components/aletheia-option-list-item/component.yml
+  s_ed2c1f82db201a::t_121ab54dc87295 1-63
+frontend/components/aletheia-option-list-item/index.jsx
+  s_ed2c1f82db201a::t_92b0c7c8f72e49 1-24
+frontend/components/aletheia-option-list/component.yml
+  s_ed2c1f82db201a::t_12e7d91020ff63 1-39
+frontend/components/aletheia-option-list/index.jsx
+  s_ed2c1f82db201a::t_0b5be559092824 1-24
+frontend/components/aletheia-overlay/component.yml
+  s_ed2c1f82db201a::t_8a3f429ebf17fb 1-66
+frontend/components/aletheia-overlay/index.jsx
+  s_ed2c1f82db201a::t_98ea84c9edf07d 1-24
+frontend/components/aletheia-pagination/component.yml
+  s_ed2c1f82db201a::t_aec4516d4464a4 1-58
+frontend/components/aletheia-pagination/index.jsx
+  s_ed2c1f82db201a::t_c797ab351de201 1-24
+frontend/components/aletheia-panel/component.yml
+  s_ed2c1f82db201a::t_e637321eb94004 1-21
+frontend/components/aletheia-panel/index.jsx
+  s_ed2c1f82db201a::t_b49b41f544ae7c 1-24
+frontend/components/aletheia-pictogram/component.yml
+  s_ed2c1f82db201a::t_5700a2893c1914 1-42
+frontend/components/aletheia-pictogram/index.jsx
+  s_ed2c1f82db201a::t_41cec32ccfb12a 1-24
+frontend/components/aletheia-progress-bar/component.yml
+  s_ed2c1f82db201a::t_d4a105225addfd 1-59
+frontend/components/aletheia-progress-bar/index.jsx
+  s_ed2c1f82db201a::t_5e35e19ca65b7a 1-24
+frontend/components/aletheia-radio-button-group/component.yml
+  s_ed2c1f82db201a::t_850051d2c7d157 1-93
+frontend/components/aletheia-radio-button-group/index.jsx
+  s_ed2c1f82db201a::t_2a035dd2e91b2e 1-24
+frontend/components/aletheia-radio-button/component.yml
+  s_ed2c1f82db201a::t_e71e14eedd6499 1-43
+frontend/components/aletheia-radio-button/index.jsx
+  s_ed2c1f82db201a::t_f19c6ae22fa6c2 1-24
+frontend/components/aletheia-search-suggested-item/component.yml
+  s_ed2c1f82db201a::t_729010a9dc2e36 1-18
+frontend/components/aletheia-search-suggested-item/index.jsx
+  s_ed2c1f82db201a::t_8be6950d5ee25b 1-24
+frontend/components/aletheia-search/component.yml
+  s_ed2c1f82db201a::t_27e3eb26b54143 1-63
+frontend/components/aletheia-search/index.jsx
+  s_ed2c1f82db201a::t_d6debaf9aa9798 1-24
+frontend/components/aletheia-section-title/component.yml
+  s_ed2c1f82db201a::t_fcc47adcb02c95 1-94
+frontend/components/aletheia-section-title/index.jsx
+  s_ed2c1f82db201a::t_e9f723a7178e24 1-24
+frontend/components/aletheia-segmented-control-item/component.yml
+  s_ed2c1f82db201a::t_6736ef0bf6a309 1-79
+frontend/components/aletheia-segmented-control-item/index.jsx
+  s_ed2c1f82db201a::t_5908cfcd88cdef 1-24
+frontend/components/aletheia-segmented-control/component.yml
+  s_ed2c1f82db201a::t_744e3ce7f5d630 1-117
+frontend/components/aletheia-segmented-control/index.jsx
+  s_ed2c1f82db201a::t_1ad2b80111666f 1-24
+frontend/components/aletheia-slider/component.yml
+  s_ed2c1f82db201a::t_4f3d50c8e41e69 1-160
+frontend/components/aletheia-slider/index.jsx
+  s_ed2c1f82db201a::t_cacc952f377ee8 1-24
+frontend/components/aletheia-step/component.yml
+  s_ed2c1f82db201a::t_1bd3076bfde981 1-147
+frontend/components/aletheia-step/index.jsx
+  s_ed2c1f82db201a::t_3a13b631568b02 1-24
+frontend/components/aletheia-stepper/component.yml
+  s_ed2c1f82db201a::t_cfe5dc7ab1f46d 1-97
+frontend/components/aletheia-stepper/index.jsx
+  s_ed2c1f82db201a::t_3e002ea51c0d50 1-24
+frontend/components/aletheia-switch/component.yml
+  s_ed2c1f82db201a::t_70e5b49f5cdfe5 1-28
+frontend/components/aletheia-switch/index.jsx
+  s_ed2c1f82db201a::t_f34b84f7b00dc3 1-24
+frontend/components/aletheia-tab/component.yml
+  s_ed2c1f82db201a::t_2e643a0d2869e2 1-36
+frontend/components/aletheia-tab/index.jsx
+  s_ed2c1f82db201a::t_384a2c839af623 1-24
+frontend/components/aletheia-table-body/component.yml
+  s_ed2c1f82db201a::t_a31e030ec6aab5 1-10
+frontend/components/aletheia-table-body/index.jsx
+  s_ed2c1f82db201a::t_a34e6d8eef0dd7 1-24
+frontend/components/aletheia-table-header-item/component.yml
+  s_ed2c1f82db201a::t_7e1dfd75171dee 1-69
+frontend/components/aletheia-table-header-item/index.jsx
+  s_ed2c1f82db201a::t_aef76643f2c9f5 1-24
+frontend/components/aletheia-table-header/component.yml
+  s_ed2c1f82db201a::t_7dfd747ee78ee0 1-92
+frontend/components/aletheia-table-header/index.jsx
+  s_ed2c1f82db201a::t_455621ba7b3d1f 1-24
+frontend/components/aletheia-table-row-item/component.yml
+  s_ed2c1f82db201a::t_04a087371a14ad 1-106
+frontend/components/aletheia-table-row-item/index.jsx
+  s_ed2c1f82db201a::t_d5bec47121791b 1-24
+frontend/components/aletheia-table-row/component.yml
+  s_ed2c1f82db201a::t_f674ceeec00c0f 1-140
+frontend/components/aletheia-table-row/index.jsx
+  s_ed2c1f82db201a::t_1017b1307a1d8c 1-24
+frontend/components/aletheia-table/component.yml
+  s_ed2c1f82db201a::t_ab4daf9a1bc079 1-86
+frontend/components/aletheia-table/index.jsx
+  s_ed2c1f82db201a::t_ddbd33edd3f390 1-24
+frontend/components/aletheia-tabs/component.yml
+  s_ed2c1f82db201a::t_7427499e59462d 1-30
+frontend/components/aletheia-tabs/index.jsx
+  s_ed2c1f82db201a::t_a44a0b41bbc795 1-24
+frontend/components/aletheia-tag/component.yml
+  s_ed2c1f82db201a::t_b556eab7071ae3 1-51
+frontend/components/aletheia-tag/index.jsx
+  s_ed2c1f82db201a::t_deececcc247a69 1-24
+frontend/components/aletheia-tooltip-trigger/component.yml
+  s_ed2c1f82db201a::t_44a905cf21a8a3 1-21
+frontend/components/aletheia-tooltip-trigger/index.jsx
+  s_ed2c1f82db201a::t_7f1a934f9dadc5 1-24
+frontend/components/aletheia-tooltip/component.yml
+  s_ed2c1f82db201a::t_10de33baa9297c 1-69
+frontend/components/aletheia-tooltip/index.jsx
+  s_ed2c1f82db201a::t_0904f43cdd0a3a 1-24
+frontend/components/aletheia-user-detail/component.yml
+  s_ed2c1f82db201a::t_93f68e95f60683 1-54
+frontend/components/aletheia-user-detail/index.jsx
+  s_ed2c1f82db201a::t_68a451adb2487b 1-24
+frontend/components/aletheia-user-menu-item/component.yml
+  s_ed2c1f82db201a::t_61df004d203d6a 1-49
+frontend/components/aletheia-user-menu-item/index.jsx
+  s_ed2c1f82db201a::t_d0ec1c8fbca941 1-24
+frontend/components/aletheia-user-menu/component.yml
+  s_ed2c1f82db201a::t_c423c3d10a31a8 1-44
+frontend/components/aletheia-user-menu/index.jsx
+  s_ed2c1f82db201a::t_208a82eb344cdf 1-24
+frontend/components/language-switcher/index.jsx
+  s_ed2c1f82db201a::t_78ff5ceab535e7 1-87
+frontend/lib/aletheia/client-components.js
+  s_ed2c1f82db201a::t_91316c5ce40413 1-9
+frontend/lib/aletheia/element.jsx
+  s_ed2c1f82db201a::t_157561855e53ca 1-103
+frontend/lib/aletheia/runtime.jsx
+  s_ed2c1f82db201a::t_d6824b2f94a41e 1-24
+frontend/proxy.ts
+  s_83e07987b2b8a8::t_8da8b9ac652892 1-2,4-29
+frontend/scripts/generate-aletheia-canvas.mjs
+  s_ed2c1f82db201a::t_91c76167944503 1-290
+frontend/vendor/aletheia-2-core
+  s_ed2c1f82db201a::t_5e8be2b78023e6 1
+README.md
+  s_ed2c1f82db201a::t_fc415f2a7a6902 52-55,68-76,84-125
+drupal/web/modules/custom/canvas_headless_api/canvas_headless_api.info.yml
+  s_ed2c1f82db201a::t_6abeb2ae6b2200 1-8
+drupal/web/modules/custom/canvas_headless_api/canvas_headless_api.routing.yml
+  s_ed2c1f82db201a::t_a8c7983cd3cd87 1-20
+frontend/.gitignore
+  s_ed2c1f82db201a::t_a096bf4d9df01e 46-48
+frontend/README.md
+  s_ed2c1f82db201a::t_5c7cb44833d6b6 17,130-150
+frontend/app/[locale]/[[...slug]]/page.tsx
+  s_ed2c1f82db201a::t_80b09e1d5a806c 12,16-17,22-46,51-54,56-60,64,68-71,83,86-88,94-96,101,125
+frontend/app/api/drupal/contact/[formId]/route.ts
+  s_ed2c1f82db201a::t_10a9ce4ac742e3 1-44
+frontend/app/api/drupal/views/[viewId]/[displayId]/route.ts
+  s_ed2c1f82db201a::t_500404482769c7 1-35
+frontend/app/globals.css
+  s_ed2c1f82db201a::t_e0bbbd39f624e1 19,22,25-140
+frontend/app/layout.tsx
+  s_ed2c1f82db201a::t_b4fa701e313c19 6,10,21-30,47-49,56-57
+frontend/app/page.tsx
+  s_ed2c1f82db201a::t_091bf66f48add8 1-5
+frontend/components/README.md
+  s_ed2c1f82db201a::t_4e48fcbd8b76a5 1-13
+frontend/components/drupal-contact-form/component.yml
+  s_ed2c1f82db201a::t_e45bf2167262d0 1-23
+frontend/components/drupal-contact-form/index.jsx
+  s_ed2c1f82db201a::t_b01ecc6615bbcf 1-97
+frontend/components/drupal-view/component.yml
+  s_ed2c1f82db201a::t_5182cee3b967a8 1-43
+frontend/components/drupal-view/index.jsx
+  s_ed2c1f82db201a::t_e585be1dd8dec0 1-180
+frontend/components/footer/index.jsx
+  s_ed2c1f82db201a::t_52128b001df4ad 1-2,5,7-18
+frontend/components/header/index.jsx
+  s_ed2c1f82db201a::t_a0b9212cca051e 2-3,5
+frontend/components/language-switcher/component.yml
+  s_ed2c1f82db201a::t_f47fb6ead97da4 1-7
+frontend/components/ntt-data-logo/index.jsx
+  s_ed2c1f82db201a::t_e2effd3592d615 2-8
+frontend/eslint.config.mjs
+  s_ed2c1f82db201a::t_3087d8ffd196fa 22
+frontend/lib/content.ts
+  s_ed2c1f82db201a::t_7bcf46e7c5d206 7,50-52,60-62
+frontend/lib/drupal-api.ts
+  s_ed2c1f82db201a::t_35e552eb42c6b0 1-26
+frontend/lib/i18n.ts
+  s_ed2c1f82db201a::t_012c90ba73d79c 1-19
+frontend/package.json
+  s_ed2c1f82db201a::t_5069d3a96c5057 9-14
+frontend/public/ntt-data-logo.svg
+  s_ed2c1f82db201a::t_9ac3228750989a 1-9
+frontend/scripts/build-aletheia.mjs
+  s_ed2c1f82db201a::t_1ba27eb1b2b4be 1-68
+frontend/tsconfig.json
+  s_ed2c1f82db201a::t_4a426fdfd8c2b4 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9f03a385de9d923a191b55f8b135561f379e86a8",
+  "prompts": {},
+  "sessions": {
+    "s_83e07987b2b8a8": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "eba4f3af-f068-49d0-a13d-e8cb2c6993e5",
+        "model": "copilot/claude-opus-5.5"
+      },
+      "human_author": "Pablo Alberto Grande García <pabloaggar@ext.inditex.com>"
+    },
+    "s_ed2c1f82db201a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11a8d-f4bc-7411-bbaa-3694b52445b5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Pablo Alberto Grande García <pabloaggar@ext.inditex.com>"
+    }
+  }
+}
