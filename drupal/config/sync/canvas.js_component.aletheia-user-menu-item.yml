@@ -1,0 +1,53 @@
+uuid: a1322f92-5a51-475c-8db8-18e739411c2d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-user-menu-item
+name: 'Aletheia User menu item'
+type: external
+required: {  }
+props:
+  avatarSize:
+    type: string
+    title: 'Avatar Size'
+    examples:
+      - 'Example avatar size'
+  buttonAriaLabel:
+    type: string
+    title: 'Button Aria Label'
+    examples:
+      - 'Example button aria label'
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  initials:
+    type: string
+    title: Initials
+    examples:
+      - 'Example initials'
+  srcImage:
+    type: string
+    title: 'Src Image'
+    examples:
+      - 'Example src image'
+  type:
+    type: string
+    title: Type
+    examples:
+      - 'Example type'
+  userName:
+    type: string
+    title: 'User Name'
+    examples:
+      - 'Example user name'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

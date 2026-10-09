@@ -1,0 +1,24 @@
+uuid: b5a05510-4497-47e1-9522-7cf9c63a6e3a
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-tooltip-trigger
+name: 'Aletheia Tooltip trigger'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Más información'
+  icon:
+    type: string
+    title: Icon
+  size:
+    type: string
+    title: Size
+    examples:
+      - md
+slots: {  }
+dataDependencies: {  }

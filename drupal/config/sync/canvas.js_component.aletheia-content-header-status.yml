@@ -1,0 +1,26 @@
+uuid: 3bd78f00-be3a-4943-8225-69be0f12ae0b
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-content-header-status
+name: 'Aletheia Content header status'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  status:
+    type: string
+    title: Status
+    examples:
+      - 'Example status'
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+slots: {  }
+dataDependencies: {  }

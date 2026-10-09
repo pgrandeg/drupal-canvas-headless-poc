@@ -1,0 +1,63 @@
+uuid: c5dbb091-aac5-4699-8e2a-7c8dea340ab8
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-footer
+active_version: 0151cb5c04e34fa2
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        columns:
+          required: false
+          field_type: float
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 4.0
+          expression: ℹ︎float␟value
+          derived_schema_metadata: {  }
+        sitemapAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example sitemap aria label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        type:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        utilityTop:
+          title: 'Utility Top'
+        sitemap:
+          title: Sitemap
+        utilityBottom:
+          title: 'Utility Bottom'
+        copyright:
+          title: Copyright
+        rightElement:
+          title: 'Right Element'
+label: 'Aletheia Footer'
+id: js.aletheia-footer
+provider: null
+source: js
+source_local_id: aletheia-footer

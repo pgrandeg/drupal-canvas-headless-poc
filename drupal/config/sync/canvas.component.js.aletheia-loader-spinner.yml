@@ -1,0 +1,117 @@
+uuid: ac2fa10a-8a56-4d53-a671-0278849b5f79
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-loader-spinner
+active_version: b42d11b3f64fd3b4
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        accessibleText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Cargando contenido'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingLevel:
+          required: false
+          field_type: float
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 4.0
+          expression: ℹ︎float␟value
+          derived_schema_metadata: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        size:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+  8451eb673de17304:
+    settings:
+      prop_field_definitions:
+        accessibleText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Cargando contenido'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingLevel:
+          required: false
+          field_type: float
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 0.0
+          expression: ℹ︎float␟value
+          derived_schema_metadata: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        size:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Loader spinner'
+id: js.aletheia-loader-spinner
+provider: null
+source: js
+source_local_id: aletheia-loader-spinner

@@ -1,0 +1,66 @@
+uuid: 61cdc50d-48c2-4f8b-89cc-79128fb44ffe
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-icon
+name: 'Aletheia Icon'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  color:
+    type: string
+    enum:
+      - accent
+      - default
+      - disabled
+      - error
+      - info
+      - inherit
+      - inverse
+      - primary
+      - success
+      - warning
+    'meta:enum':
+      accent: Accent
+      default: Default
+      disabled: Disabled
+      error: Error
+      info: Info
+      inherit: Inherit
+      inverse: Inverse
+      primary: Primary
+      success: Success
+      warning: Warning
+    title: Color
+    examples:
+      - accent
+  icon:
+    type: string
+    title: Icon
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - lg
+slots: {  }
+dataDependencies: {  }

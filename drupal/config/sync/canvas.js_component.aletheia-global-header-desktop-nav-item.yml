@@ -1,0 +1,23 @@
+uuid: ca065ecb-9154-4a5f-8b5c-03b3edaa596d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-desktop-nav-item
+name: 'Aletheia Global header desktop nav item'
+type: external
+required: {  }
+props:
+  hasSeparatorLeft:
+    type: boolean
+    title: 'Has Separator Left'
+    examples:
+      - false
+  hasSeparatorRight:
+    type: boolean
+    title: 'Has Separator Right'
+    examples:
+      - false
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

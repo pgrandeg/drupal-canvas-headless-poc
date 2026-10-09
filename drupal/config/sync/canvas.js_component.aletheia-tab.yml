@@ -1,0 +1,39 @@
+uuid: edc7ac4d-e364-47e0-9dde-e8fe33039db6
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-tab
+name: 'Aletheia Tab'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  iconAriaLabel:
+    type: string
+    title: 'Icon Aria Label'
+    examples:
+      - 'Example icon aria label'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  navigationData:
+    type: string
+    title: 'Navigation Data'
+    examples:
+      - 'Example navigation data'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+slots: {  }
+dataDependencies: {  }

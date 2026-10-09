@@ -1,0 +1,21 @@
+uuid: 26ffdaed-8cd4-4451-8b2c-27fd536b6aa5
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-search-suggested-item
+name: 'Aletheia Search suggested item'
+type: external
+required: {  }
+props:
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

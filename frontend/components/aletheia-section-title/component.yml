@@ -1,0 +1,94 @@
+name: Aletheia Section title
+machineName: aletheia-section-title
+status: true
+required: []
+props:
+  properties:
+    collapsable:
+      title: Collapsable
+      type: boolean
+      examples:
+        - false
+    collapseTarget:
+      title: Collapse Target
+      type: string
+      examples:
+        - "Example collapse target"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "primary"
+      meta:enum:
+        accent: "Accent"
+        primary: "Primary"
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 4
+    headingOverline:
+      title: Heading Overline
+      type: number
+      examples:
+        - 0
+    headingSize:
+      title: Heading Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    icon:
+      title: Icon
+      type: string
+    overline:
+      title: Overline
+      type: string
+      examples:
+        - "Example overline"
+    pictogram:
+      title: Pictogram
+      type: string
+      examples:
+        - "Example pictogram"
+    tooltip:
+      title: Tooltip
+      type: string
+      examples:
+        - "Example tooltip"
+    tooltipLabel:
+      title: Tooltip Label
+      type: string
+      examples:
+        - "Más información"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "icon"
+        - "pictogram"
+      meta:enum:
+        default: "Default"
+        icon: "Icon"
+        pictogram: "Pictogram"
+slots:
+  content:
+    title: Content

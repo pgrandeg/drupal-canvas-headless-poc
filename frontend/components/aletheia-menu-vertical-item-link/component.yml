@@ -1,0 +1,62 @@
+name: Aletheia Menu vertical item link
+machineName: aletheia-menu-vertical-item-link
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Se abre en una nueva ventana"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    rel:
+      title: Rel
+      type: string
+      examples:
+        - "Example rel"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    target:
+      title: Target
+      type: string
+      examples:
+        - "blank"
+      enum:
+        - "blank"
+        - "parent"
+        - "self"
+        - "top"
+      meta:enum:
+        blank: "Blank"
+        parent: "Parent"
+        self: "Self"
+        top: "Top"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

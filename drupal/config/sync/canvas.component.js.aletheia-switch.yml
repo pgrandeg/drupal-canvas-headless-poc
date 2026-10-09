@@ -1,0 +1,63 @@
+uuid: 4f36afe9-e3b5-4cbc-b4d8-e3f6f3eeadc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-switch
+active_version: 49f06ead42c2bf38
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        disabled:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        name:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example name'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        readonly:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        selected:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Switch'
+id: js.aletheia-switch
+provider: null
+source: js
+source_local_id: aletheia-switch

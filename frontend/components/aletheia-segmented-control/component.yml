@@ -1,0 +1,117 @@
+name: Aletheia Segmented control
+machineName: aletheia-segmented-control
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    requiredAriaLabel:
+      title: Required Aria Label
+      type: string
+      examples:
+        - "Example required aria label"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xl"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xl: "Xl"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+    type:
+      title: Type
+      type: string
+      examples:
+        - "action"
+      enum:
+        - "action"
+        - "select"
+      meta:enum:
+        action: "Action"
+        select: "Select"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

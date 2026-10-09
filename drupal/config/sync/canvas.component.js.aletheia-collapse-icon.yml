@@ -1,0 +1,53 @@
+uuid: ba9c56fd-90eb-4760-ac5c-343da89507dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-collapse-icon
+active_version: ad782283f02c84f0
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        color:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example color'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        expanded:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        size:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Collapse icon'
+id: js.aletheia-collapse-icon
+provider: null
+source: js
+source_local_id: aletheia-collapse-icon

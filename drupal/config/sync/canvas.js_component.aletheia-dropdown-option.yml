@@ -1,0 +1,55 @@
+uuid: 0c3fae0a-7bbc-4e42-a084-bb201408c0ea
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-dropdown-option
+name: 'Aletheia Dropdown option'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  optionGroup:
+    type: boolean
+    title: 'Option Group'
+    examples:
+      - false
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  selectedAriaLabel:
+    type: string
+    title: 'Selected Aria Label'
+    examples:
+      - seleccionada
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  leftAsset:
+    title: 'Left Asset'
+  rightAsset:
+    title: 'Right Asset'
+  content:
+    title: Content
+dataDependencies: {  }

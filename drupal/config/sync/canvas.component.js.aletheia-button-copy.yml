@@ -1,0 +1,78 @@
+uuid: 404a8129-0482-4ee7-8dc7-62f3e8348118
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-button-copy
+active_version: 57dce41fe23c3ca2
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        copiedAriaLiveText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Texto copiado'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        copiedTooltipText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Copiado
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        copyText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example copy text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        copyTooltipText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Copiar
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        size:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Button copy'
+id: js.aletheia-button-copy
+provider: null
+source: js
+source_local_id: aletheia-button-copy

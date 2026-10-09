@@ -1,0 +1,93 @@
+name: Aletheia Radio button group
+machineName: aletheia-radio-button-group
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+        - "success"
+      meta:enum:
+        error: "Error"
+        none: "None"
+        success: "Success"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    requiredAriaLabel:
+      title: Required Aria Label
+      type: string
+      examples:
+        - "Example required aria label"
+    showRequired:
+      title: Show Required
+      type: boolean
+      examples:
+        - false
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

@@ -1,0 +1,25 @@
+uuid: f6906b51-bbd5-4e73-92c4-9cb227f464da
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-panel
+name: 'Aletheia Panel'
+type: external
+required: {  }
+props:
+  focusable:
+    type: boolean
+    title: Focusable
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+slots:
+  actions:
+    title: Actions
+  content:
+    title: Content
+dataDependencies: {  }

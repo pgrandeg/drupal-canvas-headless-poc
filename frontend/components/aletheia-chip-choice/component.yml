@@ -1,0 +1,52 @@
+name: Aletheia Chip choice
+machineName: aletheia-chip-choice
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    role:
+      title: Role
+      type: string
+      examples:
+        - "Example role"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

@@ -1,0 +1,73 @@
+uuid: 93b4e02b-6a5b-421a-830e-f28543ec15d9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-tooltip
+name: 'Aletheia Tooltip'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  hasArrow:
+    type: boolean
+    title: 'Has Arrow'
+    examples:
+      - true
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  maxWidth:
+    type: number
+    title: 'Max Width'
+    examples:
+      - 240.0
+  position:
+    type: string
+    enum:
+      - bottom
+      - bottom-left
+      - bottom-right
+      - left
+      - right
+      - top
+      - top-left
+      - top-right
+    'meta:enum':
+      bottom: Bottom
+      bottom-left: 'Bottom left'
+      bottom-right: 'Bottom right'
+      left: Left
+      right: Right
+      top: Top
+      top-left: 'Top left'
+      top-right: 'Top right'
+    title: Position
+    examples:
+      - bottom
+  trigger:
+    type: string
+    enum:
+      - click
+      - hover
+    'meta:enum':
+      click: Click
+      hover: Hover
+    title: Trigger
+    examples:
+      - click
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

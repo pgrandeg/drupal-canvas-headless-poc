@@ -1,0 +1,52 @@
+name: Aletheia Avatar
+machineName: aletheia-avatar
+status: true
+required: []
+props:
+  properties:
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    avatarName:
+      title: Avatar Name
+      type: string
+      examples:
+        - "Example avatar name"
+    initials:
+      title: Initials
+      type: string
+      examples:
+        - "Example initials"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "image"
+        - "initials"
+      meta:enum:
+        default: "Default"
+        image: "Image"
+        initials: "Initials"
+slots:
+  img:
+    title: Img

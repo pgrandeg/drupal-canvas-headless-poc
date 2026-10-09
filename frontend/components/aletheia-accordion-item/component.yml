@@ -1,0 +1,44 @@
+name: Aletheia Accordion item
+machineName: aletheia-accordion-item
+status: true
+required: []
+props:
+  properties:
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    expanded:
+      title: Expanded
+      type: boolean
+      examples:
+        - false
+    headingLevel:
+      title: Heading Level
+      type: string
+      examples:
+        - "2"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    icon:
+      title: Icon
+      type: string
+    noDivider:
+      title: No Divider
+      type: boolean
+      examples:
+        - false
+slots:
+  headerDetail:
+    title: Header Detail
+  content:
+    title: Content

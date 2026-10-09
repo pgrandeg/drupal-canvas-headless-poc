@@ -1,0 +1,54 @@
+uuid: 8f9fd103-4630-4400-a8fc-209cb342526d
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header-mobile-sidebar-item
+active_version: 6b6717a8229aa1e0
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        hasDivider:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: true
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        isSearchButton:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        searchButtonId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: example-id
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Global header mobile sidebar item'
+id: js.aletheia-global-header-mobile-sidebar-item
+provider: null
+source: js
+source_local_id: aletheia-global-header-mobile-sidebar-item

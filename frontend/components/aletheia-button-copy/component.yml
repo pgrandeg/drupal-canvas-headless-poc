@@ -1,0 +1,33 @@
+name: Aletheia Button copy
+machineName: aletheia-button-copy
+status: true
+required: []
+props:
+  properties:
+    copiedAriaLiveText:
+      title: Copied Aria Live Text
+      type: string
+      examples:
+        - "Texto copiado"
+    copiedTooltipText:
+      title: Copied Tooltip Text
+      type: string
+      examples:
+        - "Copiado"
+    copyText:
+      title: Copy Text
+      type: string
+      examples:
+        - "Example copy text"
+    copyTooltipText:
+      title: Copy Tooltip Text
+      type: string
+      examples:
+        - "Copiar"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+slots:
+  {}

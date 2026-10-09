@@ -1,0 +1,24 @@
+name: Aletheia App face id
+machineName: aletheia-app-face-id
+status: true
+required: []
+props:
+  properties:
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Face Not Recog."
+      enum:
+        - "Face Not Recog."
+        - "Prompting"
+        - "Success"
+        - "Try Again"
+      meta:enum:
+        Face Not Recog.: "Face Not Recog."
+        Prompting: "Prompting"
+        Success: "Success"
+        Try Again: "Try Again"
+slots:
+  content:
+    title: Content

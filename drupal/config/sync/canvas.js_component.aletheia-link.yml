@@ -1,0 +1,85 @@
+uuid: 1f622170-0bfa-414d-9b03-88b32677ca38
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-link
+name: 'Aletheia Link'
+type: external
+required: {  }
+props:
+  ariaDescribedby:
+    type: string
+    title: 'Aria Describedby'
+    examples:
+      - 'Example aria describedby'
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - 'Example external label'
+  icon:
+    type: string
+    title: Icon
+  iconAriaLabel:
+    type: string
+    title: 'Icon Aria Label'
+    examples:
+      - 'Example icon aria label'
+  linkHref:
+    type: string
+    format: uri-reference
+    title: 'Link Href'
+    examples:
+      - /example
+  linkTarget:
+    type: string
+    enum:
+      - blank
+      - parent
+      - self
+      - top
+    'meta:enum':
+      blank: Blank
+      parent: Parent
+      self: Self
+      top: Top
+    title: 'Link Target'
+    examples:
+      - blank
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  underline:
+    type: boolean
+    title: Underline
+    examples:
+      - true
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

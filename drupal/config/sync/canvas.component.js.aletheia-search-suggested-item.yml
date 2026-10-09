@@ -1,0 +1,42 @@
+uuid: 36b3972e-46db-4ecc-a15e-0a87d2d9c4fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-search-suggested-item
+active_version: dd986f3149655ab7
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        text:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        value:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example value'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Search suggested item'
+id: js.aletheia-search-suggested-item
+provider: null
+source: js
+source_local_id: aletheia-search-suggested-item

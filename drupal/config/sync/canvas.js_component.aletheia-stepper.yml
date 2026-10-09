@@ -1,0 +1,101 @@
+uuid: 605da6b9-f3a9-471c-84df-dfc71763649e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-stepper
+name: 'Aletheia Stepper'
+type: external
+required: {  }
+props:
+  ariaLiveMessage:
+    type: string
+    title: 'Aria Live Message'
+    examples:
+      - 'Paso actual [number]'
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Example ath aria label'
+  athRole:
+    type: string
+    enum:
+      - button
+      - link
+    'meta:enum':
+      button: Button
+      link: Link
+    title: 'Ath Role'
+    examples:
+      - button
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - true
+  collapseLabel:
+    type: string
+    title: 'Collapse Label'
+    examples:
+      - 'Colapsar paso [number]'
+  completedLabel:
+    type: string
+    title: 'Completed Label'
+    examples:
+      - Completado
+  errorLabel:
+    type: string
+    title: 'Error Label'
+    examples:
+      - Error
+  expandLabel:
+    type: string
+    title: 'Expand Label'
+    examples:
+      - 'Expandir paso [number]'
+  headingIcon:
+    type: string
+    title: 'Heading Icon'
+    examples:
+      - 'Example heading icon'
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  startFrom:
+    type: number
+    title: 'Start From'
+    examples:
+      - 1.0
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

@@ -1,0 +1,116 @@
+uuid: e3347813-066f-46ce-bd4c-73e51bcbbac8
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-file-uploader
+name: 'Aletheia File uploader'
+type: external
+required: {  }
+props:
+  accept:
+    type: string
+    title: Accept
+    examples:
+      - 'Example accept'
+  assignTo:
+    type: string
+    title: 'Assign To'
+    examples:
+      - 'Example assign to'
+  capture:
+    type: string
+    title: Capture
+    examples:
+      - 'Example capture'
+  deleteAllButtonText:
+    type: string
+    title: 'Delete All Button Text'
+    examples:
+      - 'Eliminar todos'
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    title: Feedback
+    examples:
+      - 'Example feedback'
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  fileListAriaLabel:
+    type: string
+    title: 'File List Aria Label'
+    examples:
+      - 'Example file list aria label'
+  hasIcon:
+    type: boolean
+    title: 'Has Icon'
+    examples:
+      - true
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideButtonDeleteAll:
+    type: boolean
+    title: 'Hide Button Delete All'
+    examples:
+      - false
+  hideFileList:
+    type: boolean
+    title: 'Hide File List'
+    examples:
+      - false
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  itemFeedbackText:
+    type: string
+    title: 'Item Feedback Text'
+    examples:
+      - 'Error al leer el fichero'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  maxSize:
+    type: number
+    title: 'Max Size'
+    examples:
+      - 100.0
+  multiple:
+    type: boolean
+    title: Multiple
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  searchText:
+    type: string
+    title: 'Search Text'
+    examples:
+      - 'Buscar en tu dispositivo'
+slots: {  }
+dataDependencies: {  }

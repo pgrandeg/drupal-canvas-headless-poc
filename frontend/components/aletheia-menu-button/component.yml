@@ -1,0 +1,79 @@
+name: Aletheia Menu button
+machineName: aletheia-menu-button
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "left"
+      enum:
+        - "left"
+        - "right"
+      meta:enum:
+        left: "Left"
+        right: "Right"
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - false
+    clear:
+      title: Clear
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    overlayMaxHeight:
+      title: Overlay Max Height
+      type: string
+      examples:
+        - "Example overlay max height"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+slots:
+  content:
+    title: Content

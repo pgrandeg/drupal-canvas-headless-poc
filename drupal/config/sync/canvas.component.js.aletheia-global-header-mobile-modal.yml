@@ -1,0 +1,44 @@
+uuid: ddb585a3-62e7-4677-9a9f-94e72784d7ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header-mobile-modal
+active_version: 3925f770cc8d759e
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        modalId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: example-id
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        triggerId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: example-id
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Global header mobile modal'
+id: js.aletheia-global-header-mobile-modal
+provider: null
+source: js
+source_local_id: aletheia-global-header-mobile-modal

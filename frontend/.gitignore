@@ -43,3 +43,6 @@ next-env.d.ts
 
 # Canvas build artifacts
 /.canvas/
+
+# Aletheia assets copied from the generated vendor build
+/public/aletheia/

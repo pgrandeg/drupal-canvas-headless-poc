@@ -1,0 +1,37 @@
+name: Aletheia Action bar
+machineName: aletheia-action-bar
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "center"
+      enum:
+        - "center"
+        - "justify"
+        - "left"
+        - "right"
+      meta:enum:
+        center: "Center"
+        justify: "Justify"
+        left: "Left"
+        right: "Right"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+slots:
+  content:
+    title: Content

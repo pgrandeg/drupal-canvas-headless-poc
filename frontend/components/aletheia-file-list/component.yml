@@ -1,0 +1,10 @@
+name: Aletheia File list
+machineName: aletheia-file-list
+status: true
+required: []
+props:
+  properties:
+    {}
+slots:
+  content:
+    title: Content

@@ -1,0 +1,124 @@
+uuid: 8064dc14-e277-438b-9649-b2e4b1982b45
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-list-item
+name: 'Aletheia List item'
+type: external
+required: {  }
+props:
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Example ath aria label'
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - 'Se abre una ventana nueva'
+  hasDivider:
+    type: boolean
+    title: 'Has Divider'
+    examples:
+      - false
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 4.0
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  rel:
+    type: string
+    title: Rel
+    examples:
+      - 'Example rel'
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - lg
+  subtitle:
+    type: string
+    title: Subtitle
+    examples:
+      - 'Example subtitle'
+  target:
+    type: string
+    enum:
+      - blank
+      - parent
+      - self
+      - top
+    'meta:enum':
+      blank: Blank
+      parent: Parent
+      self: Self
+      top: Top
+    title: Target
+    examples:
+      - blank
+  tooltip:
+    type: string
+    title: Tooltip
+    examples:
+      - 'Example tooltip'
+  tooltipMaxWidth:
+    type: number
+    title: 'Tooltip Max Width'
+    examples:
+      - 240.0
+slots:
+  leftDetail:
+    title: 'Left Detail'
+  bottomDetail:
+    title: 'Bottom Detail'
+  rightDetail:
+    title: 'Right Detail'
+dataDependencies: {  }

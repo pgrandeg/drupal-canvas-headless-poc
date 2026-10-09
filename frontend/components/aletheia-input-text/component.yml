@@ -1,0 +1,178 @@
+name: Aletheia Input text
+machineName: aletheia-input-text
+status: true
+required: []
+props:
+  properties:
+    autocomplete:
+      title: Autocomplete
+      type: string
+      examples:
+        - "Example autocomplete"
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - false
+    clearButtonAriaLabel:
+      title: Clear Button Aria Label
+      type: string
+      examples:
+        - "Borrar"
+    counter:
+      title: Counter
+      type: boolean
+      examples:
+        - false
+    counterLabel:
+      title: Counter Label
+      type: string
+      examples:
+        - "[length] de [max] caracteres. Quedan [rest]"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    hasClear:
+      title: Has Clear
+      type: boolean
+      examples:
+        - false
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "left"
+      enum:
+        - "left"
+        - "right"
+      meta:enum:
+        left: "Left"
+        right: "Right"
+    inputAriaLabel:
+      title: Input Aria Label
+      type: string
+      examples:
+        - "Example input aria label"
+    inputTabindex:
+      title: Input Tabindex
+      type: string
+      examples:
+        - "0"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    maxlength:
+      title: Maxlength
+      type: number
+      examples:
+        - 0
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    pattern:
+      title: Pattern
+      type: string
+      examples:
+        - "Example pattern"
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Example placeholder"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    submitOnEnter:
+      title: Submit On Enter
+      type: boolean
+      examples:
+        - false
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: string
+      examples:
+        - "Example tooltip width"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "email"
+      enum:
+        - "email"
+        - "search"
+        - "tel"
+        - "text"
+        - "url"
+      meta:enum:
+        email: "Email"
+        search: "Search"
+        tel: "Tel"
+        text: "Text"
+        url: "Url"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

@@ -1,0 +1,78 @@
+uuid: a2d0ffd2-655c-4097-ad02-15c53aa592b1
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-app-navbar
+name: 'Aletheia App navbar'
+type: external
+required: {  }
+props:
+  avatarInitials:
+    type: string
+    title: 'Avatar Initials'
+    examples:
+      - 'Example avatar initials'
+  bodyText:
+    type: string
+    title: 'Body Text'
+    examples:
+      - 'Example body text'
+  hasBack:
+    type: boolean
+    title: 'Has Back'
+    examples:
+      - false
+  hasBodyText:
+    type: boolean
+    title: 'Has Body Text'
+    examples:
+      - true
+  hasImage:
+    type: boolean
+    title: 'Has Image'
+    examples:
+      - true
+  hasQuickAction:
+    type: boolean
+    title: 'Has Quick Action'
+    examples:
+      - true
+  hasSearch:
+    type: boolean
+    title: 'Has Search'
+    examples:
+      - true
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  mode:
+    type: string
+    enum:
+      - inner-back
+      - principal
+      - stepper
+    'meta:enum':
+      inner-back: 'Inner back'
+      principal: Principal
+      stepper: Stepper
+    title: Mode
+    examples:
+      - inner-back
+  step:
+    type: number
+    title: Step
+    examples:
+      - 1.0
+  steps:
+    type: number
+    title: Steps
+    examples:
+      - 0.0
+slots:
+  search:
+    title: Search
+  quickAction:
+    title: 'Quick Action'
+dataDependencies: {  }

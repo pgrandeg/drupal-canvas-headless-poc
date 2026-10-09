@@ -1,0 +1,62 @@
+name: Aletheia Calendar
+machineName: aletheia-calendar
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "primary"
+      meta:enum:
+        accent: "Accent"
+        primary: "Primary"
+    disabledDates:
+      title: Disabled Dates
+      type: string
+      examples:
+        - "Example disabled dates"
+    highlightedDates:
+      title: Highlighted Dates
+      type: string
+      examples:
+        - "Example highlighted dates"
+    highlightedWeekends:
+      title: Highlighted Weekends
+      type: boolean
+      examples:
+        - false
+    max:
+      title: Max
+      type: string
+      examples:
+        - "Example max"
+    min:
+      title: Min
+      type: string
+      examples:
+        - "Example min"
+    selected:
+      title: Selected
+      type: string
+      examples:
+        - "Example selected"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "date"
+      enum:
+        - "date"
+        - "month"
+        - "year"
+      meta:enum:
+        date: "Date"
+        month: "Month"
+        year: "Year"
+slots:
+  {}

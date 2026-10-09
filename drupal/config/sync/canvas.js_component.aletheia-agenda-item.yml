@@ -1,0 +1,18 @@
+uuid: f75a4955-9598-4b55-afc3-dd90090fa22a
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-agenda-item
+name: 'Aletheia Agenda item'
+type: external
+required: {  }
+props:
+  initial:
+    type: string
+    title: Initial
+    examples:
+      - 'Example initial'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

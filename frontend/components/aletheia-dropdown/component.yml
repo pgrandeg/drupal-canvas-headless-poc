@@ -1,0 +1,153 @@
+name: Aletheia Dropdown
+machineName: aletheia-dropdown
+status: true
+required: []
+props:
+  properties:
+    announceResultText:
+      title: Announce Result Text
+      type: string
+      examples:
+        - "Hay [total] elementos en la lista"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    dropdownAriaLabel:
+      title: Dropdown Aria Label
+      type: string
+      examples:
+        - "Example dropdown aria label"
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    multiselect:
+      title: Multiselect
+      type: boolean
+      examples:
+        - false
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    nochipsText:
+      title: Nochips Text
+      type: string
+      examples:
+        - "Example nochips text"
+    noresultText:
+      title: Noresult Text
+      type: string
+      examples:
+        - "Example noresult text"
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    overlayMaxHeight:
+      title: Overlay Max Height
+      type: string
+      examples:
+        - "Example overlay max height"
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Example placeholder"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    search:
+      title: Search
+      type: boolean
+      examples:
+        - false
+    searchAriaLabel:
+      title: Search Aria Label
+      type: string
+      examples:
+        - "Buscar"
+    searchPlaceholder:
+      title: Search Placeholder
+      type: string
+      examples:
+        - "Example search placeholder"
+    showChips:
+      title: Show Chips
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  content:
+    title: Content

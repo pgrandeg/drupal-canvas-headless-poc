@@ -1,0 +1,13 @@
+uuid: 0fb3a9ec-5241-41fc-aebd-b541171c400e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table-body
+name: 'Aletheia Table body'
+type: external
+required: {  }
+props: {  }
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

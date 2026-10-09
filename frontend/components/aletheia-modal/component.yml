@@ -1,0 +1,104 @@
+name: Aletheia Modal
+machineName: aletheia-modal
+status: true
+required: []
+props:
+  properties:
+    appearance:
+      title: Appearance
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "info"
+        - "success"
+        - "warning"
+      meta:enum:
+        error: "Error"
+        info: "Info"
+        success: "Success"
+        warning: "Warning"
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - true
+    clickOutsideClose:
+      title: Click Outside Close
+      type: boolean
+      examples:
+        - false
+    closeAriaLabel:
+      title: Close Aria Label
+      type: string
+      examples:
+        - "Example close aria label"
+    fullScreen:
+      title: Full Screen
+      type: boolean
+      examples:
+        - false
+    hasClose:
+      title: Has Close
+      type: boolean
+      examples:
+        - true
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - false
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 2
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    isAlert:
+      title: Is Alert
+      type: boolean
+      examples:
+        - false
+    maxHeight:
+      title: Max Height
+      type: string
+      examples:
+        - "240px"
+    maxWidth:
+      title: Max Width
+      type: string
+      examples:
+        - "240px"
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    subtitleText:
+      title: Subtitle Text
+      type: string
+      examples:
+        - "Example subtitle text"
+slots:
+  customImage:
+    title: Custom Image
+  body:
+    title: Body
+  footer:
+    title: Footer

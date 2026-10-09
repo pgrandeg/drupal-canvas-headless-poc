@@ -1,0 +1,32 @@
+name: Aletheia Button float
+machineName: aletheia-button-float
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "none"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "sm"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Button float"
+slots:
+  content:
+    title: Content

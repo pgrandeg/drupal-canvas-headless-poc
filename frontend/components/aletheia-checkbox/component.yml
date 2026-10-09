@@ -1,0 +1,94 @@
+name: Aletheia Checkbox
+machineName: aletheia-checkbox
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - false
+    checked:
+      title: Checked
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+        - "success"
+      meta:enum:
+        error: "Error"
+        none: "None"
+        success: "Success"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    indeterminate:
+      title: Indeterminate
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    value:
+      title: Value
+      type: string
+      examples:
+        - "false"
+      enum:
+        - "false"
+        - "indeterminate"
+        - "true"
+      meta:enum:
+        false: "False"
+        indeterminate: "Indeterminate"
+        true: "True"
+slots:
+  {}

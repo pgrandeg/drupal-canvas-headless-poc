@@ -1,0 +1,51 @@
+uuid: 84209655-0913-4c64-b9cf-3d0031e17e9c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-desktop
+name: 'Aletheia Global header desktop'
+type: external
+required: {  }
+props:
+  closeButtonAriaLabel:
+    type: string
+    title: 'Close Button Aria Label'
+    examples:
+      - Cerrar
+  hasActionGroupSeparator:
+    type: boolean
+    title: 'Has Action Group Separator'
+    examples:
+      - false
+  hasNavEndSeparator:
+    type: boolean
+    title: 'Has Nav End Separator'
+    examples:
+      - false
+  hasUserSeparator:
+    type: boolean
+    title: 'Has User Separator'
+    examples:
+      - false
+  logoType:
+    type: string
+    title: 'Logo Type'
+    examples:
+      - 'Example logo type'
+  triggerId:
+    type: string
+    title: 'Trigger Id'
+    examples:
+      - example-id
+slots:
+  navStart:
+    title: 'Nav Start'
+  actionGroup:
+    title: 'Action Group'
+  user:
+    title: User
+  navEnd:
+    title: 'Nav End'
+  globalSearch:
+    title: 'Global Search'
+dataDependencies: {  }

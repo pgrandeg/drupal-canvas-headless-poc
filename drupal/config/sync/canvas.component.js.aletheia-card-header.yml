@@ -1,0 +1,66 @@
+uuid: ca89937d-da66-4228-bbd6-7298a0079c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-card-header
+active_version: 27b8baa21ca14ccc
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        date:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example date'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        overline:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example overline'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        subtitle:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example subtitle'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Card header'
+id: js.aletheia-card-header
+provider: null
+source: js
+source_local_id: aletheia-card-header

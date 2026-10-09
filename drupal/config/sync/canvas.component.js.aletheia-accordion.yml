@@ -1,0 +1,57 @@
+uuid: 4f49dee9-45a4-49e2-8b23-1ad3c2d960a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-accordion
+  module:
+    - options
+active_version: 9112eaf2e94736da
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        ariaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example aria label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        expand:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: all
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+        noLastItemDivider:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Accordion'
+id: js.aletheia-accordion
+provider: null
+source: js
+source_local_id: aletheia-accordion

@@ -1,0 +1,3 @@
+[submodule "frontend/vendor/aletheia-2-core"]
+	path = frontend/vendor/aletheia-2-core
+	url = ssh://git@git-ssh.emeal.nttdata.com:766/ALETHEIA/aletheia-2-core.git

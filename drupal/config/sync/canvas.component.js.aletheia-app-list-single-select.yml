@@ -1,0 +1,57 @@
+uuid: 468a00fe-210b-41f4-8368-072f53f94022
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-app-list-single-select
+  module:
+    - options
+active_version: 79954e20047cb47b
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        appareance:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: appareance4
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+        label:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        selected:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia App list single select'
+id: js.aletheia-app-list-single-select
+provider: null
+source: js
+source_local_id: aletheia-app-list-single-select

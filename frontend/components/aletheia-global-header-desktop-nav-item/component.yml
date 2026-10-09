@@ -1,0 +1,19 @@
+name: Aletheia Global header desktop nav item
+machineName: aletheia-global-header-desktop-nav-item
+status: true
+required: []
+props:
+  properties:
+    hasSeparatorLeft:
+      title: Has Separator Left
+      type: boolean
+      examples:
+        - false
+    hasSeparatorRight:
+      title: Has Separator Right
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

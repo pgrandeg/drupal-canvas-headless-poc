@@ -1,0 +1,73 @@
+uuid: 23205073-d4a4-4592-8966-48ee4a007be0
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table-header-item
+name: 'Aletheia Table header item'
+type: external
+required: {  }
+props:
+  alignment:
+    type: string
+    enum:
+      - center
+      - left
+      - right
+    'meta:enum':
+      center: Center
+      left: Left
+      right: Right
+    title: Alignment
+    examples:
+      - center
+  cellWidth:
+    type: string
+    title: 'Cell Width'
+    examples:
+      - auto
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  frozen:
+    type: string
+    enum:
+      - first
+      - last
+      - none
+    'meta:enum':
+      first: First
+      last: Last
+      none: None
+    title: Frozen
+    examples:
+      - first
+  hasInteractivity:
+    type: boolean
+    title: 'Has Interactivity'
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

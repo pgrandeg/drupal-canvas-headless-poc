@@ -1,0 +1,14 @@
+name: Aletheia Collapse
+machineName: aletheia-collapse
+status: true
+required: []
+props:
+  properties:
+    show:
+      title: Show
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

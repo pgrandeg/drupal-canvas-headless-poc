@@ -1,0 +1,115 @@
+uuid: 07e87418-5dd5-4af5-8895-27ec377a3330
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-user-menu-item
+active_version: e9c3e94a99ea5a15
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        avatarSize:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example avatar size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        buttonAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example button aria label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        description:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example description'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        disabled:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        initials:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example initials'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        srcImage:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example src image'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        type:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        userName:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example user name'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia User menu item'
+id: js.aletheia-user-menu-item
+provider: null
+source: js
+source_local_id: aletheia-user-menu-item

@@ -1,0 +1,59 @@
+name: Aletheia Button link
+machineName: aletheia-button-link
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "left"
+      enum:
+        - "left"
+        - "right"
+      meta:enum:
+        left: "Left"
+        right: "Right"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Button link"
+slots:
+  content:
+    title: Content

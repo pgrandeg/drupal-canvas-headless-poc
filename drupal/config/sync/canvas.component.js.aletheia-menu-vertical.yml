@@ -1,0 +1,32 @@
+uuid: 2ad2fa79-0f37-4af5-9cde-a212c7674111
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-menu-vertical
+  module:
+    - options
+active_version: 79a86e005c325b9e
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        appearance:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: primary
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Menu vertical'
+id: js.aletheia-menu-vertical
+provider: null
+source: js
+source_local_id: aletheia-menu-vertical

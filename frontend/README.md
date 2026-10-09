@@ -14,7 +14,7 @@ The dev server runs at <http://localhost:3000>. After enabling the Canvas Headle
 
 - **Components:** `components` contains the React components exposed to Canvas.
 - **Styles:** `app/globals.css` contains the global Tailwind styles.
-- **Canvas integration:** `withCanvas()` generates the component registry, while the routes under `app/api` handle draft sessions, component metadata, and component-library thumbnails. The catch-all route renders Drupal content through `CanvasComponentTree`.
+- **Canvas integration:** `withCanvas()` generates the component registry, while the routes under `app/api` handle draft sessions, component metadata, Drupal Views, contact forms, and component-library thumbnails. The localized catch-all route under `app/[locale]/[[...slug]]` renders Drupal content through `CanvasComponentTree`.
 - **Framing policy:** `proxy.ts` applies the SDK's request-time CSP on every request. Keep it mounted for page and editor previews. To add an application CSP, compose it with `applyCanvasHeaders()` from `@drupal-canvas/headless-next/middleware` on the same response, rather than setting a static CSP in `next.config.ts`.
 
 ## Portable React components
@@ -126,6 +126,27 @@ hydration-safe data across the boundary, never clients or credentials.
 `DefaultSerializer`'s `getMeta()` and `getLinks()` functions do not serialize;
 the example passes plain fields instead. Token renewal does not clear
 application SWR caches; the application owns cache invalidation.
+
+## Localized routes and Drupal integrations
+
+Pages are served at `/en/...` and `/es/...`. Drupal remains the source of
+truth for the rendered language and the language switcher only enables
+translations reported as available by Canvas. Canvas preview also supports
+Drupal's canonical unprefixed paths such as `/page/11`; `proxy.ts` rewrites
+those requests internally to the default `/en/...` route without changing the
+preview URL.
+
+The reusable `drupal-view` component accepts a Drupal View ID, display ID and
+result limit. It can also render every result with any Canvas component by
+setting `itemComponent`, `mapping` and `staticProps` from Canvas. Mapping keys
+are target props; values are View field paths, for example
+`{"heading":"title","text":"body","link":"path.alias"}`. Typed
+descriptors are supported for values that need conversion:
+`{"width":{"source":"width","type":"number"}}`.
+
+The reusable `drupal-contact-form` component accepts a Drupal contact form ID.
+Both components use the same-origin Next API routes, which proxy requests to the
+custom Drupal module without exposing backend details to Canvas.
 
 ## Commands
 

@@ -1,0 +1,28 @@
+uuid: d1787eb1-c0f6-4d87-8baf-96c5d9351999
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-content-header-indicator-list
+name: 'Aletheia Content header indicator list'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

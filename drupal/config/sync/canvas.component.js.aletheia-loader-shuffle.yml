@@ -1,0 +1,93 @@
+uuid: 1d8132cb-f371-4fff-9a28-8596c96adf86
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-loader-shuffle
+active_version: 68241c1e67d971fa
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        accessibleText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Cargando contenido'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingLevel:
+          required: false
+          field_type: float
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 4.0
+          expression: ℹ︎float␟value
+          derived_schema_metadata: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+  e0b961df9f151b9b:
+    settings:
+      prop_field_definitions:
+        accessibleText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Cargando contenido'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingLevel:
+          required: false
+          field_type: float
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 0.0
+          expression: ℹ︎float␟value
+          derived_schema_metadata: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Loader shuffle'
+id: js.aletheia-loader-shuffle
+provider: null
+source: js
+source_local_id: aletheia-loader-shuffle

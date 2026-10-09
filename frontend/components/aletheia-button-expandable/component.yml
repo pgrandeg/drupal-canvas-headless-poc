@@ -1,0 +1,40 @@
+name: Aletheia Button expandable
+machineName: aletheia-button-expandable
+status: true
+required: []
+props:
+  properties:
+    collapseTarget:
+      title: Collapse Target
+      type: string
+      examples:
+        - "Example collapse target"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Button expandable"
+slots:
+  content:
+    title: Content

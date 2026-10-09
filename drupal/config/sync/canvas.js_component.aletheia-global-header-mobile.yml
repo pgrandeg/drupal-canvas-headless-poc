@@ -1,0 +1,35 @@
+uuid: 57366f0c-fcdd-4703-bcb8-007cad88c5d3
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-mobile
+name: 'Aletheia Global header mobile'
+type: external
+required: {  }
+props:
+  backButtonAriaLabel:
+    type: string
+    title: 'Back Button Aria Label'
+    examples:
+      - Volver
+  closeButtonAriaLabel:
+    type: string
+    title: 'Close Button Aria Label'
+    examples:
+      - 'Cerrar panel lateral'
+  logoType:
+    type: string
+    title: 'Logo Type'
+    examples:
+      - 'Example logo type'
+  menuButtonAriaLabel:
+    type: string
+    title: 'Menu Button Aria Label'
+    examples:
+      - 'Abrir panel lateral'
+slots:
+  actionGroup:
+    title: 'Action Group'
+  content:
+    title: Content
+dataDependencies: {  }

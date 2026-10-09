@@ -1,0 +1,160 @@
+name: Aletheia Slider
+machineName: aletheia-slider
+status: true
+required: []
+props:
+  properties:
+    counterWidth:
+      title: Counter Width
+      type: string
+      examples:
+        - "auto"
+    detailFirst:
+      title: Detail First
+      type: string
+      examples:
+        - "Example detail first"
+    detailLast:
+      title: Detail Last
+      type: string
+      examples:
+        - "Example detail last"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    feedbackCounter:
+      title: Feedback Counter
+      type: string
+      examples:
+        - "both"
+      enum:
+        - "both"
+        - "from"
+        - "none"
+        - "to"
+      meta:enum:
+        both: "Both"
+        from: "From"
+        none: "None"
+        to: "To"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    fromAriaLabel:
+      title: From Aria Label
+      type: string
+      examples:
+        - "Example from aria label"
+    groupAriaLabel:
+      title: Group Aria Label
+      type: string
+      examples:
+        - "Example group aria label"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    labelGroup:
+      title: Label Group
+      type: string
+      examples:
+        - "Example label group"
+    max:
+      title: Max
+      type: number
+      examples:
+        - 100
+    min:
+      title: Min
+      type: number
+      examples:
+        - 0
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    showRequired:
+      title: Show Required
+      type: boolean
+      examples:
+        - true
+    step:
+      title: Step
+      type: number
+      examples:
+        - 1
+    stepped:
+      title: Stepped
+      type: boolean
+      examples:
+        - false
+    toAriaLabel:
+      title: To Aria Label
+      type: string
+      examples:
+        - "Example to aria label"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "range"
+      meta:enum:
+        default: "Default"
+        range: "Range"
+    unit:
+      title: Unit
+      type: string
+      examples:
+        - "Example unit"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "0"
+    valueText:
+      title: Value Text
+      type: string
+      examples:
+        - "Example value text"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  {}

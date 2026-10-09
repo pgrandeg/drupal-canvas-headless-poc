@@ -1,0 +1,49 @@
+uuid: d8cd2059-f2d1-4c58-95b4-d0b39c8adf98
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-chip-choice-group
+name: 'Aletheia Chip choice group'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  multiple:
+    type: boolean
+    title: Multiple
+    examples:
+      - false
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+  width:
+    type: string
+    title: Width
+    examples:
+      - 100%
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

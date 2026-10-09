@@ -1,0 +1,83 @@
+uuid: b229a6d8-34e5-420e-89b5-90267ef9da6c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-segmented-control-item
+name: 'Aletheia Segmented control item'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  iconPosition:
+    type: string
+    enum:
+      - icon-only
+      - left
+      - none
+      - right
+    'meta:enum':
+      icon-only: 'Icon only'
+      left: Left
+      none: None
+      right: Right
+    title: 'Icon Position'
+    examples:
+      - icon-only
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xl
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xl: Xl
+    title: Size
+    examples:
+      - lg
+  type:
+    type: string
+    enum:
+      - action
+      - select
+    'meta:enum':
+      action: Action
+      select: Select
+    title: Type
+    examples:
+      - action
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

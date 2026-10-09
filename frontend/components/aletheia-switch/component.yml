@@ -1,0 +1,28 @@
+name: Aletheia Switch
+machineName: aletheia-switch
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+slots:
+  {}

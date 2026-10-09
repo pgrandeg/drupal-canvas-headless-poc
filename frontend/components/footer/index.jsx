@@ -1,10 +1,21 @@
+import NttDataLogo from '@/components/ntt-data-logo';
+
 const Footer = ({ text }) => {
   return (
-    <footer className="border-t-4 border-[#00A9E0] bg-[#003B73] text-white">
+    <footer className="nttdata-footer text-white">
       <div className="mx-auto max-w-screen-xl px-4 pt-4 pb-8 sm:px-6 lg:px-8">
-        <div className="mt-8 border-t border-white/20 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-12">
-          <div className="flex flex-wrap justify-center gap-4 text-xs text-white lg:justify-end">
-            {text}
+        <div className="nttdata-footer__top flex flex-col gap-6 border-b border-white/20 pb-8 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <NttDataLogo />
+            <p className="mt-3 max-w-sm text-sm text-white/75">
+              Technology for people and a better future.
+            </p>
+          </div>
+          <div className="text-sm text-white/80">{text}</div>
+        </div>
+        <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="text-xs text-white/60">
+            © {new Date().getFullYear()} NTT DATA Spain and Affiliates
           </div>
 
           <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">

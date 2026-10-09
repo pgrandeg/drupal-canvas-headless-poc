@@ -1,0 +1,141 @@
+uuid: effb1022-bd8a-4e22-8fb7-a0e3bbbe39f6
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-input-range
+name: 'Aletheia Input range'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    title: Feedback
+    examples:
+      - 'Example feedback'
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  inputAriaLabel:
+    type: string
+    title: 'Input Aria Label'
+    examples:
+      - 'Example input aria label'
+  inputAriaLabelEnd:
+    type: string
+    title: 'Input Aria Label End'
+    examples:
+      - 'Example input aria label end'
+  inputAriaLabelStart:
+    type: string
+    title: 'Input Aria Label Start'
+    examples:
+      - 'Example input aria label start'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  labelEnd:
+    type: string
+    title: 'Label End'
+    examples:
+      - 'Example label end'
+  labelStart:
+    type: string
+    title: 'Label Start'
+    examples:
+      - 'Example label start'
+  max:
+    type: number
+    title: Max
+    examples:
+      - 100.0
+  min:
+    type: number
+    title: Min
+    examples:
+      - 0.0
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  placeholderEnd:
+    type: string
+    title: 'Placeholder End'
+    examples:
+      - 'Example placeholder end'
+  placeholderStart:
+    type: string
+    title: 'Placeholder Start'
+    examples:
+      - 'Example placeholder start'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  requiredEnd:
+    type: boolean
+    title: 'Required End'
+    examples:
+      - false
+  requiredStart:
+    type: boolean
+    title: 'Required Start'
+    examples:
+      - false
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  step:
+    type: number
+    title: Step
+    examples:
+      - 1.0
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  unit:
+    type: string
+    title: Unit
+    examples:
+      - 'Example unit'
+  unitAriaLabel:
+    type: string
+    title: 'Unit Aria Label'
+    examples:
+      - 'Example unit aria label'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

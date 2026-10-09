@@ -1,0 +1,191 @@
+name: Aletheia Datepicker range
+machineName: aletheia-datepicker-range
+status: true
+required: []
+props:
+  properties:
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "primary"
+      meta:enum:
+        accent: "Accent"
+        primary: "Primary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    disabledDates:
+      title: Disabled Dates
+      type: string
+      examples:
+        - "Example disabled dates"
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    format:
+      title: Format
+      type: string
+      examples:
+        - "DD/MM/YYYY"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hidePanel:
+      title: Hide Panel
+      type: boolean
+      examples:
+        - false
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    highlightedDates:
+      title: Highlighted Dates
+      type: string
+      examples:
+        - "Example highlighted dates"
+    highlightedWeekends:
+      title: Highlighted Weekends
+      type: boolean
+      examples:
+        - false
+    inputAriaLabelEnd:
+      title: Input Aria Label End
+      type: string
+      examples:
+        - "Example input aria label end"
+    inputAriaLabelStart:
+      title: Input Aria Label Start
+      type: string
+      examples:
+        - "Example input aria label start"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    labelEnd:
+      title: Label End
+      type: string
+      examples:
+        - "Example label end"
+    labelStart:
+      title: Label Start
+      type: string
+      examples:
+        - "Example label start"
+    max:
+      title: Max
+      type: string
+      examples:
+        - "Example max"
+    min:
+      title: Min
+      type: string
+      examples:
+        - "Example min"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    placeholderEnd:
+      title: Placeholder End
+      type: string
+      examples:
+        - "Example placeholder end"
+    placeholderStart:
+      title: Placeholder Start
+      type: string
+      examples:
+        - "Example placeholder start"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    requiredEnd:
+      title: Required End
+      type: boolean
+      examples:
+        - false
+    requiredStart:
+      title: Required Start
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    submitOnEnter:
+      title: Submit On Enter
+      type: boolean
+      examples:
+        - false
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "date"
+      enum:
+        - "date"
+        - "month"
+        - "year"
+      meta:enum:
+        date: "Date"
+        month: "Month"
+        year: "Year"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

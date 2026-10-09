@@ -3,9 +3,11 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { DraftIndicator } from '../components/draft-indicator';
+import AletheiaRuntime from '../lib/aletheia/runtime';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import NttDataLogo from '../components/ntt-data-logo';
+import LanguageSwitcher from '../components/language-switcher';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -16,7 +18,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="flex min-h-full flex-col bg-[#EEF5FB]">
+      <head>
+        {/* Aletheia CSS must stay at /aletheia/ so its official relative assets resolve. */}
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
+        <link rel="stylesheet" href="/aletheia/aletheia.css" />
+      </head>
+      <body
+        data-theme="core"
+        className="flex min-h-full flex-col bg-[#EEF5FB]"
+      >
+        <AletheiaRuntime />
         <CanvasRuntime>
           <DraftIndicator />
           <div className="flex min-h-screen flex-col bg-slate-50">
@@ -33,14 +44,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 </Link>
               }
               menu={
-                <nav aria-label="Main navigation">
+                <div className="flex items-center gap-3">
+                  <LanguageSwitcher />
+                  <nav aria-label="Main navigation">
                   <Link
                     href="/"
                     className="rounded-full border border-white/35 bg-white/10 px-4 py-2 text-sm font-semibold text-white no-underline shadow-sm transition hover:bg-white/20"
                   >
                     Canvas pages
                   </Link>
-                </nav>
+                  </nav>
+                </div>
               }
             />
 

@@ -1,0 +1,66 @@
+uuid: 9f5b5701-1f8c-4bea-a6a5-e6750132ffed
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-logo
+active_version: 8bc66ad8c7d01514
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        ariaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example aria label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        ariaLabelledby:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example aria labelledby'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        orientation:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example orientation'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        type:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Aletheia Logo'
+id: js.aletheia-logo
+provider: null
+source: js
+source_local_id: aletheia-logo

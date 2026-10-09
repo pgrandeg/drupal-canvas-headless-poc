@@ -1,0 +1,61 @@
+uuid: e64a477b-c0e6-4e94-8dc8-4dd1ee49a22c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-content-header-indicator
+name: 'Aletheia Content header indicator'
+type: external
+required: {  }
+props:
+  badgeColor:
+    type: string
+    title: 'Badge Color'
+    examples:
+      - 'Example badge color'
+  icon:
+    type: string
+    title: Icon
+  operator:
+    type: string
+    title: Operator
+    examples:
+      - 'Example operator'
+  overline:
+    type: string
+    title: Overline
+    examples:
+      - 'Example overline'
+  overlineTooltipText:
+    type: string
+    title: 'Overline Tooltip Text'
+    examples:
+      - 'Example overline tooltip text'
+  overlineTooltipWidth:
+    type: number
+    title: 'Overline Tooltip Width'
+    examples:
+      - 0.0
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+slots:
+  slotRight:
+    title: 'Slot Right'
+dataDependencies: {  }

@@ -1,0 +1,241 @@
+uuid: a2564226-a5c7-4c76-af23-8217dec3b6f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.drupal-view
+active_version: 7eff7247ef40dff3
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        viewId:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: content_recent
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        displayId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: default
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        limit:
+          required: false
+          field_type: integer
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 20
+          expression: ℹ︎integer␟value
+          derived_schema_metadata: {  }
+        title:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Latest content'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        itemComponent:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: card
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        mapping:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '{"heading":"title","text":"body","width":{"source":"width","type":"number"}}'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        staticProps:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '{"variant":"default","layout":"left_aligned"}'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+  938e3924578023c4:
+    settings:
+      prop_field_definitions:
+        viewId:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: content_recent
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        displayId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: default
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        limit:
+          required: false
+          field_type: integer
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 20
+          expression: ℹ︎integer␟value
+          derived_schema_metadata: {  }
+        title:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Latest content'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        itemComponent:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: card
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        mapping:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '{"heading":"title","text":"body","link":"path.alias"}'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        staticProps:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '{"variant":"default","layout":"left_aligned"}'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+  0723f0b7a03180ea:
+    settings:
+      prop_field_definitions:
+        viewId:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: content_recent
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        displayId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: default
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        limit:
+          required: false
+          field_type: integer
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: number
+          default_value:
+            -
+              value: 20
+          expression: ℹ︎integer␟value
+          derived_schema_metadata: {  }
+        title:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Latest content'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Drupal View'
+id: js.drupal-view
+provider: null
+source: js
+source_local_id: drupal-view

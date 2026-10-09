@@ -1,0 +1,23 @@
+name: Aletheia Collapse icon
+machineName: aletheia-collapse-icon
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    expanded:
+      title: Expanded
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+slots:
+  {}

@@ -1,0 +1,19 @@
+name: Aletheia Menu vertical
+machineName: aletheia-menu-vertical
+status: true
+required: []
+props:
+  properties:
+    appearance:
+      title: Appearance
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+slots:
+  {}

@@ -1,0 +1,10 @@
+name: Aletheia Table body
+machineName: aletheia-table-body
+status: true
+required: []
+props:
+  properties:
+    {}
+slots:
+  content:
+    title: Content

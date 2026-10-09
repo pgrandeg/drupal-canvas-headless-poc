@@ -1,0 +1,89 @@
+name: Aletheia Card selectable group
+machineName: aletheia-card-selectable-group
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "Example feedback"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    multiple:
+      title: Multiple
+      type: boolean
+      examples:
+        - false
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "Example orientation"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    requiredAriaLabel:
+      title: Required Aria Label
+      type: string
+      examples:
+        - "Obligatorio"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

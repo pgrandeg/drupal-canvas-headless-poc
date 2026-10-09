@@ -1,0 +1,51 @@
+name: Aletheia Tag
+machineName: aletheia-tag
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "danger"
+        - "disabled"
+        - "primary"
+        - "secondary"
+        - "success"
+        - "warning"
+      meta:enum:
+        accent: "Accent"
+        danger: "Danger"
+        disabled: "Disabled"
+        primary: "Primary"
+        secondary: "Secondary"
+        success: "Success"
+        warning: "Warning"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    icon:
+      title: Icon
+      type: string
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+slots:
+  content:
+    title: Content

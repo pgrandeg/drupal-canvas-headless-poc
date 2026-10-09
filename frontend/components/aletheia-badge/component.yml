@@ -1,0 +1,75 @@
+name: Aletheia Badge
+machineName: aletheia-badge
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "danger"
+        - "disabled"
+        - "info"
+        - "success"
+        - "warning"
+      meta:enum:
+        accent: "Accent"
+        danger: "Danger"
+        disabled: "Disabled"
+        info: "Info"
+        success: "Success"
+        warning: "Warning"
+    distanceX:
+      title: Distance X
+      type: number
+      examples:
+        - 0
+    distanceY:
+      title: Distance Y
+      type: number
+      examples:
+        - 0
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    max:
+      title: Max
+      type: number
+      examples:
+        - 100
+    position:
+      title: Position
+      type: string
+      examples:
+        - "right"
+      enum:
+        - "right"
+        - "top-right"
+      meta:enum:
+        right: "Right"
+        top-right: "Top right"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "dot"
+      enum:
+        - "dot"
+        - "numeric"
+      meta:enum:
+        dot: "Dot"
+        numeric: "Numeric"
+    value:
+      title: Value
+      type: number
+      examples:
+        - 0
+slots:
+  content:
+    title: Content

@@ -1,0 +1,23 @@
+name: Aletheia Loader shuffle
+machineName: aletheia-loader-shuffle
+status: true
+required: []
+props:
+  properties:
+    accessibleText:
+      title: Accessible Text
+      type: string
+      examples:
+        - "Cargando contenido"
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 4
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+slots:
+  {}

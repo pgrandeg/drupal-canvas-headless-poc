@@ -1,0 +1,46 @@
+uuid: 3f0ba4c8-6c06-4348-8f93-c519fcb3c42f
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-divider
+name: 'Aletheia Divider'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - bold
+      - bolder
+      - boldest
+    'meta:enum':
+      bold: Bold
+      bolder: Bolder
+      boldest: Boldest
+    title: Color
+    examples:
+      - bold
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+slots: {  }
+dataDependencies: {  }

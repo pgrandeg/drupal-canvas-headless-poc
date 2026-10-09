@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2dca5f03d706538e46713976cdd28c99",
+    "content-hash": "b4af8930906ab6f653f69455bd034896",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1339,6 +1339,54 @@
             "homepage": "https://www.drupal.org/project/canvas",
             "support": {
                 "source": "https://git.drupalcode.org/project/canvas"
+            }
+        },
+        {
+            "name": "drupal/canvas_translate",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/canvas_translate.git",
+                "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/canvas_translate-1.0.0-beta1.zip",
+                "reference": "1.0.0-beta1",
+                "shasum": "e70b0798db75c145b0d0b2c4749baa3636387122"
+            },
+            "require": {
+                "drupal/canvas": "^1.11.0",
+                "drupal/core": "^11.3"
+            },
+            "require-dev": {
+                "drupal/ai": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta1",
+                    "datestamp": "1791360655",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                }
+            ],
+            "description": "World-class in-house translation of Drupal Canvas content, delivered as a Canvas page extension.",
+            "homepage": "https://www.drupal.org/project/canvas_translate",
+            "support": {
+                "source": "https://git.drupalcode.org/project/canvas_translate"
             }
         },
         {
@@ -7947,7 +7995,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "drupal/canvas_translate": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},

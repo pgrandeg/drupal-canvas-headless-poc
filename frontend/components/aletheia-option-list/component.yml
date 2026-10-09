@@ -1,0 +1,39 @@
+name: Aletheia Option list
+machineName: aletheia-option-list
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    hasSearch:
+      title: Has Search
+      type: boolean
+      examples:
+        - false
+    noResultText:
+      title: No Result Text
+      type: string
+      examples:
+        - "Example no result text"
+    searchAriaLabel:
+      title: Search Aria Label
+      type: string
+      examples:
+        - "Buscar"
+    searchAriaLive:
+      title: Search Aria Live
+      type: string
+      examples:
+        - "Las opciones del menú se han actualizado"
+    searchPlaceholder:
+      title: Search Placeholder
+      type: string
+      examples:
+        - "Example search placeholder"
+slots:
+  content:
+    title: Content

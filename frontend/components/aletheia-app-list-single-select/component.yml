@@ -1,0 +1,32 @@
+name: Aletheia App list single select
+machineName: aletheia-app-list-single-select
+status: true
+required: []
+props:
+  properties:
+    appareance:
+      title: Appareance
+      type: string
+      examples:
+        - "appareance4"
+      enum:
+        - "appareance4"
+        - "radiobutton"
+        - "single"
+      meta:enum:
+        appareance4: "Appareance4"
+        radiobutton: "Radiobutton"
+        single: "Single"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

@@ -1,0 +1,19 @@
+name: Aletheia Global header
+machineName: aletheia-global-header
+status: true
+required: []
+props:
+  properties:
+    headerAriaLabel:
+      title: Header Aria Label
+      type: string
+      examples:
+        - "Example header aria label"
+    logoType:
+      title: Logo Type
+      type: string
+      examples:
+        - "Example logo type"
+slots:
+  content:
+    title: Content

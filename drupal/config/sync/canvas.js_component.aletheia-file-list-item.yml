@@ -1,0 +1,73 @@
+uuid: 44f7fc55-880d-46c1-902b-f17f62881d30
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-file-list-item
+name: 'Aletheia File list item'
+type: external
+required: {  }
+props:
+  feedback:
+    type: string
+    title: Feedback
+    examples:
+      - 'Example feedback'
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  hasDelete:
+    type: boolean
+    title: 'Has Delete'
+    examples:
+      - false
+  hasDownload:
+    type: boolean
+    title: 'Has Download'
+    examples:
+      - false
+  hasIcon:
+    type: boolean
+    title: 'Has Icon'
+    examples:
+      - false
+  inProgress:
+    type: boolean
+    title: 'In Progress'
+    examples:
+      - true
+  loadingText:
+    type: string
+    title: 'Loading Text'
+    examples:
+      - Cargando
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  progress:
+    type: number
+    title: Progress
+    examples:
+      - 0.0
+  progressbarAriaLabel:
+    type: string
+    title: 'Progressbar Aria Label'
+    examples:
+      - 'Example progressbar aria label'
+  size:
+    type: number
+    title: Size
+    examples:
+      - 0.0
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

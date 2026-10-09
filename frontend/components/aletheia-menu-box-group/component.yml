@@ -1,0 +1,29 @@
+name: Aletheia Menu box group
+machineName: aletheia-menu-box-group
+status: true
+required: []
+props:
+  properties:
+    itemsBehaviour:
+      title: Items Behaviour
+      type: string
+      examples:
+        - "Example items behaviour"
+    itemsHeight:
+      title: Items Height
+      type: string
+      examples:
+        - "Example items height"
+    itemsWidth:
+      title: Items Width
+      type: string
+      examples:
+        - "Example items width"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "Example orientation"
+slots:
+  content:
+    title: Content

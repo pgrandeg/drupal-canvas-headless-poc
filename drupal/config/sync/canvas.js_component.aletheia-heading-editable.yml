@@ -1,0 +1,66 @@
+uuid: d28fe3e1-9468-4485-8088-80de3a9da30a
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-heading-editable
+name: 'Aletheia Heading editable'
+type: external
+required: {  }
+props:
+  cancelLiveMessage:
+    type: string
+    title: 'Cancel Live Message'
+    examples:
+      - 'Se han cancelado los cambios'
+  cancelOnBlur:
+    type: boolean
+    title: 'Cancel On Blur'
+    examples:
+      - true
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  editButtonAriaLabel:
+    type: string
+    title: 'Edit Button Aria Label'
+    examples:
+      - Editar
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 2.0
+  headingSize:
+    type: string
+    title: 'Heading Size'
+    examples:
+      - 'Example heading size'
+  inputAriaLabel:
+    type: string
+    title: 'Input Aria Label'
+    examples:
+      - 'Título de cabecera editable'
+  saveLiveMessage:
+    type: string
+    title: 'Save Live Message'
+    examples:
+      - 'Se han guardado los cambios'
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  textButtonCancel:
+    type: string
+    title: 'Text Button Cancel'
+    examples:
+      - Cancelar
+  textButtonSave:
+    type: string
+    title: 'Text Button Save'
+    examples:
+      - Guardar
+slots: {  }
+dataDependencies: {  }

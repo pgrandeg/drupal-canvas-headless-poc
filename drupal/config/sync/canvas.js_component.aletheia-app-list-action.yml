@@ -1,0 +1,51 @@
+uuid: be56e9bb-2897-456a-8b0d-6e2d9389d6e4
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-app-list-action
+name: 'Aletheia App list action'
+type: external
+required: {  }
+props:
+  behavior:
+    type: string
+    enum:
+      - action
+      - navigation
+      - none
+    'meta:enum':
+      action: Action
+      navigation: Navigation
+      none: None
+    title: Behavior
+    examples:
+      - action
+  hasDetail:
+    type: boolean
+    title: 'Has Detail'
+    examples:
+      - true
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  selectable:
+    type: boolean
+    title: Selectable
+    examples:
+      - false
+  subtitle:
+    type: string
+    title: Subtitle
+    examples:
+      - 'Example subtitle'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  leading:
+    title: Leading
+dataDependencies: {  }

@@ -1,0 +1,92 @@
+uuid: 69a8e165-19ba-4577-87c0-5e72913b34e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-app-list-action
+  module:
+    - options
+active_version: a7228525978923e0
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        behavior:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: action
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+        hasDetail:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: true
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        label:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        selectable:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        subtitle:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example subtitle'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        value:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example value'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        leading:
+          title: Leading
+label: 'Aletheia App list action'
+id: js.aletheia-app-list-action
+provider: null
+source: js
+source_local_id: aletheia-app-list-action

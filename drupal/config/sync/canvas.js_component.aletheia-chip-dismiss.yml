@@ -1,0 +1,40 @@
+uuid: 7042dd7d-f53a-4063-a30d-d3fba9c8d870
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-chip-dismiss
+name: 'Aletheia Chip dismiss'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  icon:
+    type: string
+    title: Icon
+  labelDismiss:
+    type: string
+    title: 'Label Dismiss'
+    examples:
+      - Eliminar
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+slots: {  }
+dataDependencies: {  }

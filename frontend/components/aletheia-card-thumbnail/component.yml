@@ -1,0 +1,39 @@
+name: Aletheia Card thumbnail
+machineName: aletheia-card-thumbnail
+status: true
+required: []
+props:
+  properties:
+    bottomTag:
+      title: Bottom Tag
+      type: string
+      examples:
+        - "Example bottom tag"
+    highlightText:
+      title: Highlight Text
+      type: string
+      examples:
+        - "Example highlight text"
+    topTag:
+      title: Top Tag
+      type: string
+      examples:
+        - "Example top tag"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "avatar"
+      enum:
+        - "avatar"
+        - "default"
+        - "highlight"
+      meta:enum:
+        avatar: "Avatar"
+        default: "Default"
+        highlight: "Highlight"
+slots:
+  imgThumbnail:
+    title: Img Thumbnail
+  avatar:
+    title: Avatar

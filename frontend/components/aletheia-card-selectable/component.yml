@@ -1,0 +1,65 @@
+name: Aletheia Card selectable
+machineName: aletheia-card-selectable
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    overline:
+      title: Overline
+      type: string
+      examples:
+        - "Example overline"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    subtitle:
+      title: Subtitle
+      type: string
+      examples:
+        - "Example subtitle"
+    tag:
+      title: Tag
+      type: string
+      examples:
+        - "Example tag"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "multiselect"
+      enum:
+        - "multiselect"
+        - "single"
+      meta:enum:
+        multiselect: "Multiselect"
+        single: "Single"
+slots:
+  img:
+    title: Img
+  body:
+    title: Body
+  footer:
+    title: Footer

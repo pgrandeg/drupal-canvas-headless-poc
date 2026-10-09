@@ -1,0 +1,8 @@
+name: Canvas Headless API
+type: module
+description: 'Small, reusable JSON endpoints for Drupal Views and contact forms used by the headless frontend.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:contact
+  - drupal:views

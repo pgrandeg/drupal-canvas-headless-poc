@@ -1,0 +1,110 @@
+uuid: ca52019b-190c-4660-8f49-2a6c2e9be63d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table-row-item
+name: 'Aletheia Table row item'
+type: external
+required: {  }
+props:
+  alignment:
+    type: string
+    enum:
+      - center
+      - left
+      - right
+    'meta:enum':
+      center: Center
+      left: Left
+      right: Right
+    title: Alignment
+    examples:
+      - center
+  cellWidth:
+    type: string
+    title: 'Cell Width'
+    examples:
+      - auto
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  expanded:
+    type: boolean
+    title: Expanded
+    examples:
+      - false
+  expander:
+    type: boolean
+    title: Expander
+    examples:
+      - false
+  expanderAriaControls:
+    type: string
+    title: 'Expander Aria Controls'
+    examples:
+      - 'Example expander aria controls'
+  frozen:
+    type: string
+    enum:
+      - first
+      - last
+      - none
+    'meta:enum':
+      first: First
+      last: Last
+      none: None
+    title: Frozen
+    examples:
+      - first
+  hasInteractivity:
+    type: boolean
+    title: 'Has Interactivity'
+    examples:
+      - false
+  isChild:
+    type: boolean
+    title: 'Is Child'
+    examples:
+      - false
+  isHeader:
+    type: boolean
+    title: 'Is Header'
+    examples:
+      - false
+  noFrozenShadow:
+    type: boolean
+    title: 'No Frozen Shadow'
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  striped:
+    type: boolean
+    title: Striped
+    examples:
+      - false
+slots:
+  content:
+    title: Content
+  editable:
+    title: Editable
+dataDependencies: {  }

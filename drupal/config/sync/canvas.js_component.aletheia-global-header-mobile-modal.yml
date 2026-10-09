@@ -1,0 +1,23 @@
+uuid: 38083f24-625d-4800-8f53-f1c8d68559e4
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-mobile-modal
+name: 'Aletheia Global header mobile modal'
+type: external
+required: {  }
+props:
+  modalId:
+    type: string
+    title: 'Modal Id'
+    examples:
+      - example-id
+  triggerId:
+    type: string
+    title: 'Trigger Id'
+    examples:
+      - example-id
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

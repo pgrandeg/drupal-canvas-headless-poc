@@ -1,0 +1,46 @@
+uuid: b317eb8e-81a3-408c-8a16-51fc59296557
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-radio-button
+name: 'Aletheia Radio button'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  checked:
+    type: boolean
+    title: Checked
+    examples:
+      - false
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

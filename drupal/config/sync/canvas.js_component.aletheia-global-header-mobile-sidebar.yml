@@ -1,0 +1,13 @@
+uuid: 0236bc2b-c383-4803-8af7-467c35d6633c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-mobile-sidebar
+name: 'Aletheia Global header mobile sidebar'
+type: external
+required: {  }
+props: {  }
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

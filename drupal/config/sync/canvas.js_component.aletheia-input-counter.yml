@@ -1,0 +1,130 @@
+uuid: 46670a44-b2ab-41a7-9e40-51f61c51f0c8
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-input-counter
+name: 'Aletheia Input counter'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideControls:
+    type: boolean
+    title: 'Hide Controls'
+    examples:
+      - false
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  inputAriaLabel:
+    type: string
+    title: 'Input Aria Label'
+    examples:
+      - 'Example input aria label'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  max:
+    type: number
+    title: Max
+    examples:
+      - 0.0
+  min:
+    type: number
+    title: Min
+    examples:
+      - 0.0
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - 'Example placeholder'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  step:
+    type: number
+    title: Step
+    examples:
+      - 1.0
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  unit:
+    type: string
+    title: Unit
+    examples:
+      - 'Example unit'
+  unitAriaLabel:
+    type: string
+    title: 'Unit Aria Label'
+    examples:
+      - 'Example unit aria label'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

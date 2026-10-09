@@ -1,0 +1,24 @@
+name: Aletheia Footer link group
+machineName: aletheia-footer-link-group
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "Example alignment"
+    gapSize:
+      title: Gap Size
+      type: string
+      examples:
+        - "Example gap size"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+slots:
+  content:
+    title: Content

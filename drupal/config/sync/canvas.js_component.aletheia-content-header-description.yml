@@ -1,0 +1,34 @@
+uuid: b54d3622-46e4-4a81-8645-f97bea6443ac
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-content-header-description
+name: 'Aletheia Content header description'
+type: external
+required: {  }
+props:
+  buttonAriaLabel:
+    type: string
+    title: 'Button Aria Label'
+    examples:
+      - 'Example button aria label'
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  hasButton:
+    type: boolean
+    title: 'Has Button'
+    examples:
+      - false
+  hasButtonCopy:
+    type: boolean
+    title: 'Has Button Copy'
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+slots: {  }
+dataDependencies: {  }

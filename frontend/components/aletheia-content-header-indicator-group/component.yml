@@ -1,0 +1,14 @@
+name: Aletheia Content header indicator group
+machineName: aletheia-content-header-indicator-group
+status: true
+required: []
+props:
+  properties:
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+slots:
+  content:
+    title: Content

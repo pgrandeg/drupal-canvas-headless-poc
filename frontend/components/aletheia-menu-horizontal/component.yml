@@ -1,0 +1,23 @@
+name: Aletheia Menu horizontal
+machineName: aletheia-menu-horizontal
+status: true
+required: []
+props:
+  properties:
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - true
+    items:
+      title: Items
+      type: string
+      examples:
+        - []
+slots:
+  {}

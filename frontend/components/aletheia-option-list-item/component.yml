@@ -1,0 +1,63 @@
+name: Aletheia Option list item
+machineName: aletheia-option-list-item
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    filtered:
+      title: Filtered
+      type: boolean
+      examples:
+        - false
+    focusable:
+      title: Focusable
+      type: boolean
+      examples:
+        - false
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - false
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    isVisible:
+      title: Is Visible
+      type: boolean
+      examples:
+        - false
+    itemTabIndex:
+      title: Item Tab Index
+      type: number
+      examples:
+        - -1
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+slots:
+  content:
+    title: Content

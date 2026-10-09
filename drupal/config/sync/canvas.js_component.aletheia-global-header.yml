@@ -1,0 +1,23 @@
+uuid: 04f2dd20-a2d6-47c6-baf7-67eedea7f9e5
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header
+name: 'Aletheia Global header'
+type: external
+required: {  }
+props:
+  headerAriaLabel:
+    type: string
+    title: 'Header Aria Label'
+    examples:
+      - 'Example header aria label'
+  logoType:
+    type: string
+    title: 'Logo Type'
+    examples:
+      - 'Example logo type'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

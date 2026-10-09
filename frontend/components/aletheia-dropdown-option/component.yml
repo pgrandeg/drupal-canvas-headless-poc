@@ -1,0 +1,51 @@
+name: Aletheia Dropdown option
+machineName: aletheia-dropdown-option
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    optionGroup:
+      title: Option Group
+      type: boolean
+      examples:
+        - false
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    selectedAriaLabel:
+      title: Selected Aria Label
+      type: string
+      examples:
+        - "seleccionada"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  leftAsset:
+    title: Left Asset
+  rightAsset:
+    title: Right Asset
+  content:
+    title: Content

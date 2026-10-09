@@ -1,0 +1,66 @@
+name: Aletheia Overlay
+machineName: aletheia-overlay
+status: true
+required: []
+props:
+  properties:
+    closeOnOutsideClick:
+      title: Close On Outside Click
+      type: boolean
+      examples:
+        - true
+    maxHeight:
+      title: Max Height
+      type: number
+      examples:
+        - 240
+    maxWidth:
+      title: Max Width
+      type: number
+      examples:
+        - 240
+    overlayAriaLabel:
+      title: Overlay Aria Label
+      type: string
+      examples:
+        - "Example overlay aria label"
+    position:
+      title: Position
+      type: string
+      examples:
+        - "Example position"
+    positionX:
+      title: Position X
+      type: number
+      examples:
+        - 0
+    positionY:
+      title: Position Y
+      type: number
+      examples:
+        - 0
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    triggerId:
+      title: Trigger Id
+      type: string
+      examples:
+        - "example-id"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Example type"
+    zIndex:
+      title: Z Index
+      type: number
+      examples:
+        - 1000
+slots:
+  anchor:
+    title: Anchor
+  content:
+    title: Content

@@ -1,0 +1,83 @@
+uuid: ca436ddf-783a-4eaf-95a6-fa5ee5909fe9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-button
+name: 'Aletheia Menu button'
+type: external
+required: {  }
+props:
+  alignment:
+    type: string
+    enum:
+      - left
+      - right
+    'meta:enum':
+      left: Left
+      right: Right
+    title: Alignment
+    examples:
+      - left
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Example ath aria label'
+  autofocus:
+    type: boolean
+    title: Autofocus
+    examples:
+      - false
+  clear:
+    type: boolean
+    title: Clear
+    examples:
+      - false
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  overlayMaxHeight:
+    type: string
+    title: 'Overlay Max Height'
+    examples:
+      - 'Example overlay max height'
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - lg
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

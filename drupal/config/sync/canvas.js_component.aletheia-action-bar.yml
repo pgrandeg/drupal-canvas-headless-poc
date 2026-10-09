@@ -1,0 +1,41 @@
+uuid: a415d21d-31ca-4080-a290-dda67911ed8f
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-action-bar
+name: 'Aletheia Action bar'
+type: external
+required: {  }
+props:
+  alignment:
+    type: string
+    enum:
+      - center
+      - justify
+      - left
+      - right
+    'meta:enum':
+      center: Center
+      justify: Justify
+      left: Left
+      right: Right
+    title: Alignment
+    examples:
+      - center
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

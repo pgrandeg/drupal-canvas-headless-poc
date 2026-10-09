@@ -6,6 +6,12 @@
     "node": ">=22.19.0 <23 || >=24.5.0"
   },
   "scripts": {
+    "aletheia:build": "node scripts/build-aletheia.mjs",
+    "aletheia:generate": "node scripts/generate-aletheia-canvas.mjs",
+    "predev": "npm run aletheia:build && npm run aletheia:generate",
+    "prebuild": "npm run aletheia:build && npm run aletheia:generate",
+    "preworkbench": "npm run aletheia:build && npm run aletheia:generate",
+    "precheck": "npm run aletheia:build && npm run aletheia:generate",
     "dev": "next dev --experimental-https --experimental-https-key certificates/localhost-key.pem --experimental-https-cert certificates/localhost.pem",
     "build": "next build",
     "start": "next start",

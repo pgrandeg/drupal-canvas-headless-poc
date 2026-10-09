@@ -1,0 +1,140 @@
+name: Aletheia Table row
+machineName: aletheia-table-row
+status: true
+required: []
+props:
+  properties:
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    clickableAriaLabel:
+      title: Clickable Aria Label
+      type: string
+      examples:
+        - "Navegar"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    expanded:
+      title: Expanded
+      type: boolean
+      examples:
+        - false
+    frozen:
+      title: Frozen
+      type: string
+      examples:
+        - "first"
+      enum:
+        - "first"
+        - "last"
+        - "none"
+      meta:enum:
+        first: "First"
+        last: "Last"
+        none: "None"
+    hasChildren:
+      title: Has Children
+      type: boolean
+      examples:
+        - false
+    last:
+      title: Last
+      type: boolean
+      examples:
+        - false
+    parentId:
+      title: Parent Id
+      type: string
+      examples:
+        - "example-id"
+    reserveClickable:
+      title: Reserve Clickable
+      type: boolean
+      examples:
+        - false
+    reserveExpander:
+      title: Reserve Expander
+      type: boolean
+      examples:
+        - false
+    rowId:
+      title: Row Id
+      type: string
+      examples:
+        - "example-id"
+    selectable:
+      title: Selectable
+      type: string
+      examples:
+        - "multiple"
+      enum:
+        - "multiple"
+        - "none"
+        - "single"
+      meta:enum:
+        multiple: "Multiple"
+        none: "None"
+        single: "Single"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    selectionGroupName:
+      title: Selection Group Name
+      type: string
+      examples:
+        - "Example selection group name"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    striped:
+      title: Striped
+      type: string
+      examples:
+        - "columns"
+      enum:
+        - "columns"
+        - "none"
+        - "rows"
+      meta:enum:
+        columns: "Columns"
+        none: "None"
+        rows: "Rows"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content
+  cardContent:
+    title: Card Content
+  collapse:
+    title: Collapse
+  cardActions:
+    title: Card Actions
+  cardFooter:
+    title: Card Footer

@@ -1,0 +1,75 @@
+uuid: 6091201c-9d9e-4c08-8fae-1b8f83f0c97f
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-lateral-item-link
+name: 'Aletheia Menu lateral item link'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  badgeLabel:
+    type: string
+    title: 'Badge Label'
+    examples:
+      - 'Example badge label'
+  badgeMax:
+    type: number
+    title: 'Badge Max'
+    examples:
+      - 0.0
+  badgeValue:
+    type: number
+    title: 'Badge Value'
+    examples:
+      - 0.0
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - 'Se abre en una nueva ventana'
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  icon:
+    type: string
+    title: Icon
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  rel:
+    type: string
+    title: Rel
+    examples:
+      - 'Example rel'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  target:
+    type: string
+    title: Target
+    examples:
+      - 'Example target'
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+slots: {  }
+dataDependencies: {  }

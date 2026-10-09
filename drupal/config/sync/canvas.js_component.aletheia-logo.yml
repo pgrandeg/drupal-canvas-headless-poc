@@ -1,0 +1,31 @@
+uuid: fb24fe11-d39e-4d35-83a6-49850664c739
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-logo
+name: 'Aletheia Logo'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+  type:
+    type: string
+    title: Type
+    examples:
+      - 'Example type'
+slots: {  }
+dataDependencies: {  }

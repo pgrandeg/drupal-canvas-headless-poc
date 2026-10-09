@@ -1,0 +1,36 @@
+name: Aletheia Menu vertical item action
+machineName: aletheia-menu-vertical-item-action
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

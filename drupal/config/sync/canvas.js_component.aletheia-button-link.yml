@@ -1,0 +1,63 @@
+uuid: 2b9c8ff5-2577-4204-979f-d1dbfdcbc68c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button-link
+name: 'Aletheia Button link'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  iconPosition:
+    type: string
+    enum:
+      - left
+      - right
+    'meta:enum':
+      left: Left
+      right: Right
+    title: 'Icon Position'
+    examples:
+      - left
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - md
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Button link'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

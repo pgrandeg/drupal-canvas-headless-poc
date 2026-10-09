@@ -4,6 +4,7 @@
  * Drupal-backed listings.
  */
 import { getClient } from '@drupal-canvas/headless-next';
+import type { Locale } from '@/lib/i18n';
 
 export interface Article {
   id: string;
@@ -46,8 +47,9 @@ export async function getCanvasPages(): Promise<CanvasPage[]> {
  * route, which hands them to fetchPage() — Drupal's own routing does the
  * rest.
  */
-export function canvasPagePath(page: CanvasPage): string {
-  return page.path?.alias || `/page/${page.drupal_internal__id}`;
+export function canvasPagePath(page: CanvasPage, locale: Locale = 'en'): string {
+  const path = page.path?.alias || `/page/${page.drupal_internal__id}`;
+  return `/${locale}${path === '/' ? '' : path}`;
 }
 
 /**
@@ -55,6 +57,7 @@ export function canvasPagePath(page: CanvasPage): string {
  * Canvas pages: alias when present, canonical Drupal path otherwise. Both
  * land in the catch-all route and render through fetchPage().
  */
-export function articlePath(article: Article): string {
-  return article.path?.alias || `/node/${article.drupal_internal__nid}`;
+export function articlePath(article: Article, locale: Locale = 'en'): string {
+  const path = article.path?.alias || `/node/${article.drupal_internal__nid}`;
+  return `/${locale}${path === '/' ? '' : path}`;
 }

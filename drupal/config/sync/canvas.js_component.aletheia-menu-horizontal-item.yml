@@ -1,0 +1,77 @@
+uuid: 6a2e48bc-3178-49b8-8611-20d399744841
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-horizontal-item
+name: 'Aletheia Menu horizontal item'
+type: external
+required: {  }
+props:
+  badgeLabel:
+    type: string
+    title: 'Badge Label'
+    examples:
+      - 'Example badge label'
+  badgeMax:
+    type: number
+    title: 'Badge Max'
+    examples:
+      - 0.0
+  badgeValue:
+    type: number
+    title: 'Badge Value'
+    examples:
+      - 0.0
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - '(Se abre en una nueva ventana)'
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  rel:
+    type: string
+    title: Rel
+    examples:
+      - 'Example rel'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  target:
+    type: string
+    enum:
+      - blank
+      - parent
+      - self
+      - top
+    'meta:enum':
+      blank: Blank
+      parent: Parent
+      self: Self
+      top: Top
+    title: Target
+    examples:
+      - blank
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

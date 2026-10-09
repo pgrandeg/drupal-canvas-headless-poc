@@ -1,0 +1,99 @@
+uuid: c8ca8c89-d763-453c-a4c2-0800d0cb5af4
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-carousel
+name: 'Aletheia Carousel'
+type: external
+required: {  }
+props:
+  autoResize:
+    type: boolean
+    title: 'Auto Resize'
+    examples:
+      - true
+  hasPagination:
+    type: boolean
+    title: 'Has Pagination'
+    examples:
+      - false
+  headingAlignment:
+    type: string
+    title: 'Heading Alignment'
+    examples:
+      - 'Example heading alignment'
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 2.0
+  headingSubtitle:
+    type: string
+    title: 'Heading Subtitle'
+    examples:
+      - 'Example heading subtitle'
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  headingType:
+    type: string
+    title: 'Heading Type'
+    examples:
+      - 'Example heading type'
+  itemsPerView:
+    type: number
+    title: 'Items Per View'
+    examples:
+      - 1.0
+  jump:
+    type: number
+    title: Jump
+    examples:
+      - 1.0
+  layout:
+    type: string
+    title: Layout
+    examples:
+      - 'Example layout'
+  loop:
+    type: boolean
+    title: Loop
+    examples:
+      - false
+  navigationPosition:
+    type: string
+    title: 'Navigation Position'
+    examples:
+      - 'Example navigation position'
+  nextButtonAriaLabel:
+    type: string
+    title: 'Next Button Aria Label'
+    examples:
+      - 'Siguiente diapositiva'
+  nextSlideAnnounce:
+    type: string
+    title: 'Next Slide Announce'
+    examples:
+      - 'Se ha avanzado de diapositiva'
+  prevButtonAriaLabel:
+    type: string
+    title: 'Prev Button Aria Label'
+    examples:
+      - 'Anterior diapositiva'
+  prevSlideAnnounce:
+    type: string
+    title: 'Prev Slide Announce'
+    examples:
+      - 'Se ha retrocedido de diapositiva'
+slots:
+  action:
+    title: Action
+  header:
+    title: Header
+  content:
+    title: Content
+  footer:
+    title: Footer
+dataDependencies: {  }

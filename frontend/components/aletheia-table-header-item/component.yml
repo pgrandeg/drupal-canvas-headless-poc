@@ -1,0 +1,69 @@
+name: Aletheia Table header item
+machineName: aletheia-table-header-item
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "center"
+      enum:
+        - "center"
+        - "left"
+        - "right"
+      meta:enum:
+        center: "Center"
+        left: "Left"
+        right: "Right"
+    cellWidth:
+      title: Cell Width
+      type: string
+      examples:
+        - "auto"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    frozen:
+      title: Frozen
+      type: string
+      examples:
+        - "first"
+      enum:
+        - "first"
+        - "last"
+        - "none"
+      meta:enum:
+        first: "First"
+        last: "Last"
+        none: "None"
+    hasInteractivity:
+      title: Has Interactivity
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+slots:
+  content:
+    title: Content

@@ -1,0 +1,39 @@
+uuid: d38782fb-d2e7-4db2-83d7-5967de281a11
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-vertical-item-action
+name: 'Aletheia Menu vertical item action'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

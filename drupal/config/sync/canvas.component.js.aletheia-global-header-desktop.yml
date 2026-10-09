@@ -1,0 +1,97 @@
+uuid: 1ac1a762-3fb5-49ea-ac41-c6a0b05b91f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header-desktop
+active_version: 4123c0c5967c0e47
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        closeButtonAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Cerrar
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        hasActionGroupSeparator:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        hasNavEndSeparator:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        hasUserSeparator:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        logoType:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example logo type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        triggerId:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: example-id
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        navStart:
+          title: 'Nav Start'
+        actionGroup:
+          title: 'Action Group'
+        user:
+          title: User
+        navEnd:
+          title: 'Nav End'
+        globalSearch:
+          title: 'Global Search'
+label: 'Aletheia Global header desktop'
+id: js.aletheia-global-header-desktop
+provider: null
+source: js
+source_local_id: aletheia-global-header-desktop

@@ -1,0 +1,31 @@
+uuid: df7fbce9-7f6e-46a3-8a55-40c05a94dcff
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-loader-spinner
+name: 'Aletheia Loader spinner'
+type: external
+required: {  }
+props:
+  accessibleText:
+    type: string
+    title: 'Accessible Text'
+    examples:
+      - 'Cargando contenido'
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 4.0
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+slots: {  }
+dataDependencies: {  }

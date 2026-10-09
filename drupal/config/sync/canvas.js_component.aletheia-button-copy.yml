@@ -1,0 +1,36 @@
+uuid: a0c93c8a-1bf6-42e0-aa4f-ab30a408abf0
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button-copy
+name: 'Aletheia Button copy'
+type: external
+required: {  }
+props:
+  copiedAriaLiveText:
+    type: string
+    title: 'Copied Aria Live Text'
+    examples:
+      - 'Texto copiado'
+  copiedTooltipText:
+    type: string
+    title: 'Copied Tooltip Text'
+    examples:
+      - Copiado
+  copyText:
+    type: string
+    title: 'Copy Text'
+    examples:
+      - 'Example copy text'
+  copyTooltipText:
+    type: string
+    title: 'Copy Tooltip Text'
+    examples:
+      - Copiar
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+slots: {  }
+dataDependencies: {  }

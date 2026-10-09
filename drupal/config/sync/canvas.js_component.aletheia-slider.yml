@@ -1,0 +1,163 @@
+uuid: 0d74dcc8-41d5-446a-b6a0-cd66af49de25
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-slider
+name: 'Aletheia Slider'
+type: external
+required: {  }
+props:
+  counterWidth:
+    type: string
+    title: 'Counter Width'
+    examples:
+      - auto
+  detailFirst:
+    type: string
+    title: 'Detail First'
+    examples:
+      - 'Example detail first'
+  detailLast:
+    type: string
+    title: 'Detail Last'
+    examples:
+      - 'Example detail last'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackCounter:
+    type: string
+    enum:
+      - both
+      - from
+      - none
+      - to
+    'meta:enum':
+      both: Both
+      from: From
+      none: None
+      to: To
+    title: 'Feedback Counter'
+    examples:
+      - both
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  fromAriaLabel:
+    type: string
+    title: 'From Aria Label'
+    examples:
+      - 'Example from aria label'
+  groupAriaLabel:
+    type: string
+    title: 'Group Aria Label'
+    examples:
+      - 'Example group aria label'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  labelGroup:
+    type: string
+    title: 'Label Group'
+    examples:
+      - 'Example label group'
+  max:
+    type: number
+    title: Max
+    examples:
+      - 100.0
+  min:
+    type: number
+    title: Min
+    examples:
+      - 0.0
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  showRequired:
+    type: boolean
+    title: 'Show Required'
+    examples:
+      - true
+  step:
+    type: number
+    title: Step
+    examples:
+      - 1.0
+  stepped:
+    type: boolean
+    title: Stepped
+    examples:
+      - false
+  toAriaLabel:
+    type: string
+    title: 'To Aria Label'
+    examples:
+      - 'Example to aria label'
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  type:
+    type: string
+    enum:
+      - default
+      - range
+    'meta:enum':
+      default: Default
+      range: Range
+    title: Type
+    examples:
+      - default
+  unit:
+    type: string
+    title: Unit
+    examples:
+      - 'Example unit'
+  value:
+    type: string
+    title: Value
+    examples:
+      - '0'
+  valueText:
+    type: string
+    title: 'Value Text'
+    examples:
+      - 'Example value text'
+  width:
+    type: string
+    title: Width
+    examples:
+      - 100%
+slots: {  }
+dataDependencies: {  }

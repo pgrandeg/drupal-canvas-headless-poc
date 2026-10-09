@@ -1,0 +1,121 @@
+uuid: 614c5ec7-fcc2-496b-94b1-c419a2db15f0
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-segmented-control
+name: 'Aletheia Segmented control'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  requiredAriaLabel:
+    type: string
+    title: 'Required Aria Label'
+    examples:
+      - 'Example required aria label'
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xl
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xl: Xl
+    title: Size
+    examples:
+      - lg
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  type:
+    type: string
+    enum:
+      - action
+      - select
+    'meta:enum':
+      action: Action
+      select: Select
+    title: Type
+    examples:
+      - action
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

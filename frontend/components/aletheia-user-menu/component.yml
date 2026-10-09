@@ -1,0 +1,44 @@
+name: Aletheia User menu
+machineName: aletheia-user-menu
+status: true
+required: []
+props:
+  properties:
+    initials:
+      title: Initials
+      type: string
+      examples:
+        - "Example initials"
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    srcImage:
+      title: Src Image
+      type: string
+      examples:
+        - "Example src image"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "hide-avatar"
+        - "image"
+        - "initials"
+      meta:enum:
+        default: "Default"
+        hide-avatar: "Hide avatar"
+        image: "Image"
+        initials: "Initials"
+    userName:
+      title: User Name
+      type: string
+      examples:
+        - "Example user name"
+slots:
+  content:
+    title: Content

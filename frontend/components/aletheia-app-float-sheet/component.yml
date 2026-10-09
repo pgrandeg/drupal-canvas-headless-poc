@@ -1,0 +1,48 @@
+name: Aletheia App float sheet
+machineName: aletheia-app-float-sheet
+status: true
+required: []
+props:
+  properties:
+    closable:
+      title: Closable
+      type: boolean
+      examples:
+        - true
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    descriptionVisible:
+      title: Description Visible
+      type: boolean
+      examples:
+        - true
+    footer:
+      title: Footer
+      type: boolean
+      examples:
+        - true
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Title"
+    image:
+      title: Image
+      type: boolean
+      examples:
+        - true
+    titleVisible:
+      title: Title Visible
+      type: boolean
+      examples:
+        - true
+slots:
+  image:
+    title: Image
+  footer:
+    title: Footer
+  secondary:
+    title: Secondary

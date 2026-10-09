@@ -1,0 +1,115 @@
+uuid: bc61c223-e5de-4e78-9d48-e74b05fd983a
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-input-exchange
+name: 'Aletheia Input exchange'
+type: external
+required: {  }
+props:
+  counter:
+    type: boolean
+    title: Counter
+    examples:
+      - true
+  currency:
+    type: string
+    title: Currency
+    examples:
+      - EUR
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  hasClear:
+    type: boolean
+    title: 'Has Clear'
+    examples:
+      - false
+  hasHelperText:
+    type: boolean
+    title: 'Has Helper Text'
+    examples:
+      - true
+  hasLabel:
+    type: boolean
+    title: 'Has Label'
+    examples:
+      - true
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  iconPositionLeft:
+    type: boolean
+    title: 'Icon Position Left'
+    examples:
+      - false
+  iconPositionRight:
+    type: boolean
+    title: 'Icon Position Right'
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  state:
+    type: string
+    enum:
+      - default
+      - focus
+    'meta:enum':
+      default: Default
+      focus: Focus
+    title: State
+    examples:
+      - default
+  type:
+    type: string
+    title: Type
+    examples:
+      - text
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  iconLeft:
+    title: 'Icon Left'
+  iconRight:
+    title: 'Icon Right'
+dataDependencies: {  }

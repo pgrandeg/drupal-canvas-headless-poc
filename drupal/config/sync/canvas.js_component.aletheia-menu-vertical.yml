@@ -1,0 +1,22 @@
+uuid: f3f2ca55-440d-4a56-9d5f-898f55d267d2
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-vertical
+name: 'Aletheia Menu vertical'
+type: external
+required: {  }
+props:
+  appearance:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Appearance
+    examples:
+      - primary
+slots: {  }
+dataDependencies: {  }

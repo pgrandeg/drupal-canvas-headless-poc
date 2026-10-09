@@ -1,0 +1,82 @@
+name: Aletheia Menu box
+machineName: aletheia-menu-box
+status: true
+required: []
+props:
+  properties:
+    badgeLabel:
+      title: Badge Label
+      type: string
+      examples:
+        - "Example badge label"
+    badgeMax:
+      title: Badge Max
+      type: number
+      examples:
+        - 0
+    badgeValue:
+      title: Badge Value
+      type: number
+      examples:
+        - 0
+    behaviour:
+      title: Behaviour
+      type: string
+      examples:
+        - "Example behaviour"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Se abre en una ventana nueva"
+    height:
+      title: Height
+      type: string
+      examples:
+        - "100%"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    rel:
+      title: Rel
+      type: string
+      examples:
+        - "Example rel"
+    target:
+      title: Target
+      type: string
+      examples:
+        - "Example target"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Example type"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  {}

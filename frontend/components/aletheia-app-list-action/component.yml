@@ -1,0 +1,47 @@
+name: Aletheia App list action
+machineName: aletheia-app-list-action
+status: true
+required: []
+props:
+  properties:
+    behavior:
+      title: Behavior
+      type: string
+      examples:
+        - "action"
+      enum:
+        - "action"
+        - "navigation"
+        - "none"
+      meta:enum:
+        action: "Action"
+        navigation: "Navigation"
+        none: "None"
+    hasDetail:
+      title: Has Detail
+      type: boolean
+      examples:
+        - true
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    selectable:
+      title: Selectable
+      type: boolean
+      examples:
+        - false
+    subtitle:
+      title: Subtitle
+      type: string
+      examples:
+        - "Example subtitle"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  leading:
+    title: Leading

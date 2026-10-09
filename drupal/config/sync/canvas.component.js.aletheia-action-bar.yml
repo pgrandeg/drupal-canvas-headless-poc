@@ -1,0 +1,46 @@
+uuid: 85543522-5416-4778-81ae-71948ac6431b
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-action-bar
+  module:
+    - options
+active_version: dcbe8c2ed85f9096
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        alignment:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: center
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+        size:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: lg
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Action bar'
+id: js.aletheia-action-bar
+provider: null
+source: js
+source_local_id: aletheia-action-bar

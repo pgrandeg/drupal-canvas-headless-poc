@@ -1,0 +1,10 @@
+name: Aletheia Global header mobile sidebar
+machineName: aletheia-global-header-mobile-sidebar
+status: true
+required: []
+props:
+  properties:
+    {}
+slots:
+  content:
+    title: Content

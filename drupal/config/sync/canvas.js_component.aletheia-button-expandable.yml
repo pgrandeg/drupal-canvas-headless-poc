@@ -1,0 +1,44 @@
+uuid: 3c99568e-8ef6-43d4-a391-231288aeb5c9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button-expandable
+name: 'Aletheia Button expandable'
+type: external
+required: {  }
+props:
+  collapseTarget:
+    type: string
+    title: 'Collapse Target'
+    examples:
+      - 'Example collapse target'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Button expandable'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

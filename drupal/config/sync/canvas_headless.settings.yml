@@ -6,16 +6,139 @@ frontends:
     components:
       - js.accordion-item
       - js.accordion
+      - js.aletheia-accordion-item
+      - js.aletheia-accordion
+      - js.aletheia-action-bar
+      - js.aletheia-agenda-item
+      - js.aletheia-agenda
+      - js.aletheia-alert
+      - js.aletheia-app-card-select
+      - js.aletheia-app-list-action
+      - js.aletheia-app-list-single-select
+      - js.aletheia-app-navbar
+      - js.aletheia-avatar
+      - js.aletheia-badge
+      - js.aletheia-button-copy
+      - js.aletheia-button-expandable
+      - js.aletheia-button-float
+      - js.aletheia-button-group
+      - js.aletheia-button-link
+      - js.aletheia-button
+      - js.aletheia-calendar
+      - js.aletheia-card-header
+      - js.aletheia-card-selectable-group
+      - js.aletheia-card-selectable
+      - js.aletheia-card-thumbnail
+      - js.aletheia-card
+      - js.aletheia-carousel-item
+      - js.aletheia-carousel
+      - js.aletheia-checkbox-group
+      - js.aletheia-checkbox
+      - js.aletheia-chip-choice-group
+      - js.aletheia-chip-choice
+      - js.aletheia-chip-dismiss-group
+      - js.aletheia-chip-dismiss
+      - js.aletheia-collapse-icon
+      - js.aletheia-collapse
+      - js.aletheia-content-header-description
+      - js.aletheia-content-header-indicator-group
+      - js.aletheia-content-header-indicator-list
+      - js.aletheia-content-header-indicator
+      - js.aletheia-content-header-status
+      - js.aletheia-datepicker-range
+      - js.aletheia-datepicker
+      - js.aletheia-divider
+      - js.aletheia-dropdown-option
+      - js.aletheia-dropdown
+      - js.aletheia-empty-state
+      - js.aletheia-file-list-item
+      - js.aletheia-file-list
+      - js.aletheia-file-uploader
+      - js.aletheia-footer-link-group
+      - js.aletheia-footer-link
+      - js.aletheia-footer-social-link
+      - js.aletheia-footer
+      - js.aletheia-global-header-desktop-nav-item
+      - js.aletheia-global-header-desktop
+      - js.aletheia-global-header-mobile-modal
+      - js.aletheia-global-header-mobile-sidebar-item
+      - js.aletheia-global-header-mobile-sidebar
+      - js.aletheia-global-header-mobile
+      - js.aletheia-global-header
+      - js.aletheia-global-search
+      - js.aletheia-heading-editable
+      - js.aletheia-icon
+      - js.aletheia-illustration
+      - js.aletheia-input-counter
+      - js.aletheia-input-exchange
+      - js.aletheia-input-password
+      - js.aletheia-input-range
+      - js.aletheia-input-text
+      - js.aletheia-input-textarea
+      - js.aletheia-link-button
+      - js.aletheia-link
+      - js.aletheia-list-item
+      - js.aletheia-list
+      - js.aletheia-loader-shuffle
+      - js.aletheia-loader-spinner
+      - js.aletheia-logo
+      - js.aletheia-menu-box-group
+      - js.aletheia-menu-box-option
+      - js.aletheia-menu-box
+      - js.aletheia-menu-button-item
+      - js.aletheia-menu-button
+      - js.aletheia-menu-horizontal-item
+      - js.aletheia-menu-lateral-item-action
+      - js.aletheia-menu-lateral-item-link
+      - js.aletheia-menu-vertical-item-action
+      - js.aletheia-menu-vertical-item-link
+      - js.aletheia-menu-vertical
+      - js.aletheia-metric
+      - js.aletheia-modal
+      - js.aletheia-option-list-item
+      - js.aletheia-option-list
+      - js.aletheia-overlay
+      - js.aletheia-pagination
+      - js.aletheia-panel
+      - js.aletheia-pictogram
+      - js.aletheia-progress-bar
+      - js.aletheia-radio-button-group
+      - js.aletheia-radio-button
+      - js.aletheia-search-suggested-item
+      - js.aletheia-search
+      - js.aletheia-section-title
+      - js.aletheia-segmented-control-item
+      - js.aletheia-segmented-control
+      - js.aletheia-slider
+      - js.aletheia-step
+      - js.aletheia-stepper
+      - js.aletheia-switch
+      - js.aletheia-tab
+      - js.aletheia-table-body
+      - js.aletheia-table-header-item
+      - js.aletheia-table-header
+      - js.aletheia-table-row-item
+      - js.aletheia-table-row
+      - js.aletheia-table
+      - js.aletheia-tag
+      - js.aletheia-tooltip-trigger
+      - js.aletheia-tooltip
+      - js.aletheia-user-detail
+      - js.aletheia-user-menu-item
+      - js.aletheia-user-menu
       - js.blockquote
       - js.button
       - js.card_container
       - js.card
+      - js.drupal-contact-form
+      - js.drupal-view
       - js.footer
       - js.grid_container
       - js.header
       - js.heading
       - js.hero
       - js.image
+      - js.language-switcher
       - js.logo_card
       - js.section
       - js.spacer

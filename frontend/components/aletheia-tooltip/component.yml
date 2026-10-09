@@ -1,0 +1,69 @@
+name: Aletheia Tooltip
+machineName: aletheia-tooltip
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    hasArrow:
+      title: Has Arrow
+      type: boolean
+      examples:
+        - true
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    maxWidth:
+      title: Max Width
+      type: number
+      examples:
+        - 240
+    position:
+      title: Position
+      type: string
+      examples:
+        - "bottom"
+      enum:
+        - "bottom"
+        - "bottom-left"
+        - "bottom-right"
+        - "left"
+        - "right"
+        - "top"
+        - "top-left"
+        - "top-right"
+      meta:enum:
+        bottom: "Bottom"
+        bottom-left: "Bottom left"
+        bottom-right: "Bottom right"
+        left: "Left"
+        right: "Right"
+        top: "Top"
+        top-left: "Top left"
+        top-right: "Top right"
+    trigger:
+      title: Trigger
+      type: string
+      examples:
+        - "click"
+      enum:
+        - "click"
+        - "hover"
+      meta:enum:
+        click: "Click"
+        hover: "Hover"
+slots:
+  content:
+    title: Content

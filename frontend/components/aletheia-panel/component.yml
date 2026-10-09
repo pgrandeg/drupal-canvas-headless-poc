@@ -1,0 +1,21 @@
+name: Aletheia Panel
+machineName: aletheia-panel
+status: true
+required: []
+props:
+  properties:
+    focusable:
+      title: Focusable
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+slots:
+  actions:
+    title: Actions
+  content:
+    title: Content

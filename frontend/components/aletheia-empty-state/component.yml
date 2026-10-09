@@ -1,0 +1,64 @@
+name: Aletheia Empty state
+machineName: aletheia-empty-state
+status: true
+required: []
+props:
+  properties:
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 4
+    headingSize:
+      title: Heading Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    hideImage:
+      title: Hide Image
+      type: boolean
+      examples:
+        - false
+    loadingLabel:
+      title: Loading Label
+      type: string
+      examples:
+        - "Example loading label"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "empty"
+      enum:
+        - "empty"
+        - "error"
+        - "loading"
+        - "search-no-results"
+      meta:enum:
+        empty: "Empty"
+        error: "Error"
+        loading: "Loading"
+        search-no-results: "Search no results"
+slots:
+  body:
+    title: Body
+  footer:
+    title: Footer

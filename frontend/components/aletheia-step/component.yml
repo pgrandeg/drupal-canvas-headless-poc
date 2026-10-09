@@ -1,0 +1,147 @@
+name: Aletheia Step
+machineName: aletheia-step
+status: true
+required: []
+props:
+  properties:
+    actionText:
+      title: Action Text
+      type: string
+      examples:
+        - "Example action text"
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "center"
+      enum:
+        - "center"
+        - "left"
+      meta:enum:
+        center: "Center"
+        left: "Left"
+    ariaLiveMessage:
+      title: Aria Live Message
+      type: string
+      examples:
+        - "Example aria live message"
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    athId:
+      title: Ath Id
+      type: number
+      examples:
+        - 0
+    athRole:
+      title: Ath Role
+      type: string
+      examples:
+        - "button"
+      enum:
+        - "button"
+        - "link"
+      meta:enum:
+        button: "Button"
+        link: "Link"
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    collapseLabel:
+      title: Collapse Label
+      type: string
+      examples:
+        - "Example collapse label"
+    completedLabel:
+      title: Completed Label
+      type: string
+      examples:
+        - "Example completed label"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    errorLabel:
+      title: Error Label
+      type: string
+      examples:
+        - "Example error label"
+    expandLabel:
+      title: Expand Label
+      type: string
+      examples:
+        - "Example expand label"
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    isCollapsable:
+      title: Is Collapsable
+      type: boolean
+      examples:
+        - false
+    isComplete:
+      title: Is Complete
+      type: boolean
+      examples:
+        - false
+    isExpanded:
+      title: Is Expanded
+      type: boolean
+      examples:
+        - false
+    number:
+      title: Number
+      type: number
+      examples:
+        - 0
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    total:
+      title: Total
+      type: number
+      examples:
+        - 0
+slots:
+  content:
+    title: Content
+  mobileDetail:
+    title: Mobile Detail
+  mobileContent:
+    title: Mobile Content

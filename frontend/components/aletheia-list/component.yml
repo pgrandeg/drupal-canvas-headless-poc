@@ -1,0 +1,50 @@
+name: Aletheia List
+machineName: aletheia-list
+status: true
+required: []
+props:
+  properties:
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - false
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+slots:
+  content:
+    title: Content

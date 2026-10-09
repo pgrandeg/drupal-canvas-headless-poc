@@ -1,0 +1,138 @@
+name: Aletheia Input range
+machineName: aletheia-input-range
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "Example feedback"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    inputAriaLabel:
+      title: Input Aria Label
+      type: string
+      examples:
+        - "Example input aria label"
+    inputAriaLabelEnd:
+      title: Input Aria Label End
+      type: string
+      examples:
+        - "Example input aria label end"
+    inputAriaLabelStart:
+      title: Input Aria Label Start
+      type: string
+      examples:
+        - "Example input aria label start"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    labelEnd:
+      title: Label End
+      type: string
+      examples:
+        - "Example label end"
+    labelStart:
+      title: Label Start
+      type: string
+      examples:
+        - "Example label start"
+    max:
+      title: Max
+      type: number
+      examples:
+        - 100
+    min:
+      title: Min
+      type: number
+      examples:
+        - 0
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    placeholderEnd:
+      title: Placeholder End
+      type: string
+      examples:
+        - "Example placeholder end"
+    placeholderStart:
+      title: Placeholder Start
+      type: string
+      examples:
+        - "Example placeholder start"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    requiredEnd:
+      title: Required End
+      type: boolean
+      examples:
+        - false
+    requiredStart:
+      title: Required Start
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    step:
+      title: Step
+      type: number
+      examples:
+        - 1
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+    unit:
+      title: Unit
+      type: string
+      examples:
+        - "Example unit"
+    unitAriaLabel:
+      title: Unit Aria Label
+      type: string
+      examples:
+        - "Example unit aria label"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

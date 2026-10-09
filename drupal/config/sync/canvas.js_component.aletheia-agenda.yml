@@ -1,0 +1,103 @@
+uuid: 34f88dab-a201-4693-9923-98e372c39786
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-agenda
+name: 'Aletheia Agenda'
+type: external
+required: {  }
+props:
+  alphabetAriaLabel:
+    type: string
+    title: 'Alphabet Aria Label'
+    examples:
+      - 'Selecciona una inicial'
+  alphabetModeAriaLive:
+    type: string
+    title: 'Alphabet Mode Aria Live'
+    examples:
+      - 'Modo alfabeto activado'
+  alphabetModeButtonAriaLabel:
+    type: string
+    title: 'Alphabet Mode Button Aria Label'
+    examples:
+      - 'Cambiar a modo alfabeto'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  found:
+    type: number
+    title: Found
+    examples:
+      - 0.0
+  hasAlphabet:
+    type: boolean
+    title: 'Has Alphabet'
+    examples:
+      - true
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 4.0
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  height:
+    type: string
+    title: Height
+    examples:
+      - 100%
+  initialsAriaLabel:
+    type: string
+    title: 'Initials Aria Label'
+    examples:
+      - 'Buscar elementos que comiencen por [initial]'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - 'Example placeholder'
+  resultsAriaLabel:
+    type: string
+    title: 'Results Aria Label'
+    examples:
+      - 'Resultados de búsqueda'
+  resultsAriaLive:
+    type: string
+    title: 'Results Aria Live'
+    examples:
+      - 'Se han encontrado [found] resultados'
+  searchInputAriaLabel:
+    type: string
+    title: 'Search Input Aria Label'
+    examples:
+      - 'Introduce un texto para buscar elementos'
+  searchModeAriaLive:
+    type: string
+    title: 'Search Mode Aria Live'
+    examples:
+      - 'Modo búsqueda activado'
+  searchModeButtonAriaLabel:
+    type: string
+    title: 'Search Mode Button Aria Label'
+    examples:
+      - 'Cambiar a modo búsqueda'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

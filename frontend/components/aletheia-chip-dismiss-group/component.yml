@@ -1,0 +1,30 @@
+name: Aletheia Chip dismiss group
+machineName: aletheia-chip-dismiss-group
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  content:
+    title: Content

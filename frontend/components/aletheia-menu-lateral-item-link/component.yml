@@ -1,0 +1,72 @@
+name: Aletheia Menu lateral item link
+machineName: aletheia-menu-lateral-item-link
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    badgeLabel:
+      title: Badge Label
+      type: string
+      examples:
+        - "Example badge label"
+    badgeMax:
+      title: Badge Max
+      type: number
+      examples:
+        - 0
+    badgeValue:
+      title: Badge Value
+      type: number
+      examples:
+        - 0
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Se abre en una nueva ventana"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    rel:
+      title: Rel
+      type: string
+      examples:
+        - "Example rel"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    target:
+      title: Target
+      type: string
+      examples:
+        - "Example target"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+slots:
+  {}

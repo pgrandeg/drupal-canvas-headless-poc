@@ -1,0 +1,151 @@
+uuid: a4740db4-1310-443c-8bef-e716f8a9c330
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-step
+name: 'Aletheia Step'
+type: external
+required: {  }
+props:
+  actionText:
+    type: string
+    title: 'Action Text'
+    examples:
+      - 'Example action text'
+  alignment:
+    type: string
+    enum:
+      - center
+      - left
+    'meta:enum':
+      center: Center
+      left: Left
+    title: Alignment
+    examples:
+      - center
+  ariaLiveMessage:
+    type: string
+    title: 'Aria Live Message'
+    examples:
+      - 'Example aria live message'
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Example ath aria label'
+  athId:
+    type: number
+    title: 'Ath Id'
+    examples:
+      - 0.0
+  athRole:
+    type: string
+    enum:
+      - button
+      - link
+    'meta:enum':
+      button: Button
+      link: Link
+    title: 'Ath Role'
+    examples:
+      - button
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  collapseLabel:
+    type: string
+    title: 'Collapse Label'
+    examples:
+      - 'Example collapse label'
+  completedLabel:
+    type: string
+    title: 'Completed Label'
+    examples:
+      - 'Example completed label'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  errorLabel:
+    type: string
+    title: 'Error Label'
+    examples:
+      - 'Example error label'
+  expandLabel:
+    type: string
+    title: 'Expand Label'
+    examples:
+      - 'Example expand label'
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  isCollapsable:
+    type: boolean
+    title: 'Is Collapsable'
+    examples:
+      - false
+  isComplete:
+    type: boolean
+    title: 'Is Complete'
+    examples:
+      - false
+  isExpanded:
+    type: boolean
+    title: 'Is Expanded'
+    examples:
+      - false
+  number:
+    type: number
+    title: Number
+    examples:
+      - 0.0
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  total:
+    type: number
+    title: Total
+    examples:
+      - 0.0
+slots:
+  content:
+    title: Content
+  mobileDetail:
+    title: 'Mobile Detail'
+  mobileContent:
+    title: 'Mobile Content'
+dataDependencies: {  }

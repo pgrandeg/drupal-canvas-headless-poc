@@ -1,0 +1,69 @@
+name: Aletheia File list item
+machineName: aletheia-file-list-item
+status: true
+required: []
+props:
+  properties:
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "Example feedback"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    hasDelete:
+      title: Has Delete
+      type: boolean
+      examples:
+        - false
+    hasDownload:
+      title: Has Download
+      type: boolean
+      examples:
+        - false
+    hasIcon:
+      title: Has Icon
+      type: boolean
+      examples:
+        - false
+    inProgress:
+      title: In Progress
+      type: boolean
+      examples:
+        - true
+    loadingText:
+      title: Loading Text
+      type: string
+      examples:
+        - "Cargando"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    progress:
+      title: Progress
+      type: number
+      examples:
+        - 0
+    progressbarAriaLabel:
+      title: Progressbar Aria Label
+      type: string
+      examples:
+        - "Example progressbar aria label"
+    size:
+      title: Size
+      type: number
+      examples:
+        - 0
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

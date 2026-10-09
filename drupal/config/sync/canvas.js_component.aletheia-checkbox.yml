@@ -1,0 +1,97 @@
+uuid: 9bbb655d-36f5-4917-a206-6b25fe3cc4eb
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-checkbox
+name: 'Aletheia Checkbox'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  autofocus:
+    type: boolean
+    title: Autofocus
+    examples:
+      - false
+  checked:
+    type: boolean
+    title: Checked
+    examples:
+      - false
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+      - success
+    'meta:enum':
+      error: Error
+      none: None
+      success: Success
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  indeterminate:
+    type: boolean
+    title: Indeterminate
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  value:
+    type: string
+    enum:
+      - 'false'
+      - indeterminate
+      - 'true'
+    'meta:enum':
+      'false': 'False'
+      indeterminate: Indeterminate
+      'true': 'True'
+    title: Value
+    examples:
+      - 'false'
+slots: {  }
+dataDependencies: {  }

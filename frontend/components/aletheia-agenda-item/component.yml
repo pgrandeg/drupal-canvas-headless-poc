@@ -1,0 +1,14 @@
+name: Aletheia Agenda item
+machineName: aletheia-agenda-item
+status: true
+required: []
+props:
+  properties:
+    initial:
+      title: Initial
+      type: string
+      examples:
+        - "Example initial"
+slots:
+  content:
+    title: Content

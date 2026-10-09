@@ -1,0 +1,65 @@
+uuid: a74d8112-cc12-48fd-8881-a9ee56f836d1
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-calendar
+name: 'Aletheia Calendar'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - accent
+      - primary
+    'meta:enum':
+      accent: Accent
+      primary: Primary
+    title: Color
+    examples:
+      - accent
+  disabledDates:
+    type: string
+    title: 'Disabled Dates'
+    examples:
+      - 'Example disabled dates'
+  highlightedDates:
+    type: string
+    title: 'Highlighted Dates'
+    examples:
+      - 'Example highlighted dates'
+  highlightedWeekends:
+    type: boolean
+    title: 'Highlighted Weekends'
+    examples:
+      - false
+  max:
+    type: string
+    title: Max
+    examples:
+      - 'Example max'
+  min:
+    type: string
+    title: Min
+    examples:
+      - 'Example min'
+  selected:
+    type: string
+    title: Selected
+    examples:
+      - 'Example selected'
+  type:
+    type: string
+    enum:
+      - date
+      - month
+      - year
+    'meta:enum':
+      date: Date
+      month: Month
+      year: Year
+    title: Type
+    examples:
+      - date
+slots: {  }
+dataDependencies: {  }

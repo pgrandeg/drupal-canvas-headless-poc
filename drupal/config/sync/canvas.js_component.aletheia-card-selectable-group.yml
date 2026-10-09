@@ -1,0 +1,93 @@
+uuid: bbb63d88-23a7-4c48-bff0-22a66b0c6840
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-card-selectable-group
+name: 'Aletheia Card selectable group'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    title: Feedback
+    examples:
+      - 'Example feedback'
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  multiple:
+    type: boolean
+    title: Multiple
+    examples:
+      - false
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  requiredAriaLabel:
+    type: string
+    title: 'Required Aria Label'
+    examples:
+      - Obligatorio
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

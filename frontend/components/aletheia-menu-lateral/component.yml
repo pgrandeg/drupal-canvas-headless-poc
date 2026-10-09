@@ -1,0 +1,13 @@
+name: Aletheia Menu lateral
+machineName: aletheia-menu-lateral
+status: true
+required: []
+props:
+  properties:
+    items:
+      title: Items
+      type: string
+      examples:
+        - []
+slots:
+  {}

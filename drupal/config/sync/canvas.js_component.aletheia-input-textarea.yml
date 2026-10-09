@@ -1,0 +1,140 @@
+uuid: 6b905f3a-36bd-4cb9-9bb1-0ee633fe62b9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-input-textarea
+name: 'Aletheia Input textarea'
+type: external
+required: {  }
+props:
+  autocomplete:
+    type: string
+    title: Autocomplete
+    examples:
+      - 'Example autocomplete'
+  autofocus:
+    type: boolean
+    title: Autofocus
+    examples:
+      - false
+  counter:
+    type: boolean
+    title: Counter
+    examples:
+      - false
+  counterLabel:
+    type: string
+    title: 'Counter Label'
+    examples:
+      - '[length] de [max] caracteres. Quedan [rest]'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  inputAriaLabel:
+    type: string
+    title: 'Input Aria Label'
+    examples:
+      - 'Example input aria label'
+  inputTabindex:
+    type: string
+    title: 'Input Tabindex'
+    examples:
+      - '0'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  maxlength:
+    type: number
+    title: Maxlength
+    examples:
+      - 0.0
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - 'Example placeholder'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  rows:
+    type: number
+    title: Rows
+    examples:
+      - 0.0
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+  width:
+    type: string
+    title: Width
+    examples:
+      - 100%
+slots: {  }
+dataDependencies: {  }

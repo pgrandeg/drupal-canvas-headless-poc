@@ -1,0 +1,37 @@
+name: Aletheia Chip dismiss
+machineName: aletheia-chip-dismiss
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    icon:
+      title: Icon
+      type: string
+    labelDismiss:
+      title: Label Dismiss
+      type: string
+      examples:
+        - "Eliminar"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+slots:
+  {}

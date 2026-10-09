@@ -2,9 +2,18 @@ uuid: 85169e3e-f90e-4ad3-b69a-28443cc072d9
 langcode: en
 status: false
 dependencies: {  }
-active_version: 8e3ae21ee61ff56d
+active_version: 7ce7ad8e227e5892
 versioned_properties:
   active:
+    settings:
+      default_settings:
+        id: local_actions_block
+        label: 'Primary admin actions'
+        label_display: '0'
+        provider: core
+    fallback_metadata:
+      slot_definitions: null
+  8e3ae21ee61ff56d:
     settings:
       default_settings:
         id: local_actions_block

@@ -1,0 +1,30 @@
+name: Aletheia Accordion
+machineName: aletheia-accordion
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    expand:
+      title: Expand
+      type: string
+      examples:
+        - "all"
+      enum:
+        - "all"
+        - "one"
+      meta:enum:
+        all: "All"
+        one: "One"
+    noLastItemDivider:
+      title: No Last Item Divider
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

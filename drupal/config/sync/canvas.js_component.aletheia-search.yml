@@ -1,0 +1,66 @@
+uuid: 08582d41-e643-4391-a041-efb15003bebb
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-search
+name: 'Aletheia Search'
+type: external
+required: {  }
+props:
+  clearButtonAriaLabel:
+    type: string
+    title: 'Clear Button Aria Label'
+    examples:
+      - Borrar
+  deleteAriaLabel:
+    type: string
+    title: 'Delete Aria Label'
+    examples:
+      - 'Eliminar búsqueda [item]'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  hasClear:
+    type: boolean
+    title: 'Has Clear'
+    examples:
+      - false
+  hideButton:
+    type: boolean
+    title: 'Hide Button'
+    examples:
+      - false
+  itemsListAriaLabel:
+    type: string
+    title: 'Items List Aria Label'
+    examples:
+      - 'Búsquedas recientes'
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - 'Example placeholder'
+  searchAriaLabel:
+    type: string
+    title: 'Search Aria Label'
+    examples:
+      - Buscar
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

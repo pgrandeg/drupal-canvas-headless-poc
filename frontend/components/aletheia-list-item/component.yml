@@ -1,0 +1,120 @@
+name: Aletheia List item
+machineName: aletheia-list-item
+status: true
+required: []
+props:
+  properties:
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Se abre una ventana nueva"
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - false
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 4
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    rel:
+      title: Rel
+      type: string
+      examples:
+        - "Example rel"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+    subtitle:
+      title: Subtitle
+      type: string
+      examples:
+        - "Example subtitle"
+    target:
+      title: Target
+      type: string
+      examples:
+        - "blank"
+      enum:
+        - "blank"
+        - "parent"
+        - "self"
+        - "top"
+      meta:enum:
+        blank: "Blank"
+        parent: "Parent"
+        self: "Self"
+        top: "Top"
+    tooltip:
+      title: Tooltip
+      type: string
+      examples:
+        - "Example tooltip"
+    tooltipMaxWidth:
+      title: Tooltip Max Width
+      type: number
+      examples:
+        - 240
+slots:
+  leftDetail:
+    title: Left Detail
+  bottomDetail:
+    title: Bottom Detail
+  rightDetail:
+    title: Right Detail

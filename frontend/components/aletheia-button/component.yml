@@ -1,0 +1,86 @@
+name: Aletheia Button
+machineName: aletheia-button
+status: true
+required: []
+props:
+  properties:
+    clear:
+      title: Clear
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    fullWidth:
+      title: Full Width
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "none"
+      enum:
+        - "icon-only"
+        - "left"
+        - "none"
+        - "right"
+      meta:enum:
+        icon-only: "Icon only"
+        left: "Left"
+        none: "None"
+        right: "Right"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "button"
+      enum:
+        - "button"
+        - "reset"
+        - "submit"
+      meta:enum:
+        button: "Button"
+        reset: "Reset"
+        submit: "Submit"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Button"
+slots:
+  content:
+    title: Content

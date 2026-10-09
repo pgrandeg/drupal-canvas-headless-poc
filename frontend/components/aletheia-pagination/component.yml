@@ -1,0 +1,58 @@
+name: Aletheia Pagination
+machineName: aletheia-pagination
+status: true
+required: []
+props:
+  properties:
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Paginación de resultados"
+    currentPage:
+      title: Current Page
+      type: number
+      examples:
+        - 1
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    itemsPerPage:
+      title: Items Per Page
+      type: number
+      examples:
+        - 0
+    itemsSelector:
+      title: Items Selector
+      type: string
+      examples:
+        - "[5, 10, 15]"
+    noEndButtons:
+      title: No End Buttons
+      type: boolean
+      examples:
+        - false
+    noItemsCount:
+      title: No Items Count
+      type: boolean
+      examples:
+        - false
+    noItemsSelector:
+      title: No Items Selector
+      type: boolean
+      examples:
+        - false
+    noJumpButtons:
+      title: No Jump Buttons
+      type: boolean
+      examples:
+        - false
+    totalItems:
+      title: Total Items
+      type: number
+      examples:
+        - 0
+slots:
+  {}

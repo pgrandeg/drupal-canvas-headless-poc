@@ -1,0 +1,20 @@
+uuid: 6de000a1-a1b4-4e22-8bbe-7299c2def439
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-table-body
+active_version: d54b181baa9953d9
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Table body'
+id: js.aletheia-table-body
+provider: null
+source: js
+source_local_id: aletheia-table-body

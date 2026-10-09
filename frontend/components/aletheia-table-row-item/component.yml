@@ -1,0 +1,106 @@
+name: Aletheia Table row item
+machineName: aletheia-table-row-item
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      examples:
+        - "center"
+      enum:
+        - "center"
+        - "left"
+        - "right"
+      meta:enum:
+        center: "Center"
+        left: "Left"
+        right: "Right"
+    cellWidth:
+      title: Cell Width
+      type: string
+      examples:
+        - "auto"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    expanded:
+      title: Expanded
+      type: boolean
+      examples:
+        - false
+    expander:
+      title: Expander
+      type: boolean
+      examples:
+        - false
+    expanderAriaControls:
+      title: Expander Aria Controls
+      type: string
+      examples:
+        - "Example expander aria controls"
+    frozen:
+      title: Frozen
+      type: string
+      examples:
+        - "first"
+      enum:
+        - "first"
+        - "last"
+        - "none"
+      meta:enum:
+        first: "First"
+        last: "Last"
+        none: "None"
+    hasInteractivity:
+      title: Has Interactivity
+      type: boolean
+      examples:
+        - false
+    isChild:
+      title: Is Child
+      type: boolean
+      examples:
+        - false
+    isHeader:
+      title: Is Header
+      type: boolean
+      examples:
+        - false
+    noFrozenShadow:
+      title: No Frozen Shadow
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    striped:
+      title: Striped
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content
+  editable:
+    title: Editable

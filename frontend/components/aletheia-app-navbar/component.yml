@@ -1,0 +1,74 @@
+name: Aletheia App navbar
+machineName: aletheia-app-navbar
+status: true
+required: []
+props:
+  properties:
+    avatarInitials:
+      title: Avatar Initials
+      type: string
+      examples:
+        - "Example avatar initials"
+    bodyText:
+      title: Body Text
+      type: string
+      examples:
+        - "Example body text"
+    hasBack:
+      title: Has Back
+      type: boolean
+      examples:
+        - false
+    hasBodyText:
+      title: Has Body Text
+      type: boolean
+      examples:
+        - true
+    hasImage:
+      title: Has Image
+      type: boolean
+      examples:
+        - true
+    hasQuickAction:
+      title: Has Quick Action
+      type: boolean
+      examples:
+        - true
+    hasSearch:
+      title: Has Search
+      type: boolean
+      examples:
+        - true
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    mode:
+      title: Mode
+      type: string
+      examples:
+        - "inner-back"
+      enum:
+        - "inner-back"
+        - "principal"
+        - "stepper"
+      meta:enum:
+        inner-back: "Inner back"
+        principal: "Principal"
+        stepper: "Stepper"
+    step:
+      title: Step
+      type: number
+      examples:
+        - 1
+    steps:
+      title: Steps
+      type: number
+      examples:
+        - 0
+slots:
+  search:
+    title: Search
+  quickAction:
+    title: Quick Action

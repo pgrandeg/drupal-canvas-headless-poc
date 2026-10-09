@@ -1,0 +1,21 @@
+name: Aletheia Tooltip trigger
+machineName: aletheia-tooltip-trigger
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Más información"
+    icon:
+      title: Icon
+      type: string
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+slots:
+  {}

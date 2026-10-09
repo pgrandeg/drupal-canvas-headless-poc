@@ -1,0 +1,54 @@
+uuid: d1220774-0e99-41ae-9b18-4886eabf6797
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-lateral-item-action
+name: 'Aletheia Menu lateral item action'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  badgeLabel:
+    type: string
+    title: 'Badge Label'
+    examples:
+      - 'Example badge label'
+  badgeMax:
+    type: number
+    title: 'Badge Max'
+    examples:
+      - 0.0
+  badgeValue:
+    type: number
+    title: 'Badge Value'
+    examples:
+      - 0.0
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+slots: {  }
+dataDependencies: {  }

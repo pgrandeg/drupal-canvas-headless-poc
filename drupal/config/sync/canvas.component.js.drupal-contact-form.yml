@@ -1,0 +1,54 @@
+uuid: 8c2cdcd2-9ce0-44a6-b8eb-ca26a07bbb62
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.drupal-contact-form
+active_version: c6ad15e5779bebc4
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        formId:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: feedback
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        title:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Contact us'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        submitLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Send message'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Drupal Contact Form'
+id: js.drupal-contact-form
+provider: null
+source: js
+source_local_id: drupal-contact-form

@@ -1,0 +1,63 @@
+name: Aletheia Footer link
+machineName: aletheia-footer-link
+status: true
+required: []
+props:
+  properties:
+    ariaDescribedby:
+      title: Aria Describedby
+      type: string
+      examples:
+        - "Example aria describedby"
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "se abre en una ventana nueva"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    iconAriaLabel:
+      title: Icon Aria Label
+      type: string
+      examples:
+        - "Example icon aria label"
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "Example icon position"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    target:
+      title: Target
+      type: string
+      examples:
+        - "Example target"
+slots:
+  content:
+    title: Content

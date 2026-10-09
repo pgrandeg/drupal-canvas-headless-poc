@@ -1,0 +1,67 @@
+uuid: bd5ae6ee-960a-4d4b-b9cc-cd36f5d9ac9e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-option-list-item
+name: 'Aletheia Option list item'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  filtered:
+    type: boolean
+    title: Filtered
+    examples:
+      - false
+  focusable:
+    type: boolean
+    title: Focusable
+    examples:
+      - false
+  hasDivider:
+    type: boolean
+    title: 'Has Divider'
+    examples:
+      - false
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  icon:
+    type: string
+    title: Icon
+  isVisible:
+    type: boolean
+    title: 'Is Visible'
+    examples:
+      - false
+  itemTabIndex:
+    type: number
+    title: 'Item Tab Index'
+    examples:
+      - -1.0
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

@@ -1,0 +1,21 @@
+name: Aletheia Global search
+machineName: aletheia-global-search
+status: true
+required: []
+props:
+  properties:
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Buscar"
+    searchAriaLabel:
+      title: Search Aria Label
+      type: string
+      examples:
+        - "Buscar"
+slots:
+  contentLeft:
+    title: Content Left
+  contentRight:
+    title: Content Right

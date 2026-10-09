@@ -1,0 +1,55 @@
+uuid: f4ae2063-36f6-4f4d-a3ab-73abbedf78b9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-tag
+name: 'Aletheia Tag'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - accent
+      - danger
+      - disabled
+      - primary
+      - secondary
+      - success
+      - warning
+    'meta:enum':
+      accent: Accent
+      danger: Danger
+      disabled: Disabled
+      primary: Primary
+      secondary: Secondary
+      success: Success
+      warning: Warning
+    title: Color
+    examples:
+      - accent
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  icon:
+    type: string
+    title: Icon
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

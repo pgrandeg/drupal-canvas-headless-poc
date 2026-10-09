@@ -1,0 +1,70 @@
+uuid: f9b46841-e05d-4357-8059-bcacd88c5a89
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header-mobile
+active_version: cbfbc4d5c9e07318
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        backButtonAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Volver
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        closeButtonAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Cerrar panel lateral'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        logoType:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example logo type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        menuButtonAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Abrir panel lateral'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        actionGroup:
+          title: 'Action Group'
+        content:
+          title: Content
+label: 'Aletheia Global header mobile'
+id: js.aletheia-global-header-mobile
+provider: null
+source: js
+source_local_id: aletheia-global-header-mobile

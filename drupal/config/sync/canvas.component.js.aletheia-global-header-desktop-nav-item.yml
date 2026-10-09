@@ -1,0 +1,42 @@
+uuid: f320320e-8e65-4c56-886e-e2cefc15c636
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header-desktop-nav-item
+active_version: 0f7115b40da9831a
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        hasSeparatorLeft:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+        hasSeparatorRight:
+          required: false
+          field_type: boolean
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: boolean_checkbox
+          default_value:
+            -
+              value: false
+          expression: ℹ︎boolean␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Global header desktop nav item'
+id: js.aletheia-global-header-desktop-nav-item
+provider: null
+source: js
+source_local_id: aletheia-global-header-desktop-nav-item

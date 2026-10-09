@@ -1,0 +1,99 @@
+name: Aletheia Agenda
+machineName: aletheia-agenda
+status: true
+required: []
+props:
+  properties:
+    alphabetAriaLabel:
+      title: Alphabet Aria Label
+      type: string
+      examples:
+        - "Selecciona una inicial"
+    alphabetModeAriaLive:
+      title: Alphabet Mode Aria Live
+      type: string
+      examples:
+        - "Modo alfabeto activado"
+    alphabetModeButtonAriaLabel:
+      title: Alphabet Mode Button Aria Label
+      type: string
+      examples:
+        - "Cambiar a modo alfabeto"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    found:
+      title: Found
+      type: number
+      examples:
+        - 0
+    hasAlphabet:
+      title: Has Alphabet
+      type: boolean
+      examples:
+        - true
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 4
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    height:
+      title: Height
+      type: string
+      examples:
+        - "100%"
+    initialsAriaLabel:
+      title: Initials Aria Label
+      type: string
+      examples:
+        - "Buscar elementos que comiencen por [initial]"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "Example orientation"
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Example placeholder"
+    resultsAriaLabel:
+      title: Results Aria Label
+      type: string
+      examples:
+        - "Resultados de búsqueda"
+    resultsAriaLive:
+      title: Results Aria Live
+      type: string
+      examples:
+        - "Se han encontrado [found] resultados"
+    searchInputAriaLabel:
+      title: Search Input Aria Label
+      type: string
+      examples:
+        - "Introduce un texto para buscar elementos"
+    searchModeAriaLive:
+      title: Search Mode Aria Live
+      type: string
+      examples:
+        - "Modo búsqueda activado"
+    searchModeButtonAriaLabel:
+      title: Search Mode Button Aria Label
+      type: string
+      examples:
+        - "Cambiar a modo búsqueda"
+slots:
+  content:
+    title: Content

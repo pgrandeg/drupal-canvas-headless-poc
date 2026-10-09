@@ -1,0 +1,31 @@
+uuid: b5398852-087e-42bf-89d6-efb7b8552a6e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-card-header
+name: 'Aletheia Card header'
+type: external
+required: {  }
+props:
+  date:
+    type: string
+    title: Date
+    examples:
+      - 'Example date'
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  overline:
+    type: string
+    title: Overline
+    examples:
+      - 'Example overline'
+  subtitle:
+    type: string
+    title: Subtitle
+    examples:
+      - 'Example subtitle'
+slots: {  }
+dataDependencies: {  }

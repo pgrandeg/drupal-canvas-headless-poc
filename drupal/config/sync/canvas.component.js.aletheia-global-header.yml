@@ -1,0 +1,44 @@
+uuid: 33bedbf3-fa3e-4b50-b221-e41b8062e675
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-header
+active_version: 0fc42dede5a484a3
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        headerAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example header aria label'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        logoType:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example logo type'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Global header'
+id: js.aletheia-global-header
+provider: null
+source: js
+source_local_id: aletheia-global-header

@@ -1,0 +1,36 @@
+name: Aletheia Tab
+machineName: aletheia-tab
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    iconAriaLabel:
+      title: Icon Aria Label
+      type: string
+      examples:
+        - "Example icon aria label"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    navigationData:
+      title: Navigation Data
+      type: string
+      examples:
+        - "Example navigation data"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+slots:
+  {}

@@ -1,0 +1,11 @@
+uuid: c0a5f9df-34a4-4421-a60a-f5e26f98f6bc
+langcode: en
+status: true
+dependencies: {  }
+machineName: language-switcher
+name: 'Language Switcher'
+type: external
+required: {  }
+props: {  }
+slots: {  }
+dataDependencies: {  }

@@ -1,0 +1,54 @@
+uuid: 79fbe703-89ac-4347-91cd-c7d677ac11e7
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-list
+name: 'Aletheia List'
+type: external
+required: {  }
+props:
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  hasDivider:
+    type: boolean
+    title: 'Has Divider'
+    examples:
+      - false
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - lg
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

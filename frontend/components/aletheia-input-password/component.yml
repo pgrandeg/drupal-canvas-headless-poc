@@ -1,0 +1,167 @@
+name: Aletheia Input password
+machineName: aletheia-input-password
+status: true
+required: []
+props:
+  properties:
+    autocomplete:
+      title: Autocomplete
+      type: string
+      examples:
+        - "current-password"
+      enum:
+        - "current-password"
+        - "new-password"
+      meta:enum:
+        current-password: "Current password"
+        new-password: "New password"
+    autofocus:
+      title: Autofocus
+      type: boolean
+      examples:
+        - false
+    counter:
+      title: Counter
+      type: boolean
+      examples:
+        - false
+    counterLabel:
+      title: Counter Label
+      type: string
+      examples:
+        - "[length] de [max] caracteres. Quedan [rest]"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+        - "success"
+        - "warning"
+      meta:enum:
+        error: "Error"
+        none: "None"
+        success: "Success"
+        warning: "Warning"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+        - "success"
+        - "warning"
+      meta:enum:
+        error: "Error"
+        none: "None"
+        success: "Success"
+        warning: "Warning"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    inputAriaLabel:
+      title: Input Aria Label
+      type: string
+      examples:
+        - "Example input aria label"
+    inputTabindex:
+      title: Input Tabindex
+      type: string
+      examples:
+        - "0"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    labelHidePassword:
+      title: Label Hide Password
+      type: string
+      examples:
+        - "Ocultar password"
+    labelShowPassword:
+      title: Label Show Password
+      type: string
+      examples:
+        - "Ver password"
+    maxlength:
+      title: Maxlength
+      type: number
+      examples:
+        - 0
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    pattern:
+      title: Pattern
+      type: string
+      examples:
+        - "Example pattern"
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Example placeholder"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    submitOnEnter:
+      title: Submit On Enter
+      type: boolean
+      examples:
+        - false
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: string
+      examples:
+        - "Example tooltip width"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

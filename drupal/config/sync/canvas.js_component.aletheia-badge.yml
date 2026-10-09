@@ -1,0 +1,79 @@
+uuid: 0b927a47-1f0d-447a-a84e-a1979b813509
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-badge
+name: 'Aletheia Badge'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    enum:
+      - accent
+      - danger
+      - disabled
+      - info
+      - success
+      - warning
+    'meta:enum':
+      accent: Accent
+      danger: Danger
+      disabled: Disabled
+      info: Info
+      success: Success
+      warning: Warning
+    title: Color
+    examples:
+      - accent
+  distanceX:
+    type: number
+    title: 'Distance X'
+    examples:
+      - 0.0
+  distanceY:
+    type: number
+    title: 'Distance Y'
+    examples:
+      - 0.0
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  max:
+    type: number
+    title: Max
+    examples:
+      - 100.0
+  position:
+    type: string
+    enum:
+      - right
+      - top-right
+    'meta:enum':
+      right: Right
+      top-right: 'Top right'
+    title: Position
+    examples:
+      - right
+  type:
+    type: string
+    enum:
+      - dot
+      - numeric
+    'meta:enum':
+      dot: Dot
+      numeric: Numeric
+    title: Type
+    examples:
+      - dot
+  value:
+    type: number
+    title: Value
+    examples:
+      - 0.0
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

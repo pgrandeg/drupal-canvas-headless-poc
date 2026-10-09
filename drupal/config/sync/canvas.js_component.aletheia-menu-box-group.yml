@@ -1,0 +1,33 @@
+uuid: 3a4cbec3-c7cc-4f9f-bda8-8dae9535b630
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-box-group
+name: 'Aletheia Menu box group'
+type: external
+required: {  }
+props:
+  itemsBehaviour:
+    type: string
+    title: 'Items Behaviour'
+    examples:
+      - 'Example items behaviour'
+  itemsHeight:
+    type: string
+    title: 'Items Height'
+    examples:
+      - 'Example items height'
+  itemsWidth:
+    type: string
+    title: 'Items Width'
+    examples:
+      - 'Example items width'
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

@@ -1,0 +1,194 @@
+uuid: 39548c4e-00f7-43da-8634-c84dae2aed9c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-datepicker-range
+name: 'Aletheia Datepicker range'
+type: external
+required: {  }
+props:
+  autofocus:
+    type: boolean
+    title: Autofocus
+    examples:
+      - false
+  color:
+    type: string
+    enum:
+      - accent
+      - primary
+    'meta:enum':
+      accent: Accent
+      primary: Primary
+    title: Color
+    examples:
+      - accent
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  disabledDates:
+    type: string
+    title: 'Disabled Dates'
+    examples:
+      - 'Example disabled dates'
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  format:
+    type: string
+    title: Format
+    examples:
+      - DD/MM/YYYY
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hidePanel:
+    type: boolean
+    title: 'Hide Panel'
+    examples:
+      - false
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  highlightedDates:
+    type: string
+    title: 'Highlighted Dates'
+    examples:
+      - 'Example highlighted dates'
+  highlightedWeekends:
+    type: boolean
+    title: 'Highlighted Weekends'
+    examples:
+      - false
+  inputAriaLabelEnd:
+    type: string
+    title: 'Input Aria Label End'
+    examples:
+      - 'Example input aria label end'
+  inputAriaLabelStart:
+    type: string
+    title: 'Input Aria Label Start'
+    examples:
+      - 'Example input aria label start'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  labelEnd:
+    type: string
+    title: 'Label End'
+    examples:
+      - 'Example label end'
+  labelStart:
+    type: string
+    title: 'Label Start'
+    examples:
+      - 'Example label start'
+  max:
+    type: string
+    title: Max
+    examples:
+      - 'Example max'
+  min:
+    type: string
+    title: Min
+    examples:
+      - 'Example min'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  placeholderEnd:
+    type: string
+    title: 'Placeholder End'
+    examples:
+      - 'Example placeholder end'
+  placeholderStart:
+    type: string
+    title: 'Placeholder Start'
+    examples:
+      - 'Example placeholder start'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  requiredEnd:
+    type: boolean
+    title: 'Required End'
+    examples:
+      - false
+  requiredStart:
+    type: boolean
+    title: 'Required Start'
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  submitOnEnter:
+    type: boolean
+    title: 'Submit On Enter'
+    examples:
+      - false
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  type:
+    type: string
+    enum:
+      - date
+      - month
+      - year
+    'meta:enum':
+      date: Date
+      month: Month
+      year: Year
+    title: Type
+    examples:
+      - date
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

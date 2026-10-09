@@ -1,0 +1,63 @@
+uuid: a9ebb39a-813b-4df8-8f16-49e8c796ddb6
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-app-card-select
+name: 'Aletheia App card select'
+type: external
+required: {  }
+props:
+  contentCustom:
+    type: boolean
+    title: 'Content Custom'
+    examples:
+      - false
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  emphasis:
+    type: string
+    enum:
+      - high
+      - low
+      - medium
+    'meta:enum':
+      high: High
+      low: Low
+      medium: Medium
+    title: Emphasis
+    examples:
+      - high
+  hasContent:
+    type: boolean
+    title: 'Has Content'
+    examples:
+      - true
+  hasDescription:
+    type: boolean
+    title: 'Has Description'
+    examples:
+      - true
+  hasThumbnail:
+    type: boolean
+    title: 'Has Thumbnail'
+    examples:
+      - true
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+slots:
+  content:
+    title: Content
+  thumbnail:
+    title: Thumbnail
+dataDependencies: {  }

@@ -1,0 +1,27 @@
+uuid: c4f55fbd-126c-47db-82c5-edf6dffd70b1
+langcode: en
+status: true
+dependencies: {  }
+machineName: drupal-contact-form
+name: 'Drupal Contact Form'
+type: external
+required:
+  - formId
+props:
+  formId:
+    type: string
+    title: 'Form ID'
+    examples:
+      - feedback
+  title:
+    type: string
+    title: Title
+    examples:
+      - 'Contact us'
+  submitLabel:
+    type: string
+    title: 'Submit label'
+    examples:
+      - 'Send message'
+slots: {  }
+dataDependencies: {  }

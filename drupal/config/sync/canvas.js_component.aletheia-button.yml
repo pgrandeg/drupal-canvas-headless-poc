@@ -1,0 +1,90 @@
+uuid: af451423-1f1c-4dd8-8843-e15865937245
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button
+name: 'Aletheia Button'
+type: external
+required: {  }
+props:
+  clear:
+    type: boolean
+    title: Clear
+    examples:
+      - false
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  fullWidth:
+    type: boolean
+    title: 'Full Width'
+    examples:
+      - false
+  icon:
+    type: string
+    title: Icon
+  iconPosition:
+    type: string
+    enum:
+      - icon-only
+      - left
+      - none
+      - right
+    'meta:enum':
+      icon-only: 'Icon only'
+      left: Left
+      none: None
+      right: Right
+    title: 'Icon Position'
+    examples:
+      - none
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - md
+  type:
+    type: string
+    enum:
+      - button
+      - reset
+      - submit
+    'meta:enum':
+      button: Button
+      reset: Reset
+      submit: Submit
+    title: Type
+    examples:
+      - button
+  text:
+    type: string
+    title: Text
+    examples:
+      - Button
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

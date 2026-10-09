@@ -1,0 +1,42 @@
+name: Aletheia Pictogram
+machineName: aletheia-pictogram
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "2xl"
+      enum:
+        - "2xl"
+        - "lg"
+        - "md"
+        - "sm"
+        - "xl"
+        - "xs"
+      meta:enum:
+        2xl: "2xl"
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xl: "Xl"
+        xs: "Xs"
+slots:
+  {}

@@ -1,0 +1,26 @@
+uuid: d263a79d-fa4e-4795-b3bb-13cd24becb68
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-collapse-icon
+name: 'Aletheia Collapse icon'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  expanded:
+    type: boolean
+    title: Expanded
+    examples:
+      - false
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+slots: {  }
+dataDependencies: {  }

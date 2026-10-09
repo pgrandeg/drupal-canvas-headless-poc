@@ -1,0 +1,68 @@
+uuid: 198b61eb-7298-48d8-b5b7-a723d261e49c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-card
+name: 'Aletheia Card'
+type: external
+required: {  }
+props:
+  ariaLabelledBy:
+    type: string
+    title: 'Aria Labelled By'
+    examples:
+      - 'Example aria labelled by'
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  fluid:
+    type: boolean
+    title: Fluid
+    examples:
+      - false
+  maxWidth:
+    type: string
+    title: 'Max Width'
+    examples:
+      - 240px
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  width:
+    type: string
+    title: Width
+    examples:
+      - 100%
+slots:
+  img:
+    title: Img
+  tag:
+    title: Tag
+  thumbnail:
+    title: Thumbnail
+  body:
+    title: Body
+  footer:
+    title: Footer
+dataDependencies: {  }

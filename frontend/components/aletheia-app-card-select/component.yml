@@ -1,0 +1,59 @@
+name: Aletheia App card select
+machineName: aletheia-app-card-select
+status: true
+required: []
+props:
+  properties:
+    contentCustom:
+      title: Content Custom
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    emphasis:
+      title: Emphasis
+      type: string
+      examples:
+        - "high"
+      enum:
+        - "high"
+        - "low"
+        - "medium"
+      meta:enum:
+        high: "High"
+        low: "Low"
+        medium: "Medium"
+    hasContent:
+      title: Has Content
+      type: boolean
+      examples:
+        - true
+    hasDescription:
+      title: Has Description
+      type: boolean
+      examples:
+        - true
+    hasThumbnail:
+      title: Has Thumbnail
+      type: boolean
+      examples:
+        - true
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content
+  thumbnail:
+    title: Thumbnail

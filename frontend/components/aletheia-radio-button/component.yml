@@ -1,0 +1,43 @@
+name: Aletheia Radio button
+machineName: aletheia-radio-button
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    checked:
+      title: Checked
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

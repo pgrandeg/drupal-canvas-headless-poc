@@ -1,0 +1,97 @@
+uuid: a41b530e-4c81-455e-9041-e66a57aa2141
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-radio-button-group
+name: 'Aletheia Radio button group'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+      - success
+    'meta:enum':
+      error: Error
+      none: None
+      success: Success
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  orientation:
+    type: string
+    enum:
+      - horizontal
+      - vertical
+    'meta:enum':
+      horizontal: Horizontal
+      vertical: Vertical
+    title: Orientation
+    examples:
+      - horizontal
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  requiredAriaLabel:
+    type: string
+    title: 'Required Aria Label'
+    examples:
+      - 'Example required aria label'
+  showRequired:
+    type: boolean
+    title: 'Show Required'
+    examples:
+      - false
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

@@ -1,0 +1,13 @@
+uuid: 4b3e9423-6e31-4279-a310-f4e43d057058
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-file-list
+name: 'Aletheia File list'
+type: external
+required: {  }
+props: {  }
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

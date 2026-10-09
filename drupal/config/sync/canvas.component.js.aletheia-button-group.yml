@@ -1,0 +1,44 @@
+uuid: 069fb14f-b2ff-4c28-874a-2e1db83620bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-button-group
+active_version: d8523129fcf89dc8
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        orientation:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example orientation'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        size:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Button group'
+id: js.aletheia-button-group
+provider: null
+source: js
+source_local_id: aletheia-button-group

@@ -1,0 +1,39 @@
+uuid: 43ef1f8f-3ff0-4249-b20b-ccb525b14bd8
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-button-item
+name: 'Aletheia Menu button item'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  groupName:
+    type: string
+    title: 'Group Name'
+    examples:
+      - 'Example group name'
+  icon:
+    type: string
+    title: Icon
+  itemTabIndex:
+    type: number
+    title: 'Item Tab Index'
+    examples:
+      - -1.0
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+slots: {  }
+dataDependencies: {  }

@@ -1,0 +1,47 @@
+name: Aletheia Global header desktop
+machineName: aletheia-global-header-desktop
+status: true
+required: []
+props:
+  properties:
+    closeButtonAriaLabel:
+      title: Close Button Aria Label
+      type: string
+      examples:
+        - "Cerrar"
+    hasActionGroupSeparator:
+      title: Has Action Group Separator
+      type: boolean
+      examples:
+        - false
+    hasNavEndSeparator:
+      title: Has Nav End Separator
+      type: boolean
+      examples:
+        - false
+    hasUserSeparator:
+      title: Has User Separator
+      type: boolean
+      examples:
+        - false
+    logoType:
+      title: Logo Type
+      type: string
+      examples:
+        - "Example logo type"
+    triggerId:
+      title: Trigger Id
+      type: string
+      examples:
+        - "example-id"
+slots:
+  navStart:
+    title: Nav Start
+  actionGroup:
+    title: Action Group
+  user:
+    title: User
+  navEnd:
+    title: Nav End
+  globalSearch:
+    title: Global Search

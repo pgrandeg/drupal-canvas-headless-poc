@@ -1,0 +1,81 @@
+name: Aletheia Link
+machineName: aletheia-link
+status: true
+required: []
+props:
+  properties:
+    ariaDescribedby:
+      title: Aria Describedby
+      type: string
+      examples:
+        - "Example aria describedby"
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Example external label"
+    icon:
+      title: Icon
+      type: string
+    iconAriaLabel:
+      title: Icon Aria Label
+      type: string
+      examples:
+        - "Example icon aria label"
+    linkHref:
+      title: Link Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    linkTarget:
+      title: Link Target
+      type: string
+      examples:
+        - "blank"
+      enum:
+        - "blank"
+        - "parent"
+        - "self"
+        - "top"
+      meta:enum:
+        blank: "Blank"
+        parent: "Parent"
+        self: "Self"
+        top: "Top"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    underline:
+      title: Underline
+      type: boolean
+      examples:
+        - true
+slots:
+  content:
+    title: Content

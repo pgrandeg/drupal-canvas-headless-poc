@@ -1,0 +1,45 @@
+name: Aletheia Chip choice group
+machineName: aletheia-chip-choice-group
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    multiple:
+      title: Multiple
+      type: boolean
+      examples:
+        - false
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  content:
+    title: Content

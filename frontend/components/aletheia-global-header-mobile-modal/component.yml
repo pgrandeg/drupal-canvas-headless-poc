@@ -1,0 +1,19 @@
+name: Aletheia Global header mobile modal
+machineName: aletheia-global-header-mobile-modal
+status: true
+required: []
+props:
+  properties:
+    modalId:
+      title: Modal Id
+      type: string
+      examples:
+        - "example-id"
+    triggerId:
+      title: Trigger Id
+      type: string
+      examples:
+        - "example-id"
+slots:
+  content:
+    title: Content

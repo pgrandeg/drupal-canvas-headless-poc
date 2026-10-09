@@ -1,0 +1,157 @@
+uuid: 8f31f5f2-066d-4ab3-b98c-214d32d72e24
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-dropdown
+name: 'Aletheia Dropdown'
+type: external
+required: {  }
+props:
+  announceResultText:
+    type: string
+    title: 'Announce Result Text'
+    examples:
+      - 'Hay [total] elementos en la lista'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  dropdownAriaLabel:
+    type: string
+    title: 'Dropdown Aria Label'
+    examples:
+      - 'Example dropdown aria label'
+  feedback:
+    type: string
+    enum:
+      - error
+      - none
+    'meta:enum':
+      error: Error
+      none: None
+    title: Feedback
+    examples:
+      - error
+  feedbackText:
+    type: string
+    title: 'Feedback Text'
+    examples:
+      - 'Example feedback text'
+  helperText:
+    type: string
+    title: 'Helper Text'
+    examples:
+      - 'Example helper text'
+  hideRequired:
+    type: boolean
+    title: 'Hide Required'
+    examples:
+      - false
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  multiselect:
+    type: boolean
+    title: Multiselect
+    examples:
+      - false
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  nochipsText:
+    type: string
+    title: 'Nochips Text'
+    examples:
+      - 'Example nochips text'
+  noresultText:
+    type: string
+    title: 'Noresult Text'
+    examples:
+      - 'Example noresult text'
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  overlayMaxHeight:
+    type: string
+    title: 'Overlay Max Height'
+    examples:
+      - 'Example overlay max height'
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - 'Example placeholder'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  required:
+    type: boolean
+    title: Required
+    examples:
+      - false
+  search:
+    type: boolean
+    title: Search
+    examples:
+      - false
+  searchAriaLabel:
+    type: string
+    title: 'Search Aria Label'
+    examples:
+      - Buscar
+  searchPlaceholder:
+    type: string
+    title: 'Search Placeholder'
+    examples:
+      - 'Example search placeholder'
+  showChips:
+    type: boolean
+    title: 'Show Chips'
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  tooltipText:
+    type: string
+    title: 'Tooltip Text'
+    examples:
+      - 'Example tooltip text'
+  tooltipWidth:
+    type: number
+    title: 'Tooltip Width'
+    examples:
+      - 240.0
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+  width:
+    type: string
+    title: Width
+    examples:
+      - 100%
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

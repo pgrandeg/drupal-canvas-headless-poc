@@ -1,0 +1,55 @@
+uuid: c1fbfa75-5a46-4218-9723-2f1ec1992c86
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-menu-box-option
+name: 'Aletheia Menu box option'
+type: external
+required: {  }
+props:
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - 'Se abre en una ventana nueva'
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  icon:
+    type: string
+    title: Icon
+  rel:
+    type: string
+    title: Rel
+    examples:
+      - 'Example rel'
+  target:
+    type: string
+    title: Target
+    examples:
+      - 'Example target'
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

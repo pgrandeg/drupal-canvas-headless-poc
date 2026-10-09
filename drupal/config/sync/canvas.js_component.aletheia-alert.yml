@@ -1,0 +1,71 @@
+uuid: 45b4c1a0-d1c3-4b7b-b24b-c6c407d45a57
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-alert
+name: 'Aletheia Alert'
+type: external
+required: {  }
+props:
+  closeAriaLabel:
+    type: string
+    title: 'Close Aria Label'
+    examples:
+      - 'Cerrar alerta'
+  color:
+    type: string
+    enum:
+      - danger
+      - info
+      - success
+      - warning
+    'meta:enum':
+      danger: Danger
+      info: Info
+      success: Success
+      warning: Warning
+    title: Color
+    examples:
+      - danger
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  hasClose:
+    type: boolean
+    title: 'Has Close'
+    examples:
+      - true
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 6.0
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  isUrgent:
+    type: boolean
+    title: 'Is Urgent'
+    examples:
+      - false
+  type:
+    type: string
+    enum:
+      - page
+      - section
+    'meta:enum':
+      page: Page
+      section: Section
+    title: Type
+    examples:
+      - page
+slots:
+  content:
+    title: Content
+  button:
+    title: Button
+dataDependencies: {  }

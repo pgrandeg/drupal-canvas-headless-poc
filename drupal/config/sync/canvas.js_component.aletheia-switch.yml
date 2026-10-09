@@ -1,0 +1,31 @@
+uuid: 71c5d1b0-3bbc-4bbf-b64d-e08bf622905d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-switch
+name: 'Aletheia Switch'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  readonly:
+    type: boolean
+    title: Readonly
+    examples:
+      - false
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+slots: {  }
+dataDependencies: {  }

@@ -1,0 +1,63 @@
+name: Aletheia Heading editable
+machineName: aletheia-heading-editable
+status: true
+required: []
+props:
+  properties:
+    cancelLiveMessage:
+      title: Cancel Live Message
+      type: string
+      examples:
+        - "Se han cancelado los cambios"
+    cancelOnBlur:
+      title: Cancel On Blur
+      type: boolean
+      examples:
+        - true
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    editButtonAriaLabel:
+      title: Edit Button Aria Label
+      type: string
+      examples:
+        - "Editar"
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 2
+    headingSize:
+      title: Heading Size
+      type: string
+      examples:
+        - "Example heading size"
+    inputAriaLabel:
+      title: Input Aria Label
+      type: string
+      examples:
+        - "Título de cabecera editable"
+    saveLiveMessage:
+      title: Save Live Message
+      type: string
+      examples:
+        - "Se han guardado los cambios"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    textButtonCancel:
+      title: Text Button Cancel
+      type: string
+      examples:
+        - "Cancelar"
+    textButtonSave:
+      title: Text Button Save
+      type: string
+      examples:
+        - "Guardar"
+slots:
+  {}

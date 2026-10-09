@@ -1,0 +1,68 @@
+uuid: 70f9f2e1-dde0-4075-a1d3-3d235b6e6c1f
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-empty-state
+name: 'Aletheia Empty state'
+type: external
+required: {  }
+props:
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 4.0
+  headingSize:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: 'Heading Size'
+    examples:
+      - lg
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  hideImage:
+    type: boolean
+    title: 'Hide Image'
+    examples:
+      - false
+  loadingLabel:
+    type: string
+    title: 'Loading Label'
+    examples:
+      - 'Example loading label'
+  type:
+    type: string
+    enum:
+      - empty
+      - error
+      - loading
+      - search-no-results
+    'meta:enum':
+      empty: Empty
+      error: Error
+      loading: Loading
+      search-no-results: 'Search no results'
+    title: Type
+    examples:
+      - empty
+slots:
+  body:
+    title: Body
+  footer:
+    title: Footer
+dataDependencies: {  }

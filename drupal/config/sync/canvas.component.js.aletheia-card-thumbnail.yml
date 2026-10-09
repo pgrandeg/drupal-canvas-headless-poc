@@ -1,0 +1,72 @@
+uuid: cbb45455-a361-4692-8da9-15caa52f5a62
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-card-thumbnail
+  module:
+    - options
+active_version: 73867e90b1c4fe60
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        bottomTag:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example bottom tag'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        highlightText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example highlight text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        topTag:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example top tag'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        type:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: avatar
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions:
+        imgThumbnail:
+          title: 'Img Thumbnail'
+        avatar:
+          title: Avatar
+label: 'Aletheia Card thumbnail'
+id: js.aletheia-card-thumbnail
+provider: null
+source: js
+source_local_id: aletheia-card-thumbnail

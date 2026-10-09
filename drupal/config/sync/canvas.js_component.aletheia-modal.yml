@@ -1,0 +1,108 @@
+uuid: c0cc15c0-a17f-4b43-8ff7-c472d6e14680
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-modal
+name: 'Aletheia Modal'
+type: external
+required: {  }
+props:
+  appearance:
+    type: string
+    enum:
+      - error
+      - info
+      - success
+      - warning
+    'meta:enum':
+      error: Error
+      info: Info
+      success: Success
+      warning: Warning
+    title: Appearance
+    examples:
+      - error
+  autofocus:
+    type: boolean
+    title: Autofocus
+    examples:
+      - true
+  clickOutsideClose:
+    type: boolean
+    title: 'Click Outside Close'
+    examples:
+      - false
+  closeAriaLabel:
+    type: string
+    title: 'Close Aria Label'
+    examples:
+      - 'Example close aria label'
+  fullScreen:
+    type: boolean
+    title: 'Full Screen'
+    examples:
+      - false
+  hasClose:
+    type: boolean
+    title: 'Has Close'
+    examples:
+      - true
+  hasDivider:
+    type: boolean
+    title: 'Has Divider'
+    examples:
+      - false
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 2.0
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  isAlert:
+    type: boolean
+    title: 'Is Alert'
+    examples:
+      - false
+  maxHeight:
+    type: string
+    title: 'Max Height'
+    examples:
+      - 240px
+  maxWidth:
+    type: string
+    title: 'Max Width'
+    examples:
+      - 240px
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  subtitleText:
+    type: string
+    title: 'Subtitle Text'
+    examples:
+      - 'Example subtitle text'
+slots:
+  customImage:
+    title: 'Custom Image'
+  body:
+    title: Body
+  footer:
+    title: Footer
+dataDependencies: {  }

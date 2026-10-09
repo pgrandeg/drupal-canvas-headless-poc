@@ -1,0 +1,64 @@
+name: Aletheia Card
+machineName: aletheia-card
+status: true
+required: []
+props:
+  properties:
+    ariaLabelledBy:
+      title: Aria Labelled By
+      type: string
+      examples:
+        - "Example aria labelled by"
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    fluid:
+      title: Fluid
+      type: boolean
+      examples:
+        - false
+    maxWidth:
+      title: Max Width
+      type: string
+      examples:
+        - "240px"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    width:
+      title: Width
+      type: string
+      examples:
+        - "100%"
+slots:
+  img:
+    title: Img
+  tag:
+    title: Tag
+  thumbnail:
+    title: Thumbnail
+  body:
+    title: Body
+  footer:
+    title: Footer

@@ -1,0 +1,56 @@
+uuid: f2a98de9-222b-4648-9bb5-d16f28b29049
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-avatar
+name: 'Aletheia Avatar'
+type: external
+required: {  }
+props:
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  avatarName:
+    type: string
+    title: 'Avatar Name'
+    examples:
+      - 'Example avatar name'
+  initials:
+    type: string
+    title: Initials
+    examples:
+      - 'Example initials'
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+      - xs
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+      xs: Xs
+    title: Size
+    examples:
+      - lg
+  type:
+    type: string
+    enum:
+      - default
+      - image
+      - initials
+    'meta:enum':
+      default: Default
+      image: Image
+      initials: Initials
+    title: Type
+    examples:
+      - default
+slots:
+  img:
+    title: Img
+dataDependencies: {  }

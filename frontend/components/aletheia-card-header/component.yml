@@ -1,0 +1,28 @@
+name: Aletheia Card header
+machineName: aletheia-card-header
+status: true
+required: []
+props:
+  properties:
+    date:
+      title: Date
+      type: string
+      examples:
+        - "Example date"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    overline:
+      title: Overline
+      type: string
+      examples:
+        - "Example overline"
+    subtitle:
+      title: Subtitle
+      type: string
+      examples:
+        - "Example subtitle"
+slots:
+  {}

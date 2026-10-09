@@ -1,0 +1,33 @@
+name: Aletheia Content header
+machineName: aletheia-content-header
+status: true
+required: []
+props:
+  properties:
+    backLinkAriaLabel:
+      title: Back Link Aria Label
+      type: string
+      format: uri-reference
+      examples:
+        - "Volver atrás"
+    backLinkHref:
+      title: Back Link Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+slots:
+  avatar:
+    title: Avatar
+  heading:
+    title: Heading
+  description:
+    title: Description
+  status:
+    title: Status
+  actionBar:
+    title: Action Bar
+  body:
+    title: Body
+  list:
+    title: List

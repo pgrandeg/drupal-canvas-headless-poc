@@ -1,0 +1,70 @@
+uuid: e7f7b186-d082-4391-8dc6-50f4697b5095
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-overlay
+name: 'Aletheia Overlay'
+type: external
+required: {  }
+props:
+  closeOnOutsideClick:
+    type: boolean
+    title: 'Close On Outside Click'
+    examples:
+      - true
+  maxHeight:
+    type: number
+    title: 'Max Height'
+    examples:
+      - 240.0
+  maxWidth:
+    type: number
+    title: 'Max Width'
+    examples:
+      - 240.0
+  overlayAriaLabel:
+    type: string
+    title: 'Overlay Aria Label'
+    examples:
+      - 'Example overlay aria label'
+  position:
+    type: string
+    title: Position
+    examples:
+      - 'Example position'
+  positionX:
+    type: number
+    title: 'Position X'
+    examples:
+      - 0.0
+  positionY:
+    type: number
+    title: 'Position Y'
+    examples:
+      - 0.0
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  triggerId:
+    type: string
+    title: 'Trigger Id'
+    examples:
+      - example-id
+  type:
+    type: string
+    title: Type
+    examples:
+      - 'Example type'
+  zIndex:
+    type: number
+    title: 'Z Index'
+    examples:
+      - 1000.0
+slots:
+  anchor:
+    title: Anchor
+  content:
+    title: Content
+dataDependencies: {  }

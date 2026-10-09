@@ -1,0 +1,47 @@
+uuid: 9aba006b-2c9b-45ba-8d8e-b7c77ee28c05
+langcode: en
+status: true
+dependencies: {  }
+machineName: drupal-view
+name: 'Drupal View'
+type: external
+required:
+  - viewId
+props:
+  viewId:
+    type: string
+    title: 'View ID'
+    examples:
+      - content_recent
+  displayId:
+    type: string
+    title: 'Display ID'
+    examples:
+      - default
+  limit:
+    type: integer
+    title: Limit
+    examples:
+      - 20
+  title:
+    type: string
+    title: Title
+    examples:
+      - 'Latest content'
+  itemComponent:
+    type: string
+    title: 'Item component'
+    examples:
+      - card
+  mapping:
+    type: string
+    title: Mapping
+    examples:
+      - '{"heading":"title","text":"body","width":{"source":"width","type":"number"}}'
+  staticProps:
+    type: string
+    title: 'Static props'
+    examples:
+      - '{"variant":"default","layout":"left_aligned"}'
+slots: {  }
+dataDependencies: {  }

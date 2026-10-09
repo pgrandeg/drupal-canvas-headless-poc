@@ -1,0 +1,12 @@
+uuid: e4215a3c-2272-44f1-a6bd-e1d21f80202b
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: Feedback
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

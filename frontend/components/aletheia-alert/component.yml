@@ -1,0 +1,67 @@
+name: Aletheia Alert
+machineName: aletheia-alert
+status: true
+required: []
+props:
+  properties:
+    closeAriaLabel:
+      title: Close Aria Label
+      type: string
+      examples:
+        - "Cerrar alerta"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "danger"
+      enum:
+        - "danger"
+        - "info"
+        - "success"
+        - "warning"
+      meta:enum:
+        danger: "Danger"
+        info: "Info"
+        success: "Success"
+        warning: "Warning"
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    hasClose:
+      title: Has Close
+      type: boolean
+      examples:
+        - true
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 6
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    isUrgent:
+      title: Is Urgent
+      type: boolean
+      examples:
+        - false
+    type:
+      title: Type
+      type: string
+      examples:
+        - "page"
+      enum:
+        - "page"
+        - "section"
+      meta:enum:
+        page: "Page"
+        section: "Section"
+slots:
+  content:
+    title: Content
+  button:
+    title: Button

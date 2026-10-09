@@ -1,0 +1,97 @@
+name: Aletheia Stepper
+machineName: aletheia-stepper
+status: true
+required: []
+props:
+  properties:
+    ariaLiveMessage:
+      title: Aria Live Message
+      type: string
+      examples:
+        - "Paso actual [number]"
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    athRole:
+      title: Ath Role
+      type: string
+      examples:
+        - "button"
+      enum:
+        - "button"
+        - "link"
+      meta:enum:
+        button: "Button"
+        link: "Link"
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - true
+    collapseLabel:
+      title: Collapse Label
+      type: string
+      examples:
+        - "Colapsar paso [number]"
+    completedLabel:
+      title: Completed Label
+      type: string
+      examples:
+        - "Completado"
+    errorLabel:
+      title: Error Label
+      type: string
+      examples:
+        - "Error"
+    expandLabel:
+      title: Expand Label
+      type: string
+      examples:
+        - "Expandir paso [number]"
+    headingIcon:
+      title: Heading Icon
+      type: string
+      examples:
+        - "Example heading icon"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+    startFrom:
+      title: Start From
+      type: number
+      examples:
+        - 1
+slots:
+  content:
+    title: Content

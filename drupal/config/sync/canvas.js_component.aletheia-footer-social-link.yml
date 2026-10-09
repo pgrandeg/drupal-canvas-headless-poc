@@ -1,0 +1,55 @@
+uuid: 3f3986da-6bc6-45e4-8082-a0b2a4f26bbe
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-footer-social-link
+name: 'Aletheia Footer social link'
+type: external
+required: {  }
+props:
+  ariaDescribedby:
+    type: string
+    title: 'Aria Describedby'
+    examples:
+      - 'Example aria describedby'
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - 'se abre en una ventana nueva'
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  icon:
+    type: string
+    title: Icon
+  iconAriaLabel:
+    type: string
+    title: 'Icon Aria Label'
+    examples:
+      - 'Example icon aria label'
+  target:
+    type: string
+    title: Target
+    examples:
+      - 'Example target'
+slots: {  }
+dataDependencies: {  }

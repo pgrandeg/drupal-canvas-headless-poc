@@ -1,0 +1,32 @@
+uuid: 104f40fa-218c-47b8-bc8f-641b1f74ab6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-content-header-indicator-group
+active_version: 7886d4f8781f2773
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        ariaLabelledby:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example aria labelledby'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Content header indicator group'
+id: js.aletheia-content-header-indicator-group
+provider: null
+source: js
+source_local_id: aletheia-content-header-indicator-group

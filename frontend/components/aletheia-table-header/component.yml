@@ -1,0 +1,92 @@
+name: Aletheia Table header
+machineName: aletheia-table-header
+status: true
+required: []
+props:
+  properties:
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    frozen:
+      title: Frozen
+      type: string
+      examples:
+        - "first"
+      enum:
+        - "first"
+        - "last"
+        - "none"
+      meta:enum:
+        first: "First"
+        last: "Last"
+        none: "None"
+    noSelectAll:
+      title: No Select All
+      type: boolean
+      examples:
+        - false
+    selectAllState:
+      title: Select All State
+      type: string
+      examples:
+        - "false"
+      enum:
+        - "false"
+        - "indeterminate"
+        - "true"
+      meta:enum:
+        false: "False"
+        indeterminate: "Indeterminate"
+        true: "True"
+    selectable:
+      title: Selectable
+      type: string
+      examples:
+        - "multiple"
+      enum:
+        - "multiple"
+        - "none"
+        - "single"
+      meta:enum:
+        multiple: "Multiple"
+        none: "None"
+        single: "Single"
+    selectedRows:
+      title: Selected Rows
+      type: number
+      examples:
+        - 0
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    totalRows:
+      title: Total Rows
+      type: number
+      examples:
+        - 0
+slots:
+  content:
+    title: Content

@@ -1,0 +1,18 @@
+uuid: 4771f354-63f3-40ec-8911-d2313da00a09
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-collapse
+name: 'Aletheia Collapse'
+type: external
+required: {  }
+props:
+  show:
+    type: boolean
+    title: Show
+    examples:
+      - false
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

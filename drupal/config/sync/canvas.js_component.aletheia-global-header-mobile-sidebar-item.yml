@@ -1,0 +1,28 @@
+uuid: 2170c322-947f-437d-b2c3-1ba8ff5e9d08
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-header-mobile-sidebar-item
+name: 'Aletheia Global header mobile sidebar item'
+type: external
+required: {  }
+props:
+  hasDivider:
+    type: boolean
+    title: 'Has Divider'
+    examples:
+      - true
+  isSearchButton:
+    type: boolean
+    title: 'Is Search Button'
+    examples:
+      - false
+  searchButtonId:
+    type: string
+    title: 'Search Button Id'
+    examples:
+      - example-id
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

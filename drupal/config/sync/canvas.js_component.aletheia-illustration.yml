@@ -1,0 +1,31 @@
+uuid: a17ac263-b54f-4d0c-ab25-add15fb71dce
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-illustration
+name: 'Aletheia Illustration'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  width:
+    type: string
+    title: Width
+    examples:
+      - 236px
+slots: {  }
+dataDependencies: {  }

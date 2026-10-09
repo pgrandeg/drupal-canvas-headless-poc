@@ -1,0 +1,113 @@
+name: Aletheia File uploader
+machineName: aletheia-file-uploader
+status: true
+required: []
+props:
+  properties:
+    accept:
+      title: Accept
+      type: string
+      examples:
+        - "Example accept"
+    assignTo:
+      title: Assign To
+      type: string
+      examples:
+        - "Example assign to"
+    capture:
+      title: Capture
+      type: string
+      examples:
+        - "Example capture"
+    deleteAllButtonText:
+      title: Delete All Button Text
+      type: string
+      examples:
+        - "Eliminar todos"
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "Example feedback"
+    feedbackText:
+      title: Feedback Text
+      type: string
+      examples:
+        - "Example feedback text"
+    fileListAriaLabel:
+      title: File List Aria Label
+      type: string
+      examples:
+        - "Example file list aria label"
+    hasIcon:
+      title: Has Icon
+      type: boolean
+      examples:
+        - true
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    hideButtonDeleteAll:
+      title: Hide Button Delete All
+      type: boolean
+      examples:
+        - false
+    hideFileList:
+      title: Hide File List
+      type: boolean
+      examples:
+        - false
+    hideRequired:
+      title: Hide Required
+      type: boolean
+      examples:
+        - false
+    itemFeedbackText:
+      title: Item Feedback Text
+      type: string
+      examples:
+        - "Error al leer el fichero"
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    maxSize:
+      title: Max Size
+      type: number
+      examples:
+        - 100
+    multiple:
+      title: Multiple
+      type: boolean
+      examples:
+        - false
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    searchText:
+      title: Search Text
+      type: string
+      examples:
+        - "Buscar en tu dispositivo"
+slots:
+  {}

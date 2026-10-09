@@ -1,0 +1,24 @@
+name: Aletheia Global header mobile sidebar item
+machineName: aletheia-global-header-mobile-sidebar-item
+status: true
+required: []
+props:
+  properties:
+    hasDivider:
+      title: Has Divider
+      type: boolean
+      examples:
+        - true
+    isSearchButton:
+      title: Is Search Button
+      type: boolean
+      examples:
+        - false
+    searchButtonId:
+      title: Search Button Id
+      type: string
+      examples:
+        - "example-id"
+slots:
+  content:
+    title: Content

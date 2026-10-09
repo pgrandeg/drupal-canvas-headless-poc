@@ -1,0 +1,111 @@
+name: Aletheia Input exchange
+machineName: aletheia-input-exchange
+status: true
+required: []
+props:
+  properties:
+    counter:
+      title: Counter
+      type: boolean
+      examples:
+        - true
+    currency:
+      title: Currency
+      type: string
+      examples:
+        - "EUR"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    feedback:
+      title: Feedback
+      type: string
+      examples:
+        - "error"
+      enum:
+        - "error"
+        - "none"
+      meta:enum:
+        error: "Error"
+        none: "None"
+    hasClear:
+      title: Has Clear
+      type: boolean
+      examples:
+        - false
+    hasHelperText:
+      title: Has Helper Text
+      type: boolean
+      examples:
+        - true
+    hasLabel:
+      title: Has Label
+      type: boolean
+      examples:
+        - true
+    helperText:
+      title: Helper Text
+      type: string
+      examples:
+        - "Example helper text"
+    iconPositionLeft:
+      title: Icon Position Left
+      type: boolean
+      examples:
+        - false
+    iconPositionRight:
+      title: Icon Position Right
+      type: boolean
+      examples:
+        - false
+    label:
+      title: Label
+      type: string
+      examples:
+        - "Example label"
+    readonly:
+      title: Readonly
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+    state:
+      title: State
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "focus"
+      meta:enum:
+        default: "Default"
+        focus: "Focus"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "text"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  iconLeft:
+    title: Icon Left
+  iconRight:
+    title: Icon Right

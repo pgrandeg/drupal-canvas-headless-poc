@@ -16,10 +16,126 @@
   --color-primary-light: var(--color-slate-400);
   --color-ntt-blue: #003b73;
   --color-ntt-cyan: #00a9e0;
+  --color-ntt-brand-blue: #0072bc;
 }
 
-html { color: var(--color-slate-950); }
+html { color: #13263a; }
 body {
   margin: 0;
-  background: #eef5fb;
+  background: #f4f8fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .nttdata-header {
+    background: linear-gradient(110deg, #003b73 0%, #005b93 58%, #0072bc 100%);
+    border-bottom: 4px solid #00a9e0;
+  }
+
+  .nttdata-header__glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 82% -25%, rgb(0 169 224 / 45%), transparent 42%);
+    pointer-events: none;
+  }
+
+  .nttdata-header__brand,
+  .nttdata-footer img {
+    display: flex;
+    align-items: center;
+  }
+
+  .nttdata-footer {
+    border-top: 4px solid #00a9e0;
+    background: #003b73;
+  }
+
+  .nttdata-footer img {
+    width: 10rem;
+  }
+
+  .nttdata-aletheia-component {
+    --ath-color-primary-10: #001d33;
+    --ath-color-primary-15: #002b4b;
+    --ath-color-primary-20: #003b73;
+    --ath-color-primary-30: #00538b;
+    --ath-color-primary-40: #006aa3;
+    --ath-color-primary-50: #0072bc;
+    --ath-color-primary-60: #268dca;
+    --ath-color-primary-65: #4ba1d2;
+    --ath-color-primary-70: #70b5db;
+    --ath-color-primary-80: #9bcbe7;
+    --ath-color-primary-90: #c8e3f2;
+    --ath-color-primary-95: #e6f4fb;
+    --ath-color-secondary-100: #fff;
+    --ath-color-fg-default: #13263a;
+    --ath-color-fg-primary-default: #0072bc;
+    --ath-color-fg-primary-heading: #003b73;
+    --ath-color-fg-inverse-default: #fff;
+    --ath-color-icon-default: #13263a;
+    --ath-color-icon-primary-default: #0072bc;
+    --ath-color-icon-inverse-default: #fff;
+    --ath-color-icon-disabled: #9aa5b1;
+    --ath-color-bg-primary-default: #0072bc;
+    --ath-color-bg-primary-hovered: #005b93;
+    --ath-color-bg-primary-pressed: #003b73;
+    --ath-color-bg-surface-primary: #fff;
+    --ath-color-bg-surface-secondary-subtle: #f4f8fb;
+    --ath-color-border-primary-default: #0072bc;
+    --ath-color-border-focus: #00a9e0;
+    --ath-color-border-secondary-default: #c9d9e5;
+    --ath-color-button-bg-primary-default: #0072bc;
+    --ath-color-button-bg-primary-hovered: #005b93;
+    --ath-color-button-bg-primary-pressed: #003b73;
+    --ath-color-button-fg-primary-default: #fff;
+    --ath-color-button-border-primary-default: #0072bc;
+    --ath-color-bg-info-subtle-default: #e6f4fb;
+    --ath-color-bg-success-subtle-default: #e8f6ef;
+    --ath-color-bg-warning-subtle-default: #fff5d6;
+    --ath-color-bg-danger-subtle-default: #fdebea;
+    --ath-color-border-info-default: #0072bc;
+    --ath-color-border-success-default: #16834b;
+    --ath-color-border-warning-default: #b87900;
+    --ath-color-border-danger-default: #c53030;
+    --ath-color-border-info-subtle-default: #8bc9e7;
+    --ath-color-border-success-subtle-default: #8bd0ad;
+    --ath-color-border-warning-subtle-default: #e7bd62;
+    --ath-color-border-danger-subtle-default: #e9a4a0;
+    --ath-color-fg-feedback-info: #005b93;
+    --ath-color-fg-feedback-success: #126c40;
+    --ath-color-fg-feedback-warning: #7a5000;
+    --ath-color-fg-feedback-danger: #a32424;
+    --ath-color-icon-feedback-info: #0072bc;
+    --ath-color-icon-feedback-success: #16834b;
+    --ath-color-icon-feedback-warning: #b87900;
+    --ath-color-icon-feedback-danger: #c53030;
+    /* Alert variants consumed directly by Aletheia. */
+    --ath-color-alert-bg-info: #e6f4fb;
+    --ath-color-alert-bg-success: #e8f6ef;
+    --ath-color-alert-bg-warning: #fff5d6;
+    --ath-color-alert-bg-danger: #fdebea;
+    --ath-color-alert-border-info: #0072bc;
+    --ath-color-alert-border-success: #16834b;
+    --ath-color-alert-border-warning: #b87900;
+    --ath-color-alert-border-danger: #c53030;
+    --ath-color-alert-fg-info: #005b93;
+    --ath-color-alert-fg-success: #126c40;
+    --ath-color-alert-fg-warning: #7a5000;
+    --ath-color-alert-fg-danger: #a32424;
+    --ath-color-alert-icon-info: #0072bc;
+    --ath-color-alert-icon-success: #16834b;
+    --ath-color-alert-icon-warning: #b87900;
+    --ath-color-alert-icon-danger: #c53030;
+    --ath-font-family-primary: Arial, Helvetica, sans-serif;
+    --ath-font-family-body: Arial, Helvetica, sans-serif;
+    --ath-font-family-secondary: Arial, Helvetica, sans-serif;
+    --ath-border-radius-sm: 0.25rem;
+    --ath-border-radius-md: 0.5rem;
+    --ath-border-radius-lg: 0.75rem;
+  }
+
+  .nttdata-aletheia-component:focus-visible {
+    outline: 3px solid #00a9e0;
+    outline-offset: 3px;
+  }
 }

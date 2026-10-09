@@ -1,0 +1,36 @@
+name: Aletheia Menu button item
+machineName: aletheia-menu-button-item
+status: true
+required: []
+props:
+  properties:
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    groupName:
+      title: Group Name
+      type: string
+      examples:
+        - "Example group name"
+    icon:
+      title: Icon
+      type: string
+    itemTabIndex:
+      title: Item Tab Index
+      type: number
+      examples:
+        - -1
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+slots:
+  {}

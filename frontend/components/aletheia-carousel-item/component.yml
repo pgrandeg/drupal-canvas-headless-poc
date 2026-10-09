@@ -1,0 +1,14 @@
+name: Aletheia Carousel item
+machineName: aletheia-carousel-item
+status: true
+required: []
+props:
+  properties:
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

@@ -1,0 +1,59 @@
+name: Aletheia Progress bar
+machineName: aletheia-progress-bar
+status: true
+required: []
+props:
+  properties:
+    athAriaLabel:
+      title: Ath Aria Label
+      type: string
+      examples:
+        - "Example ath aria label"
+    infinite:
+      title: Infinite
+      type: boolean
+      examples:
+        - false
+    labelAlignment:
+      title: Label Alignment
+      type: string
+      examples:
+        - "inline"
+      enum:
+        - "inline"
+        - "stack"
+      meta:enum:
+        inline: "Inline"
+        stack: "Stack"
+    labelLeft:
+      title: Label Left
+      type: string
+      examples:
+        - "Example label left"
+    labelRight:
+      title: Label Right
+      type: string
+      examples:
+        - "Example label right"
+    max:
+      title: Max
+      type: number
+      examples:
+        - 100
+    min:
+      title: Min
+      type: number
+      examples:
+        - 0
+    value:
+      title: Value
+      type: number
+      examples:
+        - 0
+    valueText:
+      title: Value Text
+      type: string
+      examples:
+        - "Example value text"
+slots:
+  {}

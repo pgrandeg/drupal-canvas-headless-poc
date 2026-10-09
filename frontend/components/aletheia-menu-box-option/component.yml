@@ -1,0 +1,52 @@
+name: Aletheia Menu box option
+machineName: aletheia-menu-box-option
+status: true
+required: []
+props:
+  properties:
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "Se abre en una ventana nueva"
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    rel:
+      title: Rel
+      type: string
+      examples:
+        - "Example rel"
+    target:
+      title: Target
+      type: string
+      examples:
+        - "Example target"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

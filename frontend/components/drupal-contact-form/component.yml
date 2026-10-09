@@ -1,0 +1,23 @@
+name: Drupal Contact Form
+machineName: drupal-contact-form
+status: true
+required:
+  - formId
+props:
+  properties:
+    formId:
+      title: Form ID
+      type: string
+      examples:
+        - feedback
+    title:
+      title: Title
+      type: string
+      examples:
+        - Contact us
+    submitLabel:
+      title: Submit label
+      type: string
+      examples:
+        - Send message
+slots: {}

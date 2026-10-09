@@ -1,0 +1,49 @@
+name: Aletheia User menu item
+machineName: aletheia-user-menu-item
+status: true
+required: []
+props:
+  properties:
+    avatarSize:
+      title: Avatar Size
+      type: string
+      examples:
+        - "Example avatar size"
+    buttonAriaLabel:
+      title: Button Aria Label
+      type: string
+      examples:
+        - "Example button aria label"
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    initials:
+      title: Initials
+      type: string
+      examples:
+        - "Example initials"
+    srcImage:
+      title: Src Image
+      type: string
+      examples:
+        - "Example src image"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Example type"
+    userName:
+      title: User Name
+      type: string
+      examples:
+        - "Example user name"
+slots:
+  content:
+    title: Content

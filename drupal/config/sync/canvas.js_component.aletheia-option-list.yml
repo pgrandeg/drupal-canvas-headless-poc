@@ -1,0 +1,43 @@
+uuid: aa053fc9-1c4d-450c-a7b6-98c2aee68714
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-option-list
+name: 'Aletheia Option list'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  hasSearch:
+    type: boolean
+    title: 'Has Search'
+    examples:
+      - false
+  noResultText:
+    type: string
+    title: 'No Result Text'
+    examples:
+      - 'Example no result text'
+  searchAriaLabel:
+    type: string
+    title: 'Search Aria Label'
+    examples:
+      - Buscar
+  searchAriaLive:
+    type: string
+    title: 'Search Aria Live'
+    examples:
+      - 'Las opciones del menú se han actualizado'
+  searchPlaceholder:
+    type: string
+    title: 'Search Placeholder'
+    examples:
+      - 'Example search placeholder'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

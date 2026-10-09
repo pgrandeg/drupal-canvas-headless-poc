@@ -1,0 +1,54 @@
+name: Aletheia User detail
+machineName: aletheia-user-detail
+status: true
+required: []
+props:
+  properties:
+    buttonAriaLabel:
+      title: Button Aria Label
+      type: string
+      examples:
+        - "Example button aria label"
+    clickable:
+      title: Clickable
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    initials:
+      title: Initials
+      type: string
+      examples:
+        - "Example initials"
+    srcImage:
+      title: Src Image
+      type: string
+      examples:
+        - "Example src image"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "default"
+      enum:
+        - "default"
+        - "hide-avatar"
+        - "image"
+        - "initials"
+      meta:enum:
+        default: "Default"
+        hide-avatar: "Hide avatar"
+        image: "Image"
+        initials: "Initials"
+    userName:
+      title: User Name
+      type: string
+      examples:
+        - "Example user name"
+slots:
+  content:
+    title: Content

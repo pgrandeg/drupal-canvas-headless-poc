@@ -1,0 +1,31 @@
+name: Aletheia Content header description
+machineName: aletheia-content-header-description
+status: true
+required: []
+props:
+  properties:
+    buttonAriaLabel:
+      title: Button Aria Label
+      type: string
+      examples:
+        - "Example button aria label"
+    description:
+      title: Description
+      type: string
+      examples:
+        - "Example description"
+    hasButton:
+      title: Has Button
+      type: boolean
+      examples:
+        - false
+    hasButtonCopy:
+      title: Has Button Copy
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+slots:
+  {}

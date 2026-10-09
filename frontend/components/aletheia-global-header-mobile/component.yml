@@ -1,0 +1,31 @@
+name: Aletheia Global header mobile
+machineName: aletheia-global-header-mobile
+status: true
+required: []
+props:
+  properties:
+    backButtonAriaLabel:
+      title: Back Button Aria Label
+      type: string
+      examples:
+        - "Volver"
+    closeButtonAriaLabel:
+      title: Close Button Aria Label
+      type: string
+      examples:
+        - "Cerrar panel lateral"
+    logoType:
+      title: Logo Type
+      type: string
+      examples:
+        - "Example logo type"
+    menuButtonAriaLabel:
+      title: Menu Button Aria Label
+      type: string
+      examples:
+        - "Abrir panel lateral"
+slots:
+  actionGroup:
+    title: Action Group
+  content:
+    title: Content

@@ -1,0 +1,36 @@
+uuid: 6ee292c2-767d-424b-862f-2fc4333848c1
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-app-list-single-select
+name: 'Aletheia App list single select'
+type: external
+required: {  }
+props:
+  appareance:
+    type: string
+    enum:
+      - appareance4
+      - radiobutton
+      - single
+    'meta:enum':
+      appareance4: Appareance4
+      radiobutton: Radiobutton
+      single: Single
+    title: Appareance
+    examples:
+      - appareance4
+  label:
+    type: string
+    title: Label
+    examples:
+      - 'Example label'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

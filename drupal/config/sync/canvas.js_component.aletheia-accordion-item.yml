@@ -1,0 +1,48 @@
+uuid: 6565a87a-1b5a-4a53-a156-e2712d983314
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-accordion-item
+name: 'Aletheia Accordion item'
+type: external
+required: {  }
+props:
+  description:
+    type: string
+    title: Description
+    examples:
+      - 'Example description'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  expanded:
+    type: boolean
+    title: Expanded
+    examples:
+      - false
+  headingLevel:
+    type: string
+    title: 'Heading Level'
+    examples:
+      - '2'
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  icon:
+    type: string
+    title: Icon
+  noDivider:
+    type: boolean
+    title: 'No Divider'
+    examples:
+      - false
+slots:
+  headerDetail:
+    title: 'Header Detail'
+  content:
+    title: Content
+dataDependencies: {  }

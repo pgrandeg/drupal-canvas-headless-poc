@@ -1,0 +1,43 @@
+name: Aletheia Divider
+machineName: aletheia-divider
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "bold"
+      enum:
+        - "bold"
+        - "bolder"
+        - "boldest"
+      meta:enum:
+        bold: "Bold"
+        bolder: "Bolder"
+        boldest: "Boldest"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "horizontal"
+      enum:
+        - "horizontal"
+        - "vertical"
+      meta:enum:
+        horizontal: "Horizontal"
+        vertical: "Vertical"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "md"
+      enum:
+        - "md"
+        - "sm"
+      meta:enum:
+        md: "Md"
+        sm: "Sm"
+slots:
+  {}

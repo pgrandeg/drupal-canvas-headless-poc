@@ -1,0 +1,56 @@
+uuid: 0a0b068a-5bda-4251-aa8c-08944c6b7a35
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-metric
+name: 'Aletheia Metric'
+type: external
+required: {  }
+props:
+  currentLabel:
+    type: string
+    title: 'Current Label'
+    examples:
+      - 'Example current label'
+  direction:
+    type: string
+    title: Direction
+    examples:
+      - 'Example direction'
+  endLabel:
+    type: string
+    title: 'End Label'
+    examples:
+      - 'Example end label'
+  highAriaLabel:
+    type: string
+    title: 'High Aria Label'
+    examples:
+      - Alto
+  lowAriaLabel:
+    type: string
+    title: 'Low Aria Label'
+    examples:
+      - Bajo
+  midAriaLabel:
+    type: string
+    title: 'Mid Aria Label'
+    examples:
+      - Medio
+  startLabel:
+    type: string
+    title: 'Start Label'
+    examples:
+      - 'Example start label'
+  unit:
+    type: string
+    title: Unit
+    examples:
+      - 'Example unit'
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots: {  }
+dataDependencies: {  }

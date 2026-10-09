@@ -1,0 +1,20 @@
+canvas_headless_api.views:
+  path: '/api/canvas/views/{view_id}/{display_id}'
+  defaults:
+    _controller: '\Drupal\canvas_headless_api\Controller\HeadlessApiController::view'
+    _format: 'json'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'
+    view_id: '[a-z0-9_]+'
+    display_id: '[a-z0-9_]+'
+
+canvas_headless_api.contact:
+  path: '/api/canvas/contact/{form_id}'
+  defaults:
+    _controller: '\Drupal\canvas_headless_api\Controller\HeadlessApiController::contact'
+    _format: 'json'
+  methods: [GET, POST]
+  requirements:
+    _access: 'TRUE'
+    form_id: '[a-z0-9_]+'

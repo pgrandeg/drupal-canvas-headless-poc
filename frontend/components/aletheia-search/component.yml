@@ -1,0 +1,63 @@
+name: Aletheia Search
+machineName: aletheia-search
+status: true
+required: []
+props:
+  properties:
+    clearButtonAriaLabel:
+      title: Clear Button Aria Label
+      type: string
+      examples:
+        - "Borrar"
+    deleteAriaLabel:
+      title: Delete Aria Label
+      type: string
+      examples:
+        - "Eliminar búsqueda [item]"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    hasClear:
+      title: Has Clear
+      type: boolean
+      examples:
+        - false
+    hideButton:
+      title: Hide Button
+      type: boolean
+      examples:
+        - false
+    itemsListAriaLabel:
+      title: Items List Aria Label
+      type: string
+      examples:
+        - "Búsquedas recientes"
+    open:
+      title: Open
+      type: boolean
+      examples:
+        - false
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - "Example placeholder"
+    searchAriaLabel:
+      title: Search Aria Label
+      type: string
+      examples:
+        - "Buscar"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

@@ -1,0 +1,96 @@
+uuid: 6a19845c-cc79-4c82-b581-3014b40c82a9
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table-header
+name: 'Aletheia Table header'
+type: external
+required: {  }
+props:
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  frozen:
+    type: string
+    enum:
+      - first
+      - last
+      - none
+    'meta:enum':
+      first: First
+      last: Last
+      none: None
+    title: Frozen
+    examples:
+      - first
+  noSelectAll:
+    type: boolean
+    title: 'No Select All'
+    examples:
+      - false
+  selectAllState:
+    type: string
+    enum:
+      - 'false'
+      - indeterminate
+      - 'true'
+    'meta:enum':
+      'false': 'False'
+      indeterminate: Indeterminate
+      'true': 'True'
+    title: 'Select All State'
+    examples:
+      - 'false'
+  selectable:
+    type: string
+    enum:
+      - multiple
+      - none
+      - single
+    'meta:enum':
+      multiple: Multiple
+      none: None
+      single: Single
+    title: Selectable
+    examples:
+      - multiple
+  selectedRows:
+    type: number
+    title: 'Selected Rows'
+    examples:
+      - 0.0
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  totalRows:
+    type: number
+    title: 'Total Rows'
+    examples:
+      - 0.0
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

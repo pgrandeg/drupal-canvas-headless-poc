@@ -1,0 +1,98 @@
+uuid: 210440ec-53dd-4c09-b56a-b851ff0c4c85
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-section-title
+name: 'Aletheia Section title'
+type: external
+required: {  }
+props:
+  collapsable:
+    type: boolean
+    title: Collapsable
+    examples:
+      - false
+  collapseTarget:
+    type: string
+    title: 'Collapse Target'
+    examples:
+      - 'Example collapse target'
+  color:
+    type: string
+    enum:
+      - accent
+      - primary
+    'meta:enum':
+      accent: Accent
+      primary: Primary
+    title: Color
+    examples:
+      - accent
+  headingLevel:
+    type: number
+    title: 'Heading Level'
+    examples:
+      - 4.0
+  headingOverline:
+    type: number
+    title: 'Heading Overline'
+    examples:
+      - 0.0
+  headingSize:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: 'Heading Size'
+    examples:
+      - lg
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  icon:
+    type: string
+    title: Icon
+  overline:
+    type: string
+    title: Overline
+    examples:
+      - 'Example overline'
+  pictogram:
+    type: string
+    title: Pictogram
+    examples:
+      - 'Example pictogram'
+  tooltip:
+    type: string
+    title: Tooltip
+    examples:
+      - 'Example tooltip'
+  tooltipLabel:
+    type: string
+    title: 'Tooltip Label'
+    examples:
+      - 'Más información'
+  type:
+    type: string
+    enum:
+      - default
+      - icon
+      - pictogram
+    'meta:enum':
+      default: Default
+      icon: Icon
+      pictogram: Pictogram
+    title: Type
+    examples:
+      - default
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

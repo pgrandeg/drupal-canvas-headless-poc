@@ -1,0 +1,45 @@
+uuid: f0f2816f-9a61-4a19-90b7-285262f11157
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-pictogram
+name: 'Aletheia Pictogram'
+type: external
+required: {  }
+props:
+  ariaLabel:
+    type: string
+    title: 'Aria Label'
+    examples:
+      - 'Example aria label'
+  ariaLabelledby:
+    type: string
+    title: 'Aria Labelledby'
+    examples:
+      - 'Example aria labelledby'
+  name:
+    type: string
+    title: Name
+    examples:
+      - 'Example name'
+  size:
+    type: string
+    enum:
+      - 2xl
+      - lg
+      - md
+      - sm
+      - xl
+      - xs
+    'meta:enum':
+      2xl: 2xl
+      lg: Lg
+      md: Md
+      sm: Sm
+      xl: Xl
+      xs: Xs
+    title: Size
+    examples:
+      - 2xl
+slots: {  }
+dataDependencies: {  }

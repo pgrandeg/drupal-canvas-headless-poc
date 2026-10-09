@@ -1,0 +1,62 @@
+uuid: d3662ade-984e-47b8-9f98-3de10023294c
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-progress-bar
+name: 'Aletheia Progress bar'
+type: external
+required: {  }
+props:
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Example ath aria label'
+  infinite:
+    type: boolean
+    title: Infinite
+    examples:
+      - false
+  labelAlignment:
+    type: string
+    enum:
+      - inline
+      - stack
+    'meta:enum':
+      inline: Inline
+      stack: Stack
+    title: 'Label Alignment'
+    examples:
+      - inline
+  labelLeft:
+    type: string
+    title: 'Label Left'
+    examples:
+      - 'Example label left'
+  labelRight:
+    type: string
+    title: 'Label Right'
+    examples:
+      - 'Example label right'
+  max:
+    type: number
+    title: Max
+    examples:
+      - 100.0
+  min:
+    type: number
+    title: Min
+    examples:
+      - 0.0
+  value:
+    type: number
+    title: Value
+    examples:
+      - 0.0
+  valueText:
+    type: string
+    title: 'Value Text'
+    examples:
+      - 'Example value text'
+slots: {  }
+dataDependencies: {  }

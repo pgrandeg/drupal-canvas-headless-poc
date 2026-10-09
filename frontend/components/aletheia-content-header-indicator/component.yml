@@ -1,0 +1,57 @@
+name: Aletheia Content header indicator
+machineName: aletheia-content-header-indicator
+status: true
+required: []
+props:
+  properties:
+    badgeColor:
+      title: Badge Color
+      type: string
+      examples:
+        - "Example badge color"
+    icon:
+      title: Icon
+      type: string
+    operator:
+      title: Operator
+      type: string
+      examples:
+        - "Example operator"
+    overline:
+      title: Overline
+      type: string
+      examples:
+        - "Example overline"
+    overlineTooltipText:
+      title: Overline Tooltip Text
+      type: string
+      examples:
+        - "Example overline tooltip text"
+    overlineTooltipWidth:
+      title: Overline Tooltip Width
+      type: number
+      examples:
+        - 0
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+    tooltipWidth:
+      title: Tooltip Width
+      type: number
+      examples:
+        - 240
+slots:
+  slotRight:
+    title: Slot Right

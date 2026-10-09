@@ -6,6 +6,24 @@ dependencies:
     - canvas.component.block.navigation_link
     - canvas.component.block.navigation_shortcuts
     - canvas.component.block.navigation_user
+    - canvas.component.js.accordion
+    - canvas.component.js.accordion-item
+    - canvas.component.js.blockquote
+    - canvas.component.js.button
+    - canvas.component.js.card
+    - canvas.component.js.card_container
+    - canvas.component.js.footer
+    - canvas.component.js.grid_container
+    - canvas.component.js.header
+    - canvas.component.js.heading
+    - canvas.component.js.hero
+    - canvas.component.js.image
+    - canvas.component.js.logo_card
+    - canvas.component.js.section
+    - canvas.component.js.spacer
+    - canvas.component.js.text
+    - canvas.component.js.two_column_text
+    - canvas.component.js.video
 name: Navigation
 configEntityTypeId: component
 weight: 0
@@ -13,3 +31,21 @@ items:
   - block.navigation_link
   - block.navigation_shortcuts
   - block.navigation_user
+  - js.accordion
+  - js.accordion-item
+  - js.blockquote
+  - js.button
+  - js.card
+  - js.card_container
+  - js.footer
+  - js.grid_container
+  - js.header
+  - js.heading
+  - js.hero
+  - js.image
+  - js.logo_card
+  - js.section
+  - js.spacer
+  - js.text
+  - js.two_column_text
+  - js.video

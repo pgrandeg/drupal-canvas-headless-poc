@@ -1,0 +1,90 @@
+uuid: 58cf1f46-eb5c-4e0f-a052-b71f7baf048d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table
+name: 'Aletheia Table'
+type: external
+required: {  }
+props:
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  frozen:
+    type: string
+    enum:
+      - first
+      - last
+      - none
+    'meta:enum':
+      first: First
+      last: Last
+      none: None
+    title: Frozen
+    examples:
+      - first
+  noSelectAll:
+    type: boolean
+    title: 'No Select All'
+    examples:
+      - false
+  selectable:
+    type: string
+    enum:
+      - multiple
+      - none
+      - single
+    'meta:enum':
+      multiple: Multiple
+      none: None
+      single: Single
+    title: Selectable
+    examples:
+      - multiple
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  striped:
+    type: string
+    enum:
+      - columns
+      - none
+      - rows
+    'meta:enum':
+      columns: Columns
+      none: None
+      rows: Rows
+    title: Striped
+    examples:
+      - columns
+slots:
+  header:
+    title: Header
+  body:
+    title: Body
+  footer:
+    title: Footer
+dataDependencies: {  }

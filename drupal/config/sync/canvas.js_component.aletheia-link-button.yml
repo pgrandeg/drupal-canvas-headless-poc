@@ -1,0 +1,71 @@
+uuid: 10908a1b-db6b-46f2-891a-02121ee50973
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-link-button
+name: 'Aletheia Link button'
+type: external
+required: {  }
+props:
+  clear:
+    type: boolean
+    title: Clear
+    examples:
+      - false
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  externalLabel:
+    type: string
+    title: 'External Label'
+    examples:
+      - '(opens in a new tab)'
+  fullWidth:
+    type: boolean
+    title: 'Full Width'
+    examples:
+      - false
+  href:
+    type: string
+    format: uri-reference
+    title: Href
+    examples:
+      - /example
+  icon:
+    type: string
+    title: Icon
+  iconPosition:
+    type: string
+    title: 'Icon Position'
+    examples:
+      - 'Example icon position'
+  linkAriaLabel:
+    type: string
+    format: uri-reference
+    title: 'Link Aria Label'
+    examples:
+      - /example
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+  target:
+    type: string
+    title: Target
+    examples:
+      - 'Example target'
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Example text'
+slots: {  }
+dataDependencies: {  }

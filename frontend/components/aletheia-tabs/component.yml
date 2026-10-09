@@ -1,0 +1,30 @@
+name: Aletheia Tabs
+machineName: aletheia-tabs
+status: true
+required: []
+props:
+  properties:
+    items:
+      title: Items
+      type: string
+      examples:
+        - []
+    listAriaLabel:
+      title: List Aria Label
+      type: string
+      examples:
+        - "Example list aria label"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "box"
+      enum:
+        - "box"
+        - "underline"
+      meta:enum:
+        box: "Box"
+        underline: "Underline"
+slots:
+  panel:
+    title: Panel

@@ -1,0 +1,28 @@
+name: Aletheia Logo
+machineName: aletheia-logo
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "Example orientation"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Example type"
+slots:
+  {}

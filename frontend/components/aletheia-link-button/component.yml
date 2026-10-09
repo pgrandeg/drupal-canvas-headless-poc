@@ -1,0 +1,68 @@
+name: Aletheia Link button
+machineName: aletheia-link-button
+status: true
+required: []
+props:
+  properties:
+    clear:
+      title: Clear
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    externalLabel:
+      title: External Label
+      type: string
+      examples:
+        - "(opens in a new tab)"
+    fullWidth:
+      title: Full Width
+      type: boolean
+      examples:
+        - false
+    href:
+      title: Href
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "Example icon position"
+    linkAriaLabel:
+      title: Link Aria Label
+      type: string
+      format: uri-reference
+      examples:
+        - "/example"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+    target:
+      title: Target
+      type: string
+      examples:
+        - "Example target"
+    text:
+      title: Text
+      type: string
+      examples:
+        - "Example text"
+slots:
+  {}

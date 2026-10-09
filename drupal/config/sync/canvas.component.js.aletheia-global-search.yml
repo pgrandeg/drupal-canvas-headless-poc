@@ -1,0 +1,46 @@
+uuid: ca488b39-ba6f-467f-82bd-53576a0f1c03
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-global-search
+active_version: cced284d8b350d49
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        placeholder:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Buscar
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        searchAriaLabel:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: Buscar
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        contentLeft:
+          title: 'Content Left'
+        contentRight:
+          title: 'Content Right'
+label: 'Aletheia Global search'
+id: js.aletheia-global-search
+provider: null
+source: js
+source_local_id: aletheia-global-search

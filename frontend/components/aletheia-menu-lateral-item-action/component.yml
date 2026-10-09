@@ -1,0 +1,51 @@
+name: Aletheia Menu lateral item action
+machineName: aletheia-menu-lateral-item-action
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    badgeLabel:
+      title: Badge Label
+      type: string
+      examples:
+        - "Example badge label"
+    badgeMax:
+      title: Badge Max
+      type: number
+      examples:
+        - 0
+    badgeValue:
+      title: Badge Value
+      type: number
+      examples:
+        - 0
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    name:
+      title: Name
+      type: string
+      examples:
+        - "Example name"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+slots:
+  {}

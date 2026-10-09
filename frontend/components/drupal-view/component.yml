@@ -1,0 +1,43 @@
+name: Drupal View
+machineName: drupal-view
+status: true
+required:
+  - viewId
+props:
+  properties:
+    viewId:
+      title: View ID
+      type: string
+      examples:
+        - content_recent
+    displayId:
+      title: Display ID
+      type: string
+      examples:
+        - default
+    limit:
+      title: Limit
+      type: integer
+      examples:
+        - 20
+    title:
+      title: Title
+      type: string
+      examples:
+        - Latest content
+    itemComponent:
+      title: Item component
+      type: string
+      examples:
+        - card
+    mapping:
+      title: Mapping
+      type: string
+      examples:
+        - '{"heading":"title","text":"body","width":{"source":"width","type":"number"}}'
+    staticProps:
+      title: Static props
+      type: string
+      examples:
+        - '{"variant":"default","layout":"left_aligned"}'
+slots: {}

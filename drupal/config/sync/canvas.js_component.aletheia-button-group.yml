@@ -1,0 +1,23 @@
+uuid: 7067cae9-31b2-4974-b3b3-fba324c0190e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button-group
+name: 'Aletheia Button group'
+type: external
+required: {  }
+props:
+  orientation:
+    type: string
+    title: Orientation
+    examples:
+      - 'Example orientation'
+  size:
+    type: string
+    title: Size
+    examples:
+      - 'Example size'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

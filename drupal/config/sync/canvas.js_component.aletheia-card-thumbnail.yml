@@ -1,0 +1,43 @@
+uuid: c5a44311-9892-4344-84a4-8d738a7322d7
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-card-thumbnail
+name: 'Aletheia Card thumbnail'
+type: external
+required: {  }
+props:
+  bottomTag:
+    type: string
+    title: 'Bottom Tag'
+    examples:
+      - 'Example bottom tag'
+  highlightText:
+    type: string
+    title: 'Highlight Text'
+    examples:
+      - 'Example highlight text'
+  topTag:
+    type: string
+    title: 'Top Tag'
+    examples:
+      - 'Example top tag'
+  type:
+    type: string
+    enum:
+      - avatar
+      - default
+      - highlight
+    'meta:enum':
+      avatar: Avatar
+      default: Default
+      highlight: Highlight
+    title: Type
+    examples:
+      - avatar
+slots:
+  imgThumbnail:
+    title: 'Img Thumbnail'
+  avatar:
+    title: Avatar
+dataDependencies: {  }

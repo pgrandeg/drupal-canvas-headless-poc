@@ -1,0 +1,61 @@
+uuid: 13008b5d-44e4-4a8a-b1bd-19d9596af4f8
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-pagination
+name: 'Aletheia Pagination'
+type: external
+required: {  }
+props:
+  athAriaLabel:
+    type: string
+    title: 'Ath Aria Label'
+    examples:
+      - 'Paginación de resultados'
+  currentPage:
+    type: number
+    title: 'Current Page'
+    examples:
+      - 1.0
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  itemsPerPage:
+    type: number
+    title: 'Items Per Page'
+    examples:
+      - 0.0
+  itemsSelector:
+    type: string
+    title: 'Items Selector'
+    examples:
+      - '[5, 10, 15]'
+  noEndButtons:
+    type: boolean
+    title: 'No End Buttons'
+    examples:
+      - false
+  noItemsCount:
+    type: boolean
+    title: 'No Items Count'
+    examples:
+      - false
+  noItemsSelector:
+    type: boolean
+    title: 'No Items Selector'
+    examples:
+      - false
+  noJumpButtons:
+    type: boolean
+    title: 'No Jump Buttons'
+    examples:
+      - false
+  totalItems:
+    type: number
+    title: 'Total Items'
+    examples:
+      - 0.0
+slots: {  }
+dataDependencies: {  }

@@ -1,0 +1,68 @@
+uuid: d39b8846-dafb-4255-a6a3-c0d8514f7c19
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-menu-box-group
+active_version: 691099e81b3fadc0
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        itemsBehaviour:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example items behaviour'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        itemsHeight:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example items height'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        itemsWidth:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example items width'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        orientation:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example orientation'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Menu box group'
+id: js.aletheia-menu-box-group
+provider: null
+source: js
+source_local_id: aletheia-menu-box-group

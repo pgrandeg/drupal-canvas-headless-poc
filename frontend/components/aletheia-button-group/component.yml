@@ -1,0 +1,19 @@
+name: Aletheia Button group
+machineName: aletheia-button-group
+status: true
+required: []
+props:
+  properties:
+    orientation:
+      title: Orientation
+      type: string
+      examples:
+        - "Example orientation"
+    size:
+      title: Size
+      type: string
+      examples:
+        - "Example size"
+slots:
+  content:
+    title: Content

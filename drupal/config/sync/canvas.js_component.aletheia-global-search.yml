@@ -1,0 +1,25 @@
+uuid: bc36476b-9e9e-4d79-a24b-3c90c9195d3d
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-global-search
+name: 'Aletheia Global search'
+type: external
+required: {  }
+props:
+  placeholder:
+    type: string
+    title: Placeholder
+    examples:
+      - Buscar
+  searchAriaLabel:
+    type: string
+    title: 'Search Aria Label'
+    examples:
+      - Buscar
+slots:
+  contentLeft:
+    title: 'Content Left'
+  contentRight:
+    title: 'Content Right'
+dataDependencies: {  }

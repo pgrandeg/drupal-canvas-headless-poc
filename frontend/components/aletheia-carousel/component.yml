@@ -1,0 +1,95 @@
+name: Aletheia Carousel
+machineName: aletheia-carousel
+status: true
+required: []
+props:
+  properties:
+    autoResize:
+      title: Auto Resize
+      type: boolean
+      examples:
+        - true
+    hasPagination:
+      title: Has Pagination
+      type: boolean
+      examples:
+        - false
+    headingAlignment:
+      title: Heading Alignment
+      type: string
+      examples:
+        - "Example heading alignment"
+    headingLevel:
+      title: Heading Level
+      type: number
+      examples:
+        - 2
+    headingSubtitle:
+      title: Heading Subtitle
+      type: string
+      examples:
+        - "Example heading subtitle"
+    headingText:
+      title: Heading Text
+      type: string
+      examples:
+        - "Example heading text"
+    headingType:
+      title: Heading Type
+      type: string
+      examples:
+        - "Example heading type"
+    itemsPerView:
+      title: Items Per View
+      type: number
+      examples:
+        - 1
+    jump:
+      title: Jump
+      type: number
+      examples:
+        - 1
+    layout:
+      title: Layout
+      type: string
+      examples:
+        - "Example layout"
+    loop:
+      title: Loop
+      type: boolean
+      examples:
+        - false
+    navigationPosition:
+      title: Navigation Position
+      type: string
+      examples:
+        - "Example navigation position"
+    nextButtonAriaLabel:
+      title: Next Button Aria Label
+      type: string
+      examples:
+        - "Siguiente diapositiva"
+    nextSlideAnnounce:
+      title: Next Slide Announce
+      type: string
+      examples:
+        - "Se ha avanzado de diapositiva"
+    prevButtonAriaLabel:
+      title: Prev Button Aria Label
+      type: string
+      examples:
+        - "Anterior diapositiva"
+    prevSlideAnnounce:
+      title: Prev Slide Announce
+      type: string
+      examples:
+        - "Se ha retrocedido de diapositiva"
+slots:
+  action:
+    title: Action
+  header:
+    title: Header
+  content:
+    title: Content
+  footer:
+    title: Footer

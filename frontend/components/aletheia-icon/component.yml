@@ -1,0 +1,63 @@
+name: Aletheia Icon
+machineName: aletheia-icon
+status: true
+required: []
+props:
+  properties:
+    ariaLabel:
+      title: Aria Label
+      type: string
+      examples:
+        - "Example aria label"
+    ariaLabelledby:
+      title: Aria Labelledby
+      type: string
+      examples:
+        - "Example aria labelledby"
+    color:
+      title: Color
+      type: string
+      examples:
+        - "accent"
+      enum:
+        - "accent"
+        - "default"
+        - "disabled"
+        - "error"
+        - "info"
+        - "inherit"
+        - "inverse"
+        - "primary"
+        - "success"
+        - "warning"
+      meta:enum:
+        accent: "Accent"
+        default: "Default"
+        disabled: "Disabled"
+        error: "Error"
+        info: "Info"
+        inherit: "Inherit"
+        inverse: "Inverse"
+        primary: "Primary"
+        success: "Success"
+        warning: "Warning"
+    icon:
+      title: Icon
+      type: string
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xs"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xs: "Xs"
+slots:
+  {}

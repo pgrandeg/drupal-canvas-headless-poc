@@ -1,0 +1,32 @@
+uuid: df60849a-3fdf-49d4-a668-17612768d2cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-agenda-item
+active_version: 646faa1aabb5d3ad
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        initial:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example initial'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Agenda item'
+id: js.aletheia-agenda-item
+provider: null
+source: js
+source_local_id: aletheia-agenda-item

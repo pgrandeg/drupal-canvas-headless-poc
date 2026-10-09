@@ -1,0 +1,144 @@
+uuid: d155cdb3-c4dc-4635-aed4-fbf1232181a2
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-table-row
+name: 'Aletheia Table row'
+type: external
+required: {  }
+props:
+  clickable:
+    type: boolean
+    title: Clickable
+    examples:
+      - false
+  clickableAriaLabel:
+    type: string
+    title: 'Clickable Aria Label'
+    examples:
+      - Navegar
+  color:
+    type: string
+    enum:
+      - primary
+      - secondary
+    'meta:enum':
+      primary: Primary
+      secondary: Secondary
+    title: Color
+    examples:
+      - primary
+  expanded:
+    type: boolean
+    title: Expanded
+    examples:
+      - false
+  frozen:
+    type: string
+    enum:
+      - first
+      - last
+      - none
+    'meta:enum':
+      first: First
+      last: Last
+      none: None
+    title: Frozen
+    examples:
+      - first
+  hasChildren:
+    type: boolean
+    title: 'Has Children'
+    examples:
+      - false
+  last:
+    type: boolean
+    title: Last
+    examples:
+      - false
+  parentId:
+    type: string
+    title: 'Parent Id'
+    examples:
+      - example-id
+  reserveClickable:
+    type: boolean
+    title: 'Reserve Clickable'
+    examples:
+      - false
+  reserveExpander:
+    type: boolean
+    title: 'Reserve Expander'
+    examples:
+      - false
+  rowId:
+    type: string
+    title: 'Row Id'
+    examples:
+      - example-id
+  selectable:
+    type: string
+    enum:
+      - multiple
+      - none
+      - single
+    'meta:enum':
+      multiple: Multiple
+      none: None
+      single: Single
+    title: Selectable
+    examples:
+      - multiple
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  selectionGroupName:
+    type: string
+    title: 'Selection Group Name'
+    examples:
+      - 'Example selection group name'
+  size:
+    type: string
+    enum:
+      - lg
+      - md
+      - sm
+    'meta:enum':
+      lg: Lg
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - lg
+  striped:
+    type: string
+    enum:
+      - columns
+      - none
+      - rows
+    'meta:enum':
+      columns: Columns
+      none: None
+      rows: Rows
+    title: Striped
+    examples:
+      - columns
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+  cardContent:
+    title: 'Card Content'
+  collapse:
+    title: Collapse
+  cardActions:
+    title: 'Card Actions'
+  cardFooter:
+    title: 'Card Footer'
+dataDependencies: {  }

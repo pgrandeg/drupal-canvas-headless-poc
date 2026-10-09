@@ -1,0 +1,32 @@
+name: Aletheia Footer
+machineName: aletheia-footer
+status: true
+required: []
+props:
+  properties:
+    columns:
+      title: Columns
+      type: number
+      examples:
+        - 4
+    sitemapAriaLabel:
+      title: Sitemap Aria Label
+      type: string
+      examples:
+        - "Example sitemap aria label"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "Example type"
+slots:
+  utilityTop:
+    title: Utility Top
+  sitemap:
+    title: Sitemap
+  utilityBottom:
+    title: Utility Bottom
+  copyright:
+    title: Copyright
+  rightElement:
+    title: Right Element

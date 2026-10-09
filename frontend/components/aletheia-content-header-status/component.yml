@@ -1,0 +1,23 @@
+name: Aletheia Content header status
+machineName: aletheia-content-header-status
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "Example color"
+    status:
+      title: Status
+      type: string
+      examples:
+        - "Example status"
+    tooltipText:
+      title: Tooltip Text
+      type: string
+      examples:
+        - "Example tooltip text"
+slots:
+  {}

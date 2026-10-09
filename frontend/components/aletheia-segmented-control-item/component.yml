@@ -1,0 +1,79 @@
+name: Aletheia Segmented control item
+machineName: aletheia-segmented-control-item
+status: true
+required: []
+props:
+  properties:
+    color:
+      title: Color
+      type: string
+      examples:
+        - "primary"
+      enum:
+        - "primary"
+        - "secondary"
+      meta:enum:
+        primary: "Primary"
+        secondary: "Secondary"
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    icon:
+      title: Icon
+      type: string
+    iconPosition:
+      title: Icon Position
+      type: string
+      examples:
+        - "icon-only"
+      enum:
+        - "icon-only"
+        - "left"
+        - "none"
+        - "right"
+      meta:enum:
+        icon-only: "Icon only"
+        left: "Left"
+        none: "None"
+        right: "Right"
+    selected:
+      title: Selected
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      examples:
+        - "lg"
+      enum:
+        - "lg"
+        - "md"
+        - "sm"
+        - "xl"
+      meta:enum:
+        lg: "Lg"
+        md: "Md"
+        sm: "Sm"
+        xl: "Xl"
+    type:
+      title: Type
+      type: string
+      examples:
+        - "action"
+      enum:
+        - "action"
+        - "select"
+      meta:enum:
+        action: "Action"
+        select: "Select"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  content:
+    title: Content

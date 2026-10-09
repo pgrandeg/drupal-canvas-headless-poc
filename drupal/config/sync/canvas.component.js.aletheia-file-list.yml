@@ -1,0 +1,20 @@
+uuid: 22834340-0be5-424d-9ab3-af4cb29c3d65
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-file-list
+active_version: d54b181baa9953d9
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia File list'
+id: js.aletheia-file-list
+provider: null
+source: js
+source_local_id: aletheia-file-list

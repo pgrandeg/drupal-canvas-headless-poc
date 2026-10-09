@@ -1,0 +1,36 @@
+uuid: 6fe446d5-a83f-4f62-b274-c14d8ab2068e
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-button-float
+name: 'Aletheia Button float'
+type: external
+required: {  }
+props:
+  color:
+    type: string
+    title: Color
+    examples:
+      - 'Example color'
+  icon:
+    type: string
+    title: Icon
+  iconPosition:
+    type: string
+    title: 'Icon Position'
+    examples:
+      - none
+  size:
+    type: string
+    title: Size
+    examples:
+      - sm
+  text:
+    type: string
+    title: Text
+    examples:
+      - 'Button float'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

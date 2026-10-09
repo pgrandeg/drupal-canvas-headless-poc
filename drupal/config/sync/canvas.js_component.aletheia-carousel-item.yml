@@ -1,0 +1,18 @@
+uuid: 2f93826c-36bc-43ac-b3f6-d5ce725d86e7
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-carousel-item
+name: 'Aletheia Carousel item'
+type: external
+required: {  }
+props:
+  value:
+    type: string
+    title: Value
+    examples:
+      - 'Example value'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

@@ -1,0 +1,56 @@
+uuid: e8c34661-2cd4-4b32-ab36-4104b5ae8d7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.js_component.aletheia-footer-link-group
+active_version: 32ab404ef67fbbdd
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        alignment:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example alignment'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        gapSize:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example gap size'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+        headingText:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Example heading text'
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+label: 'Aletheia Footer link group'
+id: js.aletheia-footer-link-group
+provider: null
+source: js
+source_local_id: aletheia-footer-link-group

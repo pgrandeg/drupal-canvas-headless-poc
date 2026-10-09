@@ -1,0 +1,53 @@
+name: Aletheia Metric
+machineName: aletheia-metric
+status: true
+required: []
+props:
+  properties:
+    currentLabel:
+      title: Current Label
+      type: string
+      examples:
+        - "Example current label"
+    direction:
+      title: Direction
+      type: string
+      examples:
+        - "Example direction"
+    endLabel:
+      title: End Label
+      type: string
+      examples:
+        - "Example end label"
+    highAriaLabel:
+      title: High Aria Label
+      type: string
+      examples:
+        - "Alto"
+    lowAriaLabel:
+      title: Low Aria Label
+      type: string
+      examples:
+        - "Bajo"
+    midAriaLabel:
+      title: Mid Aria Label
+      type: string
+      examples:
+        - "Medio"
+    startLabel:
+      title: Start Label
+      type: string
+      examples:
+        - "Example start label"
+    unit:
+      title: Unit
+      type: string
+      examples:
+        - "Example unit"
+    value:
+      title: Value
+      type: string
+      examples:
+        - "Example value"
+slots:
+  {}

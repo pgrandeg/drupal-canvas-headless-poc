@@ -1,0 +1,7 @@
+name: Language Switcher
+machineName: language-switcher
+status: true
+required: []
+props:
+  properties: {}
+slots: {}

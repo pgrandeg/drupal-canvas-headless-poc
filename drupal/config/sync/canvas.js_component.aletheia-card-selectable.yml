@@ -1,0 +1,69 @@
+uuid: c189eba5-e596-4378-97d7-0962335689c6
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-card-selectable
+name: 'Aletheia Card selectable'
+type: external
+required: {  }
+props:
+  disabled:
+    type: boolean
+    title: Disabled
+    examples:
+      - false
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+  overline:
+    type: string
+    title: Overline
+    examples:
+      - 'Example overline'
+  selected:
+    type: boolean
+    title: Selected
+    examples:
+      - false
+  size:
+    type: string
+    enum:
+      - md
+      - sm
+    'meta:enum':
+      md: Md
+      sm: Sm
+    title: Size
+    examples:
+      - md
+  subtitle:
+    type: string
+    title: Subtitle
+    examples:
+      - 'Example subtitle'
+  tag:
+    type: string
+    title: Tag
+    examples:
+      - 'Example tag'
+  type:
+    type: string
+    enum:
+      - multiselect
+      - single
+    'meta:enum':
+      multiselect: Multiselect
+      single: Single
+    title: Type
+    examples:
+      - multiselect
+slots:
+  img:
+    title: Img
+  body:
+    title: Body
+  footer:
+    title: Footer
+dataDependencies: {  }

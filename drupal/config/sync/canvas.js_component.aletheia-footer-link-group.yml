@@ -1,0 +1,28 @@
+uuid: f05905b0-faa2-4c0c-8edf-9a0eb27afce5
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-footer-link-group
+name: 'Aletheia Footer link group'
+type: external
+required: {  }
+props:
+  alignment:
+    type: string
+    title: Alignment
+    examples:
+      - 'Example alignment'
+  gapSize:
+    type: string
+    title: 'Gap Size'
+    examples:
+      - 'Example gap size'
+  headingText:
+    type: string
+    title: 'Heading Text'
+    examples:
+      - 'Example heading text'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

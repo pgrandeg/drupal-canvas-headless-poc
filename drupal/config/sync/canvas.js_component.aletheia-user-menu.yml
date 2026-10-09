@@ -1,0 +1,48 @@
+uuid: 68855a54-1797-4bf9-a7c8-9dff8af0c5df
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-user-menu
+name: 'Aletheia User menu'
+type: external
+required: {  }
+props:
+  initials:
+    type: string
+    title: Initials
+    examples:
+      - 'Example initials'
+  open:
+    type: boolean
+    title: Open
+    examples:
+      - false
+  srcImage:
+    type: string
+    title: 'Src Image'
+    examples:
+      - 'Example src image'
+  type:
+    type: string
+    enum:
+      - default
+      - hide-avatar
+      - image
+      - initials
+    'meta:enum':
+      default: Default
+      hide-avatar: 'Hide avatar'
+      image: Image
+      initials: Initials
+    title: Type
+    examples:
+      - default
+  userName:
+    type: string
+    title: 'User Name'
+    examples:
+      - 'Example user name'
+slots:
+  content:
+    title: Content
+dataDependencies: {  }

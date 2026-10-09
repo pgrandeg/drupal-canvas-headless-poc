@@ -1,0 +1,36 @@
+uuid: 0bfef43e-20d4-4221-a309-4f22ae5bee87
+langcode: en
+status: true
+dependencies: {  }
+machineName: aletheia-footer
+name: 'Aletheia Footer'
+type: external
+required: {  }
+props:
+  columns:
+    type: number
+    title: Columns
+    examples:
+      - 4.0
+  sitemapAriaLabel:
+    type: string
+    title: 'Sitemap Aria Label'
+    examples:
+      - 'Example sitemap aria label'
+  type:
+    type: string
+    title: Type
+    examples:
+      - 'Example type'
+slots:
+  utilityTop:
+    title: 'Utility Top'
+  sitemap:
+    title: Sitemap
+  utilityBottom:
+    title: 'Utility Bottom'
+  copyright:
+    title: Copyright
+  rightElement:
+    title: 'Right Element'
+dataDependencies: {  }
